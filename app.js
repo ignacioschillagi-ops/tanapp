@@ -2,6 +2,11 @@
 (function () {
   "use strict";
 
+  // ---------- icons (replace data-icon slots with inline SVG) ----------
+  document.querySelectorAll("[data-icon]").forEach(el => {
+    el.innerHTML = Icons[el.dataset.icon] || "";
+  });
+
   // ---------- navigation ----------
   const views = ["practice","library","chat","cards"];
   function showView(name) {
@@ -24,6 +29,7 @@
     modal.classList.remove("hidden");
   });
   document.getElementById("btnCloseSettings").addEventListener("click", () => modal.classList.add("hidden"));
+  modal.addEventListener("click", (e) => { if (e.target === modal) modal.classList.add("hidden"); });
   document.getElementById("btnGoSettingsFromChat").addEventListener("click", () => {
     document.getElementById("groqKeyInput").value = Chat.getKey();
     modal.classList.remove("hidden");
@@ -31,7 +37,7 @@
   document.getElementById("btnSaveKey").addEventListener("click", () => {
     const val = document.getElementById("groqKeyInput").value.trim();
     Chat.setKey(val);
-    document.getElementById("keyStatus").textContent = val ? "API key guardada ✓" : "API key borrada.";
+    document.getElementById("keyStatus").innerHTML = val ? Icons.checkCircle + " API key guardada" : "API key borrada.";
     refreshChatSetupVisibility();
   });
   document.getElementById("btnResetProgress").addEventListener("click", () => {
@@ -126,10 +132,10 @@
     fb.classList.remove("hidden","ok","bad");
     fb.classList.add(result.ok ? "ok" : "bad");
     fb.innerHTML =
-      `<span class="verdict">${result.ok ? "✓ ¡Correcto!" : "✗ Incorrecto"}</span>` +
+      `<span class="verdict">${result.ok ? Icons.checkCircle + " ¡Correcto!" : Icons.xCircle + " Incorrecto"}</span>` +
       (!result.ok ? `<div>La forma correcta era: <span class="correct-form">${result.correct}</span></div>` : "") +
       `<div class="explain"><strong>${result.tenseLabel}</strong> (${result.person}): ${result.explanation}</div>` +
-      `<div class="muted small" style="margin-top:8px;">🔥 Racha: ${result.streak}</div>`;
+      `<div class="muted small" style="margin-top:8px;">${Icons.flame} Racha: ${result.streak}</div>`;
     document.getElementById("btnCheck").classList.add("hidden");
     document.getElementById("btnNext").classList.remove("hidden");
     refreshStreakUI();
@@ -142,8 +148,8 @@
       document.getElementById("summaryScore").textContent =
         `Puntaje: ${Exercise.getScore()} / ${Exercise.total()} correctas.`;
       const s = Stats.getStreak();
-      document.getElementById("summaryStreak").textContent =
-        `🔥 Racha actual: ${s.current} · Mejor racha: ${s.best}`;
+      document.getElementById("summaryStreak").innerHTML =
+        `${Icons.flame} Racha actual: ${s.current} · Mejor racha: ${s.best}`;
       refreshStreakUI();
       refreshReviewCard();
     } else {

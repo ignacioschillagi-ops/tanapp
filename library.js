@@ -3,8 +3,20 @@
    For verbs outside that list it estimates a regular conjugation locally,
    and always offers a live cross-check against the open-source verbe.cc API
    (https://github.com/bretttolbert/verbecc), which knows thousands of verbs
-   including irregulars, so coverage isn't limited to the 120 pre-loaded ones. */
+   including irregulars, so coverage isn't limited to the 120 pre-loaded ones.
+   It also accepts the SPANISH word (via data/verb_es.js) for the 120 curated
+   verbs, in case the user doesn't know how the Italian verb is spelled. */
 const Library = (function () {
+
+  function normalizeEs(s) {
+    // strips accents/diacritics (á->a, ñ->n, etc.) after NFD decomposition,
+    // by dropping combining-mark code points (U+0300-U+036F) one by one --
+    // avoids embedding literal combining characters in a regex.
+    return s.trim().toLowerCase().normalize("NFD").split("").filter(ch => {
+      const code = ch.codePointAt(0);
+      return !(code >= 0x0300 && code <= 0x036f);
+    }).join("");
+  }
 
   function tableRow(label, forms) {
     const prons = ["io","tu","lui/lei","noi","voi","loro"];
@@ -72,16 +84,31 @@ const Library = (function () {
   async function search(rawVerb) {
     const statusEl = document.getElementById("libStatus");
     const resultsEl = document.getElementById("libResults");
-    const verb = rawVerb.trim().toLowerCase();
-    if (!verb) return;
+    const typed = rawVerb.trim().toLowerCase();
+    if (!typed) return;
     resultsEl.innerHTML = "";
     statusEl.textContent = "Buscando...";
     try {
       const allVerbs = await Conjugator.loadData();
       window.__libAuxData = { avere: allVerbs.avere, essere: allVerbs.essere };
+
+      // if what was typed isn't recognizable as an Italian verb (not in the
+      // dataset and doesn't end in -are/-ere/-ire), try treating it as a
+      // Spanish word via the data/verb_es.js lookup index.
+      let verb = typed;
+      let translationNote = "";
+      const looksItalian = !!allVerbs[typed] || !!Conjugator.group(typed);
+      if (!looksItalian && typeof VERB_ES_TO_IT !== "undefined") {
+        const translated = VERB_ES_TO_IT[normalizeEs(typed)];
+        if (translated) {
+          verb = translated;
+          translationNote = `Se interpretó "<strong>${rawVerb.trim()}</strong>" (español) como el verbo italiano "<strong>${translated}</strong>".`;
+        }
+      }
+
       const local = await Conjugator.getVerb(verb);
       if (local && local.source === "local") {
-        statusEl.textContent = "";
+        statusEl.innerHTML = translationNote;
         resultsEl.innerHTML = renderLocal(verb, local);
         return;
       }
@@ -90,13 +117,17 @@ const Library = (function () {
       if (local && local.source === "regular-guess") {
         guessHtml = renderLocal(verb, local);
       }
-      statusEl.textContent = "Verbo no está en el dataset local, consultando fuente abierta en vivo (verbe.cc)...";
+      statusEl.innerHTML = (translationNote ? translationNote + " " : "") +
+        "Verbo no está en el dataset local, consultando fuente abierta en vivo (verbe.cc)...";
       try {
         const live = await Conjugator.getVerbLive(verb);
-        statusEl.textContent = "";
+        statusEl.innerHTML = translationNote;
         resultsEl.innerHTML = renderLive(verb, live);
       } catch (e) {
-        statusEl.textContent = guessHtml ? "No se pudo contactar la fuente en vivo. Mostrando una conjugación regular estimada localmente:" : "No se encontró ese verbo, ni localmente ni en la fuente en vivo. Revisá cómo lo escribiste.";
+        statusEl.innerHTML = (translationNote ? translationNote + " " : "") +
+          (guessHtml
+            ? "No se pudo contactar la fuente en vivo. Mostrando una conjugación regular estimada localmente:"
+            : "No se encontró ese verbo, ni localmente ni en la fuente en vivo. Revisá cómo lo escribiste (probá también escribirlo en español).");
         resultsEl.innerHTML = guessHtml;
       }
     } catch (e) {

@@ -11,16 +11,19 @@
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 <meta name="apple-mobile-web-app-title" content="Tanapp">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700;800&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
 <div class="tricolor-bar"><span></span><span></span><span></span></div>
 <header class="topbar">
-  <div class="brand">🇮🇹 <span>Tanapp</span></div>
+  <div class="brand"><span class="logo">TANAPP</span></div>
   <div class="topbar-right">
-    <div id="streakBadge" class="streak-badge" title="Racha actual">🔥 <span id="streakCount">0</span></div>
-    <button id="btnSettings" class="icon-btn" title="Ajustes" aria-label="Ajustes">⚙️</button>
+    <div id="streakBadge" class="streak-badge" title="Racha actual"><span class="icon-slot" data-icon="flame"></span> <span id="streakCount">0</span></div>
+    <button id="btnSettings" class="icon-btn" title="Ajustes" aria-label="Ajustes"><span class="icon-slot" data-icon="settings"></span></button>
   </div>
 </header>
 
@@ -35,7 +38,7 @@
     </div>
 
     <div id="reviewCard" class="card review-card hidden">
-      <h2>📌 Repaso pendiente</h2>
+      <h2><span class="icon-slot" data-icon="bookmark"></span> Repaso pendiente</h2>
       <p id="reviewText" class="muted">Tenés verbos para repasar.</p>
       <button id="btnStartReview" class="btn-primary">Repasar ahora</button>
     </div>
@@ -58,7 +61,7 @@
         <div class="tense-hint" id="tenseHint"></div>
         <div class="actions-row">
           <button type="submit" id="btnCheck" class="btn-primary">Comprobar</button>
-          <button type="button" id="btnNext" class="btn-secondary hidden">Siguiente →</button>
+          <button type="button" id="btnNext" class="btn-secondary hidden">Siguiente <span class="icon-slot" data-icon="chevronRight"></span></button>
         </div>
       </form>
 
@@ -77,9 +80,9 @@
   <section id="view-library" class="view hidden">
     <div class="card">
       <h2>Biblioteca de conjugación</h2>
-      <p class="muted">Escribí un verbo en infinitivo (ej: parlare, essere, capire) y mirá todas sus formas.</p>
+      <p class="muted">Escribí un verbo en infinitivo italiano (ej: parlare, essere, capire) y mirá todas sus formas. Si no sabés cómo se escribe en italiano, también podés escribirlo en español (ej: hablar, comer).</p>
       <div class="search-row">
-        <input type="text" id="libSearchInput" placeholder="ej. mangiare" autocomplete="off" autocapitalize="off">
+        <input type="text" id="libSearchInput" placeholder="ej. mangiare o comer" autocomplete="off" autocapitalize="off">
         <button id="btnLibSearch" class="btn-primary">Buscar</button>
       </div>
       <div id="libStatus" class="muted small"></div>
@@ -91,7 +94,7 @@
   <section id="view-chat" class="view hidden">
     <div class="card chat-setup" id="chatSetup">
       <h2>Chat con IA (Groq)</h2>
-      <p class="muted">Escribí en italiano y la IA te va a corregir en un color distinto antes de seguir la charla. Necesitás tu propia API key gratis de Groq — la configurás en ⚙️ Ajustes.</p>
+      <p class="muted">Escribí en italiano y la IA te va a corregir en un color distinto antes de seguir la charla. Necesitás tu propia API key gratis de Groq — la configurás en Ajustes (el ícono con forma de engranaje, arriba a la derecha).</p>
       <button id="btnGoSettingsFromChat" class="btn-secondary">Configurar API key</button>
     </div>
     <div id="chatArea" class="chat-area hidden">
@@ -127,8 +130,8 @@
       </div>
       <p class="muted small center">Tocá la tarjeta para dar vuelta</p>
       <div class="actions-row">
-        <button id="btnCardPrev" class="btn-secondary">← Anterior</button>
-        <button id="btnCardNext" class="btn-primary">Siguiente →</button>
+        <button id="btnCardPrev" class="btn-secondary"><span class="icon-slot" data-icon="chevronLeft"></span> Anterior</button>
+        <button id="btnCardNext" class="btn-primary">Siguiente <span class="icon-slot" data-icon="chevronRight"></span></button>
       </div>
     </div>
   </section>
@@ -136,10 +139,10 @@
 </main>
 
 <nav class="bottomnav">
-  <button class="nav-btn active" data-view="practice"><span class="nav-icon">✍️</span><span>Conjugar</span></button>
-  <button class="nav-btn" data-view="library"><span class="nav-icon">📚</span><span>Biblioteca</span></button>
-  <button class="nav-btn" data-view="chat"><span class="nav-icon">💬</span><span>Chat IA</span></button>
-  <button class="nav-btn" data-view="cards"><span class="nav-icon">🃏</span><span>Tarjetas</span></button>
+  <button class="nav-btn active" data-view="practice"><span class="icon-slot" data-icon="edit"></span><span>Conjugar</span></button>
+  <button class="nav-btn" data-view="library"><span class="icon-slot" data-icon="book"></span><span>Biblioteca</span></button>
+  <button class="nav-btn" data-view="chat"><span class="icon-slot" data-icon="chat"></span><span>Chat IA</span></button>
+  <button class="nav-btn" data-view="cards"><span class="icon-slot" data-icon="layers"></span><span>Tarjetas</span></button>
 </nav>
 
 <!-- ================= SETTINGS MODAL ================= -->
@@ -147,7 +150,7 @@
   <div class="modal-card">
     <div class="modal-header">
       <h2>Ajustes</h2>
-      <button id="btnCloseSettings" class="icon-btn">✕</button>
+      <button id="btnCloseSettings" class="icon-btn"><span class="icon-slot" data-icon="close"></span></button>
     </div>
 
     <div class="modal-body">
@@ -176,8 +179,10 @@
   </div>
 </div>
 
+<script src="icons.js"></script>
 <script src="data/sentences.js"></script>
 <script src="data/vocab.js"></script>
+<script src="data/verb_es.js"></script>
 <script src="conjugator.js"></script>
 <script src="stats.js"></script>
 <script src="exercise.js"></script>

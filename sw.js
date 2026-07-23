@@ -1,12 +1,13 @@
 /* Simple offline-first service worker for the static app shell.
    Live chat (Groq) and library live-lookup (verbe.cc) requests are always
    fetched fresh from the network since they need to be up to date. */
-const CACHE_NAME = "tanapp-v1";
+const CACHE_NAME = "tanapp-v2";
 const APP_SHELL = [
   "./",
   "./index.html",
   "./style.css",
   "./app.js",
+  "./icons.js",
   "./conjugator.js",
   "./stats.js",
   "./exercise.js",
@@ -15,6 +16,7 @@ const APP_SHELL = [
   "./cards.js",
   "./data/sentences.js",
   "./data/vocab.js",
+  "./data/verb_es.js",
   "./data/verbs120.json",
   "./manifest.json",
   "./icons/icon-192.png",
