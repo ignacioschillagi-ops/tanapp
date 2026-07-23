@@ -1,0 +1,8402 @@
+{
+ "essere": {
+  "level": "facil",
+  "aux": "essere",
+  "presente": [
+   "sono",
+   "sei",
+   "è",
+   "siamo",
+   "siete",
+   "sono"
+  ],
+  "imperfetto": [
+   "ero",
+   "eri",
+   "era",
+   "eravamo",
+   "eravate",
+   "erano"
+  ],
+  "passato_remoto": [
+   "fui",
+   "fosti",
+   "fu",
+   "fummo",
+   "foste",
+   "furono"
+  ],
+  "futuro": [
+   "sarò",
+   "sarai",
+   "sarà",
+   "saremo",
+   "sarete",
+   "saranno"
+  ],
+  "condizionale": [
+   "sarei",
+   "saresti",
+   "sarebbe",
+   "saremmo",
+   "sareste",
+   "sarebbero"
+  ],
+  "cong_pres": [
+   "sia",
+   "sia",
+   "sia",
+   "siamo",
+   "siate",
+   "siano"
+  ],
+  "cong_imp": [
+   "fossi",
+   "fossi",
+   "fosse",
+   "fossimo",
+   "foste",
+   "fossero"
+  ],
+  "imperativo": [
+   "-",
+   "sii",
+   "sia",
+   "siamo",
+   "siate",
+   "siano"
+  ],
+  "gerundio": "essendo",
+  "participio": "stato"
+ },
+ "avere": {
+  "level": "facil",
+  "aux": "avere",
+  "presente": [
+   "ho",
+   "hai",
+   "ha",
+   "abbiamo",
+   "avete",
+   "hanno"
+  ],
+  "imperfetto": [
+   "avevo",
+   "avevi",
+   "aveva",
+   "avevamo",
+   "avevate",
+   "avevano"
+  ],
+  "passato_remoto": [
+   "ebbi",
+   "avesti",
+   "ebbe",
+   "avemmo",
+   "aveste",
+   "ebbero"
+  ],
+  "futuro": [
+   "avrò",
+   "avrai",
+   "avrà",
+   "avremo",
+   "avrete",
+   "avranno"
+  ],
+  "condizionale": [
+   "avrei",
+   "avresti",
+   "avrebbe",
+   "avremmo",
+   "avreste",
+   "avrebbero"
+  ],
+  "cong_pres": [
+   "abbia",
+   "abbia",
+   "abbia",
+   "abbiamo",
+   "abbiate",
+   "abbiano"
+  ],
+  "cong_imp": [
+   "avessi",
+   "avessi",
+   "avesse",
+   "avessimo",
+   "aveste",
+   "avessero"
+  ],
+  "imperativo": [
+   "-",
+   "abbi",
+   "abbia",
+   "abbiamo",
+   "abbiate",
+   "abbiano"
+  ],
+  "gerundio": "avendo",
+  "participio": "avuto"
+ },
+ "andare": {
+  "level": "facil",
+  "aux": "essere",
+  "presente": [
+   "vado",
+   "vai",
+   "va",
+   "andiamo",
+   "andate",
+   "vanno"
+  ],
+  "imperfetto": [
+   "andavo",
+   "andavi",
+   "andava",
+   "andavamo",
+   "andavate",
+   "andavano"
+  ],
+  "passato_remoto": [
+   "andai",
+   "andasti",
+   "andò",
+   "andammo",
+   "andaste",
+   "andarono"
+  ],
+  "futuro": [
+   "andrò",
+   "andrai",
+   "andrà",
+   "andremo",
+   "andrete",
+   "andranno"
+  ],
+  "condizionale": [
+   "andrei",
+   "andresti",
+   "andrebbe",
+   "andremmo",
+   "andreste",
+   "andrebbero"
+  ],
+  "cong_pres": [
+   "vada",
+   "vada",
+   "vada",
+   "andiamo",
+   "andiate",
+   "vadano"
+  ],
+  "cong_imp": [
+   "andassi",
+   "andassi",
+   "andasse",
+   "andassimo",
+   "andaste",
+   "andassero"
+  ],
+  "imperativo": [
+   "-",
+   "va'",
+   "vada",
+   "andiamo",
+   "andate",
+   "vadano"
+  ],
+  "gerundio": "andando",
+  "participio": "andato"
+ },
+ "fare": {
+  "level": "facil",
+  "aux": "avere",
+  "presente": [
+   "faccio",
+   "fai",
+   "fa",
+   "facciamo",
+   "fate",
+   "fanno"
+  ],
+  "imperfetto": [
+   "facevo",
+   "facevi",
+   "faceva",
+   "facevamo",
+   "facevate",
+   "facevano"
+  ],
+  "passato_remoto": [
+   "feci",
+   "facesti",
+   "fece",
+   "facemmo",
+   "faceste",
+   "fecero"
+  ],
+  "futuro": [
+   "farò",
+   "farai",
+   "farà",
+   "faremo",
+   "farete",
+   "faranno"
+  ],
+  "condizionale": [
+   "farei",
+   "faresti",
+   "farebbe",
+   "faremmo",
+   "fareste",
+   "farebbero"
+  ],
+  "cong_pres": [
+   "faccia",
+   "faccia",
+   "faccia",
+   "facciamo",
+   "facciate",
+   "facciano"
+  ],
+  "cong_imp": [
+   "facessi",
+   "facessi",
+   "facesse",
+   "facessimo",
+   "faceste",
+   "facessero"
+  ],
+  "imperativo": [
+   "-",
+   "fa'",
+   "faccia",
+   "facciamo",
+   "fate",
+   "facciano"
+  ],
+  "gerundio": "facendo",
+  "participio": "fatto"
+ },
+ "parlare": {
+  "level": "facil",
+  "aux": "avere",
+  "presente": [
+   "parlo",
+   "parli",
+   "parla",
+   "parliamo",
+   "parlate",
+   "parlano"
+  ],
+  "imperfetto": [
+   "parlavo",
+   "parlavi",
+   "parlava",
+   "parlavamo",
+   "parlavate",
+   "parlavano"
+  ],
+  "passato_remoto": [
+   "parlai",
+   "parlasti",
+   "parlò",
+   "parlammo",
+   "parlaste",
+   "parlarono"
+  ],
+  "futuro": [
+   "parlerò",
+   "parlerai",
+   "parlerà",
+   "parleremo",
+   "parlerete",
+   "parleranno"
+  ],
+  "condizionale": [
+   "parlerei",
+   "parleresti",
+   "parlerebbe",
+   "parleremmo",
+   "parlereste",
+   "parlerebbero"
+  ],
+  "cong_pres": [
+   "parli",
+   "parli",
+   "parli",
+   "parliamo",
+   "parliate",
+   "parlino"
+  ],
+  "cong_imp": [
+   "parlassi",
+   "parlassi",
+   "parlasse",
+   "parlassimo",
+   "parlaste",
+   "parlassero"
+  ],
+  "imperativo": [
+   "-",
+   "parla",
+   "parli",
+   "parliamo",
+   "parlate",
+   "parlino"
+  ],
+  "gerundio": "parlando",
+  "participio": "parlato"
+ },
+ "mangiare": {
+  "level": "facil",
+  "aux": "avere",
+  "presente": [
+   "mangio",
+   "mangi",
+   "mangia",
+   "mangiamo",
+   "mangiate",
+   "mangiano"
+  ],
+  "imperfetto": [
+   "mangiavo",
+   "mangiavi",
+   "mangiava",
+   "mangiavamo",
+   "mangiavate",
+   "mangiavano"
+  ],
+  "passato_remoto": [
+   "mangiai",
+   "mangiasti",
+   "mangiò",
+   "mangiammo",
+   "mangiaste",
+   "mangiarono"
+  ],
+  "futuro": [
+   "mangerò",
+   "mangerai",
+   "mangerà",
+   "mangeremo",
+   "mangerete",
+   "mangeranno"
+  ],
+  "condizionale": [
+   "mangerei",
+   "mangeresti",
+   "mangerebbe",
+   "mangeremmo",
+   "mangereste",
+   "mangerebbero"
+  ],
+  "cong_pres": [
+   "mangi",
+   "mangi",
+   "mangi",
+   "mangiamo",
+   "mangiate",
+   "mangino"
+  ],
+  "cong_imp": [
+   "mangiassi",
+   "mangiassi",
+   "mangiasse",
+   "mangiassimo",
+   "mangiaste",
+   "mangiassero"
+  ],
+  "imperativo": [
+   "-",
+   "mangia",
+   "mangi",
+   "mangiamo",
+   "mangiate",
+   "mangino"
+  ],
+  "gerundio": "mangiando",
+  "participio": "mangiato"
+ },
+ "bere": {
+  "level": "facil",
+  "aux": "avere",
+  "presente": [
+   "bevo",
+   "bevi",
+   "beve",
+   "beviamo",
+   "bevete",
+   "bevono"
+  ],
+  "imperfetto": [
+   "bevevo",
+   "bevevi",
+   "beveva",
+   "bevevamo",
+   "bevevate",
+   "bevevano"
+  ],
+  "passato_remoto": [
+   "bevvi",
+   "bevesti",
+   "bevve",
+   "bevemmo",
+   "beveste",
+   "bevvero"
+  ],
+  "futuro": [
+   "berrò",
+   "berrai",
+   "berrà",
+   "berremo",
+   "berrete",
+   "berranno"
+  ],
+  "condizionale": [
+   "berrei",
+   "berresti",
+   "berrebbe",
+   "berremmo",
+   "berreste",
+   "berrebbero"
+  ],
+  "cong_pres": [
+   "beva",
+   "beva",
+   "beva",
+   "beviamo",
+   "beviate",
+   "bevano"
+  ],
+  "cong_imp": [
+   "bevessi",
+   "bevessi",
+   "bevesse",
+   "bevessimo",
+   "beveste",
+   "bevessero"
+  ],
+  "imperativo": [
+   "-",
+   "bevi",
+   "beva",
+   "beviamo",
+   "bevete",
+   "bevano"
+  ],
+  "gerundio": "bevendo",
+  "participio": "bevuto"
+ },
+ "potere": {
+  "level": "facil",
+  "aux": "avere",
+  "presente": [
+   "posso",
+   "puoi",
+   "può",
+   "possiamo",
+   "potete",
+   "possono"
+  ],
+  "imperfetto": [
+   "potevo",
+   "potevi",
+   "poteva",
+   "potevamo",
+   "potevate",
+   "potevano"
+  ],
+  "passato_remoto": [
+   "potei",
+   "potesti",
+   "poté",
+   "potemmo",
+   "poteste",
+   "poterono"
+  ],
+  "futuro": [
+   "potrò",
+   "potrai",
+   "potrà",
+   "potremo",
+   "potrete",
+   "potranno"
+  ],
+  "condizionale": [
+   "potrei",
+   "potresti",
+   "potrebbe",
+   "potremmo",
+   "potreste",
+   "potrebbero"
+  ],
+  "cong_pres": [
+   "possa",
+   "possa",
+   "possa",
+   "possiamo",
+   "possiate",
+   "possano"
+  ],
+  "cong_imp": [
+   "potessi",
+   "potessi",
+   "potesse",
+   "potessimo",
+   "poteste",
+   "potessero"
+  ],
+  "imperativo": [
+   "-",
+   "-",
+   "-",
+   "-",
+   "-",
+   "-"
+  ],
+  "gerundio": "potendo",
+  "participio": "potuto"
+ },
+ "volere": {
+  "level": "facil",
+  "aux": "avere",
+  "presente": [
+   "voglio",
+   "vuoi",
+   "vuole",
+   "vogliamo",
+   "volete",
+   "vogliono"
+  ],
+  "imperfetto": [
+   "volevo",
+   "volevi",
+   "voleva",
+   "volevamo",
+   "volevate",
+   "volevano"
+  ],
+  "passato_remoto": [
+   "volli",
+   "volesti",
+   "volle",
+   "volemmo",
+   "voleste",
+   "vollero"
+  ],
+  "futuro": [
+   "vorrò",
+   "vorrai",
+   "vorrà",
+   "vorremo",
+   "vorrete",
+   "vorranno"
+  ],
+  "condizionale": [
+   "vorrei",
+   "vorresti",
+   "vorrebbe",
+   "vorremmo",
+   "vorreste",
+   "vorrebbero"
+  ],
+  "cong_pres": [
+   "voglia",
+   "voglia",
+   "voglia",
+   "vogliamo",
+   "vogliate",
+   "vogliano"
+  ],
+  "cong_imp": [
+   "volessi",
+   "volessi",
+   "volesse",
+   "volessimo",
+   "voleste",
+   "volessero"
+  ],
+  "imperativo": [
+   "-",
+   "vogli",
+   "voglia",
+   "vogliamo",
+   "vogliate",
+   "vogliano"
+  ],
+  "gerundio": "volendo",
+  "participio": "voluto"
+ },
+ "dovere": {
+  "level": "facil",
+  "aux": "avere",
+  "presente": [
+   "devo",
+   "devi",
+   "deve",
+   "dobbiamo",
+   "dovete",
+   "devono"
+  ],
+  "imperfetto": [
+   "dovevo",
+   "dovevi",
+   "doveva",
+   "dovevamo",
+   "dovevate",
+   "dovevano"
+  ],
+  "passato_remoto": [
+   "dovetti",
+   "dovesti",
+   "dovette",
+   "dovemmo",
+   "doveste",
+   "dovettero"
+  ],
+  "futuro": [
+   "dovrò",
+   "dovrai",
+   "dovrà",
+   "dovremo",
+   "dovrete",
+   "dovranno"
+  ],
+  "condizionale": [
+   "dovrei",
+   "dovresti",
+   "dovrebbe",
+   "dovremmo",
+   "dovreste",
+   "dovrebbero"
+  ],
+  "cong_pres": [
+   "debba",
+   "debba",
+   "debba",
+   "dobbiamo",
+   "dobbiate",
+   "debbano"
+  ],
+  "cong_imp": [
+   "dovessi",
+   "dovessi",
+   "dovesse",
+   "dovessimo",
+   "doveste",
+   "dovessero"
+  ],
+  "imperativo": [
+   "-",
+   "-",
+   "-",
+   "-",
+   "-",
+   "-"
+  ],
+  "gerundio": "dovendo",
+  "participio": "dovuto"
+ },
+ "venire": {
+  "level": "facil",
+  "aux": "essere",
+  "presente": [
+   "vengo",
+   "vieni",
+   "viene",
+   "veniamo",
+   "venite",
+   "vengono"
+  ],
+  "imperfetto": [
+   "venivo",
+   "venivi",
+   "veniva",
+   "venivamo",
+   "venivate",
+   "venivano"
+  ],
+  "passato_remoto": [
+   "venni",
+   "venisti",
+   "venne",
+   "venimmo",
+   "veniste",
+   "vennero"
+  ],
+  "futuro": [
+   "verrò",
+   "verrai",
+   "verrà",
+   "verremo",
+   "verrete",
+   "verranno"
+  ],
+  "condizionale": [
+   "verrei",
+   "verresti",
+   "verrebbe",
+   "verremmo",
+   "verreste",
+   "verrebbero"
+  ],
+  "cong_pres": [
+   "venga",
+   "venga",
+   "venga",
+   "veniamo",
+   "veniate",
+   "vengano"
+  ],
+  "cong_imp": [
+   "venissi",
+   "venissi",
+   "venisse",
+   "venissimo",
+   "veniste",
+   "venissero"
+  ],
+  "imperativo": [
+   "-",
+   "vieni",
+   "venga",
+   "veniamo",
+   "venite",
+   "vengano"
+  ],
+  "gerundio": "venendo",
+  "participio": "venuto"
+ },
+ "dare": {
+  "level": "facil",
+  "aux": "avere",
+  "presente": [
+   "do",
+   "dai",
+   "dà",
+   "diamo",
+   "date",
+   "danno"
+  ],
+  "imperfetto": [
+   "davo",
+   "davi",
+   "dava",
+   "davamo",
+   "davate",
+   "davano"
+  ],
+  "passato_remoto": [
+   "diedi",
+   "desti",
+   "diede",
+   "demmo",
+   "deste",
+   "diedero"
+  ],
+  "futuro": [
+   "darò",
+   "darai",
+   "darà",
+   "daremo",
+   "darete",
+   "daranno"
+  ],
+  "condizionale": [
+   "darei",
+   "daresti",
+   "darebbe",
+   "daremmo",
+   "dareste",
+   "darebbero"
+  ],
+  "cong_pres": [
+   "dia",
+   "dia",
+   "dia",
+   "diamo",
+   "diate",
+   "diano"
+  ],
+  "cong_imp": [
+   "dessi",
+   "dessi",
+   "desse",
+   "dessimo",
+   "deste",
+   "dessero"
+  ],
+  "imperativo": [
+   "-",
+   "da'",
+   "dia",
+   "diamo",
+   "date",
+   "diano"
+  ],
+  "gerundio": "dando",
+  "participio": "dato"
+ },
+ "stare": {
+  "level": "facil",
+  "aux": "essere",
+  "presente": [
+   "sto",
+   "stai",
+   "sta",
+   "stiamo",
+   "state",
+   "stanno"
+  ],
+  "imperfetto": [
+   "stavo",
+   "stavi",
+   "stava",
+   "stavamo",
+   "stavate",
+   "stavano"
+  ],
+  "passato_remoto": [
+   "stetti",
+   "stesti",
+   "stette",
+   "stemmo",
+   "steste",
+   "stettero"
+  ],
+  "futuro": [
+   "starò",
+   "starai",
+   "starà",
+   "staremo",
+   "starete",
+   "staranno"
+  ],
+  "condizionale": [
+   "starei",
+   "staresti",
+   "starebbe",
+   "staremmo",
+   "stareste",
+   "starebbero"
+  ],
+  "cong_pres": [
+   "stia",
+   "stia",
+   "stia",
+   "stiamo",
+   "stiate",
+   "stiano"
+  ],
+  "cong_imp": [
+   "stessi",
+   "stessi",
+   "stesse",
+   "stessimo",
+   "steste",
+   "stessero"
+  ],
+  "imperativo": [
+   "-",
+   "sta'",
+   "stia",
+   "stiamo",
+   "state",
+   "stiano"
+  ],
+  "gerundio": "stando",
+  "participio": "stato"
+ },
+ "prendere": {
+  "level": "facil",
+  "aux": "avere",
+  "presente": [
+   "prendo",
+   "prendi",
+   "prende",
+   "prendiamo",
+   "prendete",
+   "prendono"
+  ],
+  "imperfetto": [
+   "prendevo",
+   "prendevi",
+   "prendeva",
+   "prendevamo",
+   "prendevate",
+   "prendevano"
+  ],
+  "passato_remoto": [
+   "presi",
+   "prendesti",
+   "prese",
+   "prendemmo",
+   "prendeste",
+   "presero"
+  ],
+  "futuro": [
+   "prenderò",
+   "prenderai",
+   "prenderà",
+   "prenderemo",
+   "prenderete",
+   "prenderanno"
+  ],
+  "condizionale": [
+   "prenderei",
+   "prenderesti",
+   "prenderebbe",
+   "prenderemmo",
+   "prendereste",
+   "prenderebbero"
+  ],
+  "cong_pres": [
+   "prenda",
+   "prenda",
+   "prenda",
+   "prendiamo",
+   "prendiate",
+   "prendano"
+  ],
+  "cong_imp": [
+   "prendessi",
+   "prendessi",
+   "prendesse",
+   "prendessimo",
+   "prendeste",
+   "prendessero"
+  ],
+  "imperativo": [
+   "-",
+   "prendi",
+   "prenda",
+   "prendiamo",
+   "prendete",
+   "prendano"
+  ],
+  "gerundio": "prendendo",
+  "participio": "preso"
+ },
+ "vedere": {
+  "level": "facil",
+  "aux": "avere",
+  "presente": [
+   "vedo",
+   "vedi",
+   "vede",
+   "vediamo",
+   "vedete",
+   "vedono"
+  ],
+  "imperfetto": [
+   "vedevo",
+   "vedevi",
+   "vedeva",
+   "vedevamo",
+   "vedevate",
+   "vedevano"
+  ],
+  "passato_remoto": [
+   "vidi",
+   "vedesti",
+   "vide",
+   "vedemmo",
+   "vedeste",
+   "videro"
+  ],
+  "futuro": [
+   "vedrò",
+   "vedrai",
+   "vedrà",
+   "vedremo",
+   "vedrete",
+   "vedranno"
+  ],
+  "condizionale": [
+   "vedrei",
+   "vedresti",
+   "vedrebbe",
+   "vedremmo",
+   "vedreste",
+   "vedrebbero"
+  ],
+  "cong_pres": [
+   "veda",
+   "veda",
+   "veda",
+   "vediamo",
+   "vediate",
+   "vedano"
+  ],
+  "cong_imp": [
+   "vedessi",
+   "vedessi",
+   "vedesse",
+   "vedessimo",
+   "vedeste",
+   "vedessero"
+  ],
+  "imperativo": [
+   "-",
+   "vedi",
+   "veda",
+   "vediamo",
+   "vedete",
+   "vedano"
+  ],
+  "gerundio": "vedendo",
+  "participio": "visto"
+ },
+ "sapere": {
+  "level": "facil",
+  "aux": "avere",
+  "presente": [
+   "so",
+   "sai",
+   "sa",
+   "sappiamo",
+   "sapete",
+   "sanno"
+  ],
+  "imperfetto": [
+   "sapevo",
+   "sapevi",
+   "sapeva",
+   "sapevamo",
+   "sapevate",
+   "sapevano"
+  ],
+  "passato_remoto": [
+   "seppi",
+   "sapesti",
+   "seppe",
+   "sapemmo",
+   "sapeste",
+   "seppero"
+  ],
+  "futuro": [
+   "saprò",
+   "saprai",
+   "saprà",
+   "sapremo",
+   "saprete",
+   "sapranno"
+  ],
+  "condizionale": [
+   "saprei",
+   "sapresti",
+   "saprebbe",
+   "sapremmo",
+   "sapreste",
+   "saprebbero"
+  ],
+  "cong_pres": [
+   "sappia",
+   "sappia",
+   "sappia",
+   "sappiamo",
+   "sappiate",
+   "sappiano"
+  ],
+  "cong_imp": [
+   "sapessi",
+   "sapessi",
+   "sapesse",
+   "sapessimo",
+   "sapeste",
+   "sapessero"
+  ],
+  "imperativo": [
+   "-",
+   "sappi",
+   "sappia",
+   "sappiamo",
+   "sappiate",
+   "sappiano"
+  ],
+  "gerundio": "sapendo",
+  "participio": "saputo"
+ },
+ "uscire": {
+  "level": "facil",
+  "aux": "essere",
+  "presente": [
+   "esco",
+   "esci",
+   "esce",
+   "usciamo",
+   "uscite",
+   "escono"
+  ],
+  "imperfetto": [
+   "uscivo",
+   "uscivi",
+   "usciva",
+   "uscivamo",
+   "uscivate",
+   "uscivano"
+  ],
+  "passato_remoto": [
+   "uscii",
+   "uscisti",
+   "uscì",
+   "uscimmo",
+   "usciste",
+   "uscirono"
+  ],
+  "futuro": [
+   "uscirò",
+   "uscirai",
+   "uscirà",
+   "usciremo",
+   "uscirete",
+   "usciranno"
+  ],
+  "condizionale": [
+   "uscirei",
+   "usciresti",
+   "uscirebbe",
+   "usciremmo",
+   "uscireste",
+   "uscirebbero"
+  ],
+  "cong_pres": [
+   "esca",
+   "esca",
+   "esca",
+   "usciamo",
+   "usciate",
+   "escano"
+  ],
+  "cong_imp": [
+   "uscissi",
+   "uscissi",
+   "uscisse",
+   "uscissimo",
+   "usciste",
+   "uscissero"
+  ],
+  "imperativo": [
+   "-",
+   "esci",
+   "esca",
+   "usciamo",
+   "uscite",
+   "escano"
+  ],
+  "gerundio": "uscendo",
+  "participio": "uscito"
+ },
+ "mettere": {
+  "level": "facil",
+  "aux": "avere",
+  "presente": [
+   "metto",
+   "metti",
+   "mette",
+   "mettiamo",
+   "mettete",
+   "mettono"
+  ],
+  "imperfetto": [
+   "mettevo",
+   "mettevi",
+   "metteva",
+   "mettevamo",
+   "mettevate",
+   "mettevano"
+  ],
+  "passato_remoto": [
+   "misi",
+   "mettesti",
+   "mise",
+   "mettemmo",
+   "metteste",
+   "misero"
+  ],
+  "futuro": [
+   "metterò",
+   "metterai",
+   "metterà",
+   "metteremo",
+   "metterete",
+   "metteranno"
+  ],
+  "condizionale": [
+   "metterei",
+   "metteresti",
+   "metterebbe",
+   "metteremmo",
+   "mettereste",
+   "metterebbero"
+  ],
+  "cong_pres": [
+   "metta",
+   "metta",
+   "metta",
+   "mettiamo",
+   "mettiate",
+   "mettano"
+  ],
+  "cong_imp": [
+   "mettessi",
+   "mettessi",
+   "mettesse",
+   "mettessimo",
+   "metteste",
+   "mettessero"
+  ],
+  "imperativo": [
+   "-",
+   "metti",
+   "metta",
+   "mettiamo",
+   "mettete",
+   "mettano"
+  ],
+  "gerundio": "mettendo",
+  "participio": "messo"
+ },
+ "capire": {
+  "level": "facil",
+  "aux": "avere",
+  "presente": [
+   "capisco",
+   "capisci",
+   "capisce",
+   "capiamo",
+   "capite",
+   "capiscono"
+  ],
+  "imperfetto": [
+   "capivo",
+   "capivi",
+   "capiva",
+   "capivamo",
+   "capivate",
+   "capivano"
+  ],
+  "passato_remoto": [
+   "capii",
+   "capisti",
+   "capì",
+   "capimmo",
+   "capiste",
+   "capirono"
+  ],
+  "futuro": [
+   "capirò",
+   "capirai",
+   "capirà",
+   "capiremo",
+   "capirete",
+   "capiranno"
+  ],
+  "condizionale": [
+   "capirei",
+   "capiresti",
+   "capirebbe",
+   "capiremmo",
+   "capireste",
+   "capirebbero"
+  ],
+  "cong_pres": [
+   "capisca",
+   "capisca",
+   "capisca",
+   "capiamo",
+   "capiate",
+   "capiscano"
+  ],
+  "cong_imp": [
+   "capissi",
+   "capissi",
+   "capisse",
+   "capissimo",
+   "capiste",
+   "capissero"
+  ],
+  "imperativo": [
+   "-",
+   "capisci",
+   "capisca",
+   "capiamo",
+   "capite",
+   "capiscano"
+  ],
+  "gerundio": "capendo",
+  "participio": "capito"
+ },
+ "finire": {
+  "level": "facil",
+  "aux": "avere",
+  "presente": [
+   "finisco",
+   "finisci",
+   "finisce",
+   "finiamo",
+   "finite",
+   "finiscono"
+  ],
+  "imperfetto": [
+   "finivo",
+   "finivi",
+   "finiva",
+   "finivamo",
+   "finivate",
+   "finivano"
+  ],
+  "passato_remoto": [
+   "finii",
+   "finisti",
+   "finì",
+   "finimmo",
+   "finiste",
+   "finirono"
+  ],
+  "futuro": [
+   "finirò",
+   "finirai",
+   "finirà",
+   "finiremo",
+   "finirete",
+   "finiranno"
+  ],
+  "condizionale": [
+   "finirei",
+   "finiresti",
+   "finirebbe",
+   "finiremmo",
+   "finireste",
+   "finirebbero"
+  ],
+  "cong_pres": [
+   "finisca",
+   "finisca",
+   "finisca",
+   "finiamo",
+   "finiate",
+   "finiscano"
+  ],
+  "cong_imp": [
+   "finissi",
+   "finissi",
+   "finisse",
+   "finissimo",
+   "finiste",
+   "finissero"
+  ],
+  "imperativo": [
+   "-",
+   "finisci",
+   "finisca",
+   "finiamo",
+   "finite",
+   "finiscano"
+  ],
+  "gerundio": "finendo",
+  "participio": "finito"
+ },
+ "aprire": {
+  "level": "facil",
+  "aux": "avere",
+  "presente": [
+   "apro",
+   "apri",
+   "apre",
+   "apriamo",
+   "aprite",
+   "aprono"
+  ],
+  "imperfetto": [
+   "aprivo",
+   "aprivi",
+   "apriva",
+   "aprivamo",
+   "aprivate",
+   "aprivano"
+  ],
+  "passato_remoto": [
+   "aprii",
+   "apristi",
+   "aprì",
+   "aprimmo",
+   "apriste",
+   "aprirono"
+  ],
+  "futuro": [
+   "aprirò",
+   "aprirai",
+   "aprirà",
+   "apriremo",
+   "aprirete",
+   "apriranno"
+  ],
+  "condizionale": [
+   "aprirei",
+   "apriresti",
+   "aprirebbe",
+   "apriremmo",
+   "aprireste",
+   "aprirebbero"
+  ],
+  "cong_pres": [
+   "apra",
+   "apra",
+   "apra",
+   "apriamo",
+   "apriate",
+   "aprano"
+  ],
+  "cong_imp": [
+   "aprissi",
+   "aprissi",
+   "aprisse",
+   "aprissimo",
+   "apriste",
+   "aprissero"
+  ],
+  "imperativo": [
+   "-",
+   "apri",
+   "apra",
+   "apriamo",
+   "aprite",
+   "aprano"
+  ],
+  "gerundio": "aprendo",
+  "participio": "aperto"
+ },
+ "chiudere": {
+  "level": "facil",
+  "aux": "avere",
+  "presente": [
+   "chiudo",
+   "chiudi",
+   "chiude",
+   "chiudiamo",
+   "chiudete",
+   "chiudono"
+  ],
+  "imperfetto": [
+   "chiudevo",
+   "chiudevi",
+   "chiudeva",
+   "chiudevamo",
+   "chiudevate",
+   "chiudevano"
+  ],
+  "passato_remoto": [
+   "chiusi",
+   "chiudesti",
+   "chiuse",
+   "chiudemmo",
+   "chiudeste",
+   "chiusero"
+  ],
+  "futuro": [
+   "chiuderò",
+   "chiuderai",
+   "chiuderà",
+   "chiuderemo",
+   "chiuderete",
+   "chiuderanno"
+  ],
+  "condizionale": [
+   "chiuderei",
+   "chiuderesti",
+   "chiuderebbe",
+   "chiuderemmo",
+   "chiudereste",
+   "chiuderebbero"
+  ],
+  "cong_pres": [
+   "chiuda",
+   "chiuda",
+   "chiuda",
+   "chiudiamo",
+   "chiudiate",
+   "chiudano"
+  ],
+  "cong_imp": [
+   "chiudessi",
+   "chiudessi",
+   "chiudesse",
+   "chiudessimo",
+   "chiudeste",
+   "chiudessero"
+  ],
+  "imperativo": [
+   "-",
+   "chiudi",
+   "chiuda",
+   "chiudiamo",
+   "chiudete",
+   "chiudano"
+  ],
+  "gerundio": "chiudendo",
+  "participio": "chiuso"
+ },
+ "sentire": {
+  "level": "facil",
+  "aux": "avere",
+  "presente": [
+   "sento",
+   "senti",
+   "sente",
+   "sentiamo",
+   "sentite",
+   "sentono"
+  ],
+  "imperfetto": [
+   "sentivo",
+   "sentivi",
+   "sentiva",
+   "sentivamo",
+   "sentivate",
+   "sentivano"
+  ],
+  "passato_remoto": [
+   "sentii",
+   "sentisti",
+   "sentì",
+   "sentimmo",
+   "sentiste",
+   "sentirono"
+  ],
+  "futuro": [
+   "sentirò",
+   "sentirai",
+   "sentirà",
+   "sentiremo",
+   "sentirete",
+   "sentiranno"
+  ],
+  "condizionale": [
+   "sentirei",
+   "sentiresti",
+   "sentirebbe",
+   "sentiremmo",
+   "sentireste",
+   "sentirebbero"
+  ],
+  "cong_pres": [
+   "senta",
+   "senta",
+   "senta",
+   "sentiamo",
+   "sentiate",
+   "sentano"
+  ],
+  "cong_imp": [
+   "sentissi",
+   "sentissi",
+   "sentisse",
+   "sentissimo",
+   "sentiste",
+   "sentissero"
+  ],
+  "imperativo": [
+   "-",
+   "senti",
+   "senta",
+   "sentiamo",
+   "sentite",
+   "sentano"
+  ],
+  "gerundio": "sentendo",
+  "participio": "sentito"
+ },
+ "dormire": {
+  "level": "facil",
+  "aux": "avere",
+  "presente": [
+   "dormo",
+   "dormi",
+   "dorme",
+   "dormiamo",
+   "dormite",
+   "dormono"
+  ],
+  "imperfetto": [
+   "dormivo",
+   "dormivi",
+   "dormiva",
+   "dormivamo",
+   "dormivate",
+   "dormivano"
+  ],
+  "passato_remoto": [
+   "dormii",
+   "dormisti",
+   "dormì",
+   "dormimmo",
+   "dormiste",
+   "dormirono"
+  ],
+  "futuro": [
+   "dormirò",
+   "dormirai",
+   "dormirà",
+   "dormiremo",
+   "dormirete",
+   "dormiranno"
+  ],
+  "condizionale": [
+   "dormirei",
+   "dormiresti",
+   "dormirebbe",
+   "dormiremmo",
+   "dormireste",
+   "dormirebbero"
+  ],
+  "cong_pres": [
+   "dorma",
+   "dorma",
+   "dorma",
+   "dormiamo",
+   "dormiate",
+   "dormano"
+  ],
+  "cong_imp": [
+   "dormissi",
+   "dormissi",
+   "dormisse",
+   "dormissimo",
+   "dormiste",
+   "dormissero"
+  ],
+  "imperativo": [
+   "-",
+   "dormi",
+   "dorma",
+   "dormiamo",
+   "dormite",
+   "dormano"
+  ],
+  "gerundio": "dormendo",
+  "participio": "dormito"
+ },
+ "lavorare": {
+  "level": "facil",
+  "aux": "avere",
+  "presente": [
+   "lavoro",
+   "lavori",
+   "lavora",
+   "lavoriamo",
+   "lavorate",
+   "lavorano"
+  ],
+  "imperfetto": [
+   "lavoravo",
+   "lavoravi",
+   "lavorava",
+   "lavoravamo",
+   "lavoravate",
+   "lavoravano"
+  ],
+  "passato_remoto": [
+   "lavorai",
+   "lavorasti",
+   "lavorò",
+   "lavorammo",
+   "lavoraste",
+   "lavorarono"
+  ],
+  "futuro": [
+   "lavorerò",
+   "lavorerai",
+   "lavorerà",
+   "lavoreremo",
+   "lavorerete",
+   "lavoreranno"
+  ],
+  "condizionale": [
+   "lavorerei",
+   "lavoreresti",
+   "lavorerebbe",
+   "lavoreremmo",
+   "lavorereste",
+   "lavorerebbero"
+  ],
+  "cong_pres": [
+   "lavori",
+   "lavori",
+   "lavori",
+   "lavoriamo",
+   "lavoriate",
+   "lavorino"
+  ],
+  "cong_imp": [
+   "lavorassi",
+   "lavorassi",
+   "lavorasse",
+   "lavorassimo",
+   "lavoraste",
+   "lavorassero"
+  ],
+  "imperativo": [
+   "-",
+   "lavora",
+   "lavori",
+   "lavoriamo",
+   "lavorate",
+   "lavorino"
+  ],
+  "gerundio": "lavorando",
+  "participio": "lavorato"
+ },
+ "studiare": {
+  "level": "facil",
+  "aux": "avere",
+  "presente": [
+   "studio",
+   "studi",
+   "studia",
+   "studiamo",
+   "studiate",
+   "studiano"
+  ],
+  "imperfetto": [
+   "studiavo",
+   "studiavi",
+   "studiava",
+   "studiavamo",
+   "studiavate",
+   "studiavano"
+  ],
+  "passato_remoto": [
+   "studiai",
+   "studiasti",
+   "studiò",
+   "studiammo",
+   "studiaste",
+   "studiarono"
+  ],
+  "futuro": [
+   "studierò",
+   "studierai",
+   "studierà",
+   "studieremo",
+   "studierete",
+   "studieranno"
+  ],
+  "condizionale": [
+   "studierei",
+   "studieresti",
+   "studierebbe",
+   "studieremmo",
+   "studiereste",
+   "studierebbero"
+  ],
+  "cong_pres": [
+   "studi",
+   "studi",
+   "studi",
+   "studiamo",
+   "studiate",
+   "studino"
+  ],
+  "cong_imp": [
+   "studiassi",
+   "studiassi",
+   "studiasse",
+   "studiassimo",
+   "studiaste",
+   "studiassero"
+  ],
+  "imperativo": [
+   "-",
+   "studia",
+   "studi",
+   "studiamo",
+   "studiate",
+   "studino"
+  ],
+  "gerundio": "studiando",
+  "participio": "studiato"
+ },
+ "comprare": {
+  "level": "facil",
+  "aux": "avere",
+  "presente": [
+   "compro",
+   "compri",
+   "compra",
+   "compriamo",
+   "comprate",
+   "comprano"
+  ],
+  "imperfetto": [
+   "compravo",
+   "compravi",
+   "comprava",
+   "compravamo",
+   "compravate",
+   "compravano"
+  ],
+  "passato_remoto": [
+   "comprai",
+   "comprasti",
+   "comprò",
+   "comprammo",
+   "compraste",
+   "comprarono"
+  ],
+  "futuro": [
+   "comprerò",
+   "comprerai",
+   "comprerà",
+   "compreremo",
+   "comprerete",
+   "compreranno"
+  ],
+  "condizionale": [
+   "comprerei",
+   "compreresti",
+   "comprerebbe",
+   "compreremmo",
+   "comprereste",
+   "comprerebbero"
+  ],
+  "cong_pres": [
+   "compri",
+   "compri",
+   "compri",
+   "compriamo",
+   "compriate",
+   "comprino"
+  ],
+  "cong_imp": [
+   "comprassi",
+   "comprassi",
+   "comprasse",
+   "comprassimo",
+   "compraste",
+   "comprassero"
+  ],
+  "imperativo": [
+   "-",
+   "compra",
+   "compri",
+   "compriamo",
+   "comprate",
+   "comprino"
+  ],
+  "gerundio": "comprando",
+  "participio": "comprato"
+ },
+ "guardare": {
+  "level": "facil",
+  "aux": "avere",
+  "presente": [
+   "guardo",
+   "guardi",
+   "guarda",
+   "guardiamo",
+   "guardate",
+   "guardano"
+  ],
+  "imperfetto": [
+   "guardavo",
+   "guardavi",
+   "guardava",
+   "guardavamo",
+   "guardavate",
+   "guardavano"
+  ],
+  "passato_remoto": [
+   "guardai",
+   "guardasti",
+   "guardò",
+   "guardammo",
+   "guardaste",
+   "guardarono"
+  ],
+  "futuro": [
+   "guarderò",
+   "guarderai",
+   "guarderà",
+   "guarderemo",
+   "guarderete",
+   "guarderanno"
+  ],
+  "condizionale": [
+   "guarderei",
+   "guarderesti",
+   "guarderebbe",
+   "guarderemmo",
+   "guardereste",
+   "guarderebbero"
+  ],
+  "cong_pres": [
+   "guardi",
+   "guardi",
+   "guardi",
+   "guardiamo",
+   "guardiate",
+   "guardino"
+  ],
+  "cong_imp": [
+   "guardassi",
+   "guardassi",
+   "guardasse",
+   "guardassimo",
+   "guardaste",
+   "guardassero"
+  ],
+  "imperativo": [
+   "-",
+   "guarda",
+   "guardi",
+   "guardiamo",
+   "guardate",
+   "guardino"
+  ],
+  "gerundio": "guardando",
+  "participio": "guardato"
+ },
+ "ascoltare": {
+  "level": "facil",
+  "aux": "avere",
+  "presente": [
+   "ascolto",
+   "ascolti",
+   "ascolta",
+   "ascoltiamo",
+   "ascoltate",
+   "ascoltano"
+  ],
+  "imperfetto": [
+   "ascoltavo",
+   "ascoltavi",
+   "ascoltava",
+   "ascoltavamo",
+   "ascoltavate",
+   "ascoltavano"
+  ],
+  "passato_remoto": [
+   "ascoltai",
+   "ascoltasti",
+   "ascoltò",
+   "ascoltammo",
+   "ascoltaste",
+   "ascoltarono"
+  ],
+  "futuro": [
+   "ascolterò",
+   "ascolterai",
+   "ascolterà",
+   "ascolteremo",
+   "ascolterete",
+   "ascolteranno"
+  ],
+  "condizionale": [
+   "ascolterei",
+   "ascolteresti",
+   "ascolterebbe",
+   "ascolteremmo",
+   "ascoltereste",
+   "ascolterebbero"
+  ],
+  "cong_pres": [
+   "ascolti",
+   "ascolti",
+   "ascolti",
+   "ascoltiamo",
+   "ascoltiate",
+   "ascoltino"
+  ],
+  "cong_imp": [
+   "ascoltassi",
+   "ascoltassi",
+   "ascoltasse",
+   "ascoltassimo",
+   "ascoltaste",
+   "ascoltassero"
+  ],
+  "imperativo": [
+   "-",
+   "ascolta",
+   "ascolti",
+   "ascoltiamo",
+   "ascoltate",
+   "ascoltino"
+  ],
+  "gerundio": "ascoltando",
+  "participio": "ascoltato"
+ },
+ "giocare": {
+  "level": "facil",
+  "aux": "avere",
+  "presente": [
+   "gioco",
+   "giochi",
+   "gioca",
+   "giochiamo",
+   "giocate",
+   "giocano"
+  ],
+  "imperfetto": [
+   "giocavo",
+   "giocavi",
+   "giocava",
+   "giocavamo",
+   "giocavate",
+   "giocavano"
+  ],
+  "passato_remoto": [
+   "giocai",
+   "giocasti",
+   "giocò",
+   "giocammo",
+   "giocaste",
+   "giocarono"
+  ],
+  "futuro": [
+   "giocherò",
+   "giocherai",
+   "giocherà",
+   "giocheremo",
+   "giocherete",
+   "giocheranno"
+  ],
+  "condizionale": [
+   "giocherei",
+   "giocheresti",
+   "giocherebbe",
+   "giocheremmo",
+   "giochereste",
+   "giocherebbero"
+  ],
+  "cong_pres": [
+   "giochi",
+   "giochi",
+   "giochi",
+   "giochiamo",
+   "giochiate",
+   "giochino"
+  ],
+  "cong_imp": [
+   "giocassi",
+   "giocassi",
+   "giocasse",
+   "giocassimo",
+   "giocaste",
+   "giocassero"
+  ],
+  "imperativo": [
+   "-",
+   "gioca",
+   "giochi",
+   "giochiamo",
+   "giocate",
+   "giochino"
+  ],
+  "gerundio": "giocando",
+  "participio": "giocato"
+ },
+ "aiutare": {
+  "level": "facil",
+  "aux": "avere",
+  "presente": [
+   "aiuto",
+   "aiuti",
+   "aiuta",
+   "aiutiamo",
+   "aiutate",
+   "aiutano"
+  ],
+  "imperfetto": [
+   "aiutavo",
+   "aiutavi",
+   "aiutava",
+   "aiutavamo",
+   "aiutavate",
+   "aiutavano"
+  ],
+  "passato_remoto": [
+   "aiutai",
+   "aiutasti",
+   "aiutò",
+   "aiutammo",
+   "aiutaste",
+   "aiutarono"
+  ],
+  "futuro": [
+   "aiuterò",
+   "aiuterai",
+   "aiuterà",
+   "aiuteremo",
+   "aiuterete",
+   "aiuteranno"
+  ],
+  "condizionale": [
+   "aiuterei",
+   "aiuteresti",
+   "aiuterebbe",
+   "aiuteremmo",
+   "aiutereste",
+   "aiuterebbero"
+  ],
+  "cong_pres": [
+   "aiuti",
+   "aiuti",
+   "aiuti",
+   "aiutiamo",
+   "aiutiate",
+   "aiutino"
+  ],
+  "cong_imp": [
+   "aiutassi",
+   "aiutassi",
+   "aiutasse",
+   "aiutassimo",
+   "aiutaste",
+   "aiutassero"
+  ],
+  "imperativo": [
+   "-",
+   "aiuta",
+   "aiuti",
+   "aiutiamo",
+   "aiutate",
+   "aiutino"
+  ],
+  "gerundio": "aiutando",
+  "participio": "aiutato"
+ },
+ "chiamare": {
+  "level": "facil",
+  "aux": "avere",
+  "presente": [
+   "chiamo",
+   "chiami",
+   "chiama",
+   "chiamiamo",
+   "chiamate",
+   "chiamano"
+  ],
+  "imperfetto": [
+   "chiamavo",
+   "chiamavi",
+   "chiamava",
+   "chiamavamo",
+   "chiamavate",
+   "chiamavano"
+  ],
+  "passato_remoto": [
+   "chiamai",
+   "chiamasti",
+   "chiamò",
+   "chiamammo",
+   "chiamaste",
+   "chiamarono"
+  ],
+  "futuro": [
+   "chiamerò",
+   "chiamerai",
+   "chiamerà",
+   "chiameremo",
+   "chiamerete",
+   "chiameranno"
+  ],
+  "condizionale": [
+   "chiamerei",
+   "chiameresti",
+   "chiamerebbe",
+   "chiameremmo",
+   "chiamereste",
+   "chiamerebbero"
+  ],
+  "cong_pres": [
+   "chiami",
+   "chiami",
+   "chiami",
+   "chiamiamo",
+   "chiamiate",
+   "chiamino"
+  ],
+  "cong_imp": [
+   "chiamassi",
+   "chiamassi",
+   "chiamasse",
+   "chiamassimo",
+   "chiamaste",
+   "chiamassero"
+  ],
+  "imperativo": [
+   "-",
+   "chiama",
+   "chiami",
+   "chiamiamo",
+   "chiamate",
+   "chiamino"
+  ],
+  "gerundio": "chiamando",
+  "participio": "chiamato"
+ },
+ "arrivare": {
+  "level": "facil",
+  "aux": "essere",
+  "presente": [
+   "arrivo",
+   "arrivi",
+   "arriva",
+   "arriviamo",
+   "arrivate",
+   "arrivano"
+  ],
+  "imperfetto": [
+   "arrivavo",
+   "arrivavi",
+   "arrivava",
+   "arrivavamo",
+   "arrivavate",
+   "arrivavano"
+  ],
+  "passato_remoto": [
+   "arrivai",
+   "arrivasti",
+   "arrivò",
+   "arrivammo",
+   "arrivaste",
+   "arrivarono"
+  ],
+  "futuro": [
+   "arriverò",
+   "arriverai",
+   "arriverà",
+   "arriveremo",
+   "arriverete",
+   "arriveranno"
+  ],
+  "condizionale": [
+   "arriverei",
+   "arriveresti",
+   "arriverebbe",
+   "arriveremmo",
+   "arrivereste",
+   "arriverebbero"
+  ],
+  "cong_pres": [
+   "arrivi",
+   "arrivi",
+   "arrivi",
+   "arriviamo",
+   "arriviate",
+   "arrivino"
+  ],
+  "cong_imp": [
+   "arrivassi",
+   "arrivassi",
+   "arrivasse",
+   "arrivassimo",
+   "arrivaste",
+   "arrivassero"
+  ],
+  "imperativo": [
+   "-",
+   "arriva",
+   "arrivi",
+   "arriviamo",
+   "arrivate",
+   "arrivino"
+  ],
+  "gerundio": "arrivando",
+  "participio": "arrivato"
+ },
+ "tornare": {
+  "level": "facil",
+  "aux": "essere",
+  "presente": [
+   "torno",
+   "torni",
+   "torna",
+   "torniamo",
+   "tornate",
+   "tornano"
+  ],
+  "imperfetto": [
+   "tornavo",
+   "tornavi",
+   "tornava",
+   "tornavamo",
+   "tornavate",
+   "tornavano"
+  ],
+  "passato_remoto": [
+   "tornai",
+   "tornasti",
+   "tornò",
+   "tornammo",
+   "tornaste",
+   "tornarono"
+  ],
+  "futuro": [
+   "tornerò",
+   "tornerai",
+   "tornerà",
+   "torneremo",
+   "tornerete",
+   "torneranno"
+  ],
+  "condizionale": [
+   "tornerei",
+   "torneresti",
+   "tornerebbe",
+   "torneremmo",
+   "tornereste",
+   "tornerebbero"
+  ],
+  "cong_pres": [
+   "torni",
+   "torni",
+   "torni",
+   "torniamo",
+   "torniate",
+   "tornino"
+  ],
+  "cong_imp": [
+   "tornassi",
+   "tornassi",
+   "tornasse",
+   "tornassimo",
+   "tornaste",
+   "tornassero"
+  ],
+  "imperativo": [
+   "-",
+   "torna",
+   "torni",
+   "torniamo",
+   "tornate",
+   "tornino"
+  ],
+  "gerundio": "tornando",
+  "participio": "tornato"
+ },
+ "cominciare": {
+  "level": "facil",
+  "aux": "avere",
+  "presente": [
+   "comincio",
+   "cominci",
+   "comincia",
+   "cominciamo",
+   "cominciate",
+   "cominciano"
+  ],
+  "imperfetto": [
+   "cominciavo",
+   "cominciavi",
+   "cominciava",
+   "cominciavamo",
+   "cominciavate",
+   "cominciavano"
+  ],
+  "passato_remoto": [
+   "cominciai",
+   "cominciasti",
+   "cominciò",
+   "cominciammo",
+   "cominciaste",
+   "cominciarono"
+  ],
+  "futuro": [
+   "comincerò",
+   "comincerai",
+   "comincerà",
+   "cominceremo",
+   "comincerete",
+   "cominceranno"
+  ],
+  "condizionale": [
+   "comincerei",
+   "cominceresti",
+   "comincerebbe",
+   "cominceremmo",
+   "comincereste",
+   "comincerebbero"
+  ],
+  "cong_pres": [
+   "cominci",
+   "cominci",
+   "cominci",
+   "cominciamo",
+   "cominciate",
+   "comincino"
+  ],
+  "cong_imp": [
+   "cominciassi",
+   "cominciassi",
+   "cominciasse",
+   "cominciassimo",
+   "cominciaste",
+   "cominciassero"
+  ],
+  "imperativo": [
+   "-",
+   "comincia",
+   "cominci",
+   "cominciamo",
+   "cominciate",
+   "comincino"
+  ],
+  "gerundio": "cominciando",
+  "participio": "cominciato"
+ },
+ "aspettare": {
+  "level": "facil",
+  "aux": "avere",
+  "presente": [
+   "aspetto",
+   "aspetti",
+   "aspetta",
+   "aspettiamo",
+   "aspettate",
+   "aspettano"
+  ],
+  "imperfetto": [
+   "aspettavo",
+   "aspettavi",
+   "aspettava",
+   "aspettavamo",
+   "aspettavate",
+   "aspettavano"
+  ],
+  "passato_remoto": [
+   "aspettai",
+   "aspettasti",
+   "aspettò",
+   "aspettammo",
+   "aspettaste",
+   "aspettarono"
+  ],
+  "futuro": [
+   "aspetterò",
+   "aspetterai",
+   "aspetterà",
+   "aspetteremo",
+   "aspetterete",
+   "aspetteranno"
+  ],
+  "condizionale": [
+   "aspetterei",
+   "aspetteresti",
+   "aspetterebbe",
+   "aspetteremmo",
+   "aspettereste",
+   "aspetterebbero"
+  ],
+  "cong_pres": [
+   "aspetti",
+   "aspetti",
+   "aspetti",
+   "aspettiamo",
+   "aspettiate",
+   "aspettino"
+  ],
+  "cong_imp": [
+   "aspettassi",
+   "aspettassi",
+   "aspettasse",
+   "aspettassimo",
+   "aspettaste",
+   "aspettassero"
+  ],
+  "imperativo": [
+   "-",
+   "aspetta",
+   "aspetti",
+   "aspettiamo",
+   "aspettate",
+   "aspettino"
+  ],
+  "gerundio": "aspettando",
+  "participio": "aspettato"
+ },
+ "pensare": {
+  "level": "facil",
+  "aux": "avere",
+  "presente": [
+   "penso",
+   "pensi",
+   "pensa",
+   "pensiamo",
+   "pensate",
+   "pensano"
+  ],
+  "imperfetto": [
+   "pensavo",
+   "pensavi",
+   "pensava",
+   "pensavamo",
+   "pensavate",
+   "pensavano"
+  ],
+  "passato_remoto": [
+   "pensai",
+   "pensasti",
+   "pensò",
+   "pensammo",
+   "pensaste",
+   "pensarono"
+  ],
+  "futuro": [
+   "penserò",
+   "penserai",
+   "penserà",
+   "penseremo",
+   "penserete",
+   "penseranno"
+  ],
+  "condizionale": [
+   "penserei",
+   "penseresti",
+   "penserebbe",
+   "penseremmo",
+   "pensereste",
+   "penserebbero"
+  ],
+  "cong_pres": [
+   "pensi",
+   "pensi",
+   "pensi",
+   "pensiamo",
+   "pensiate",
+   "pensino"
+  ],
+  "cong_imp": [
+   "pensassi",
+   "pensassi",
+   "pensasse",
+   "pensassimo",
+   "pensaste",
+   "pensassero"
+  ],
+  "imperativo": [
+   "-",
+   "pensa",
+   "pensi",
+   "pensiamo",
+   "pensate",
+   "pensino"
+  ],
+  "gerundio": "pensando",
+  "participio": "pensato"
+ },
+ "credere": {
+  "level": "facil",
+  "aux": "avere",
+  "presente": [
+   "credo",
+   "credi",
+   "crede",
+   "crediamo",
+   "credete",
+   "credono"
+  ],
+  "imperfetto": [
+   "credevo",
+   "credevi",
+   "credeva",
+   "credevamo",
+   "credevate",
+   "credevano"
+  ],
+  "passato_remoto": [
+   "credei",
+   "credesti",
+   "credé",
+   "credemmo",
+   "credeste",
+   "crederono"
+  ],
+  "futuro": [
+   "crederò",
+   "crederai",
+   "crederà",
+   "crederemo",
+   "crederete",
+   "crederanno"
+  ],
+  "condizionale": [
+   "crederei",
+   "crederesti",
+   "crederebbe",
+   "crederemmo",
+   "credereste",
+   "crederebbero"
+  ],
+  "cong_pres": [
+   "creda",
+   "creda",
+   "creda",
+   "crediamo",
+   "crediate",
+   "credano"
+  ],
+  "cong_imp": [
+   "credessi",
+   "credessi",
+   "credesse",
+   "credessimo",
+   "credeste",
+   "credessero"
+  ],
+  "imperativo": [
+   "-",
+   "credi",
+   "creda",
+   "crediamo",
+   "credete",
+   "credano"
+  ],
+  "gerundio": "credendo",
+  "participio": "creduto"
+ },
+ "vivere": {
+  "level": "facil",
+  "aux": "essere",
+  "presente": [
+   "vivo",
+   "vivi",
+   "vive",
+   "viviamo",
+   "vivete",
+   "vivono"
+  ],
+  "imperfetto": [
+   "vivevo",
+   "vivevi",
+   "viveva",
+   "vivevamo",
+   "vivevate",
+   "vivevano"
+  ],
+  "passato_remoto": [
+   "vissi",
+   "vivesti",
+   "visse",
+   "vivemmo",
+   "viveste",
+   "vissero"
+  ],
+  "futuro": [
+   "vivrò",
+   "vivrai",
+   "vivrà",
+   "vivremo",
+   "vivrete",
+   "vivranno"
+  ],
+  "condizionale": [
+   "vivrei",
+   "vivresti",
+   "vivrebbe",
+   "vivremmo",
+   "vivreste",
+   "vivrebbero"
+  ],
+  "cong_pres": [
+   "viva",
+   "viva",
+   "viva",
+   "viviamo",
+   "viviate",
+   "vivano"
+  ],
+  "cong_imp": [
+   "vivessi",
+   "vivessi",
+   "vivesse",
+   "vivessimo",
+   "viveste",
+   "vivessero"
+  ],
+  "imperativo": [
+   "-",
+   "vivi",
+   "viva",
+   "viviamo",
+   "vivete",
+   "vivano"
+  ],
+  "gerundio": "vivendo",
+  "participio": "vissuto"
+ },
+ "cercare": {
+  "level": "facil",
+  "aux": "avere",
+  "presente": [
+   "cerco",
+   "cerchi",
+   "cerca",
+   "cerchiamo",
+   "cercate",
+   "cercano"
+  ],
+  "imperfetto": [
+   "cercavo",
+   "cercavi",
+   "cercava",
+   "cercavamo",
+   "cercavate",
+   "cercavano"
+  ],
+  "passato_remoto": [
+   "cercai",
+   "cercasti",
+   "cercò",
+   "cercammo",
+   "cercaste",
+   "cercarono"
+  ],
+  "futuro": [
+   "cercherò",
+   "cercherai",
+   "cercherà",
+   "cercheremo",
+   "cercherete",
+   "cercheranno"
+  ],
+  "condizionale": [
+   "cercherei",
+   "cercheresti",
+   "cercherebbe",
+   "cercheremmo",
+   "cerchereste",
+   "cercherebbero"
+  ],
+  "cong_pres": [
+   "cerchi",
+   "cerchi",
+   "cerchi",
+   "cerchiamo",
+   "cerchiate",
+   "cerchino"
+  ],
+  "cong_imp": [
+   "cercassi",
+   "cercassi",
+   "cercasse",
+   "cercassimo",
+   "cercaste",
+   "cercassero"
+  ],
+  "imperativo": [
+   "-",
+   "cerca",
+   "cerchi",
+   "cerchiamo",
+   "cercate",
+   "cerchino"
+  ],
+  "gerundio": "cercando",
+  "participio": "cercato"
+ },
+ "chiedere": {
+  "level": "normal",
+  "aux": "avere",
+  "presente": [
+   "chiedo",
+   "chiedi",
+   "chiede",
+   "chiediamo",
+   "chiedete",
+   "chiedono"
+  ],
+  "imperfetto": [
+   "chiedevo",
+   "chiedevi",
+   "chiedeva",
+   "chiedevamo",
+   "chiedevate",
+   "chiedevano"
+  ],
+  "passato_remoto": [
+   "chiesi",
+   "chiedesti",
+   "chiese",
+   "chiedemmo",
+   "chiedeste",
+   "chiesero"
+  ],
+  "futuro": [
+   "chiederò",
+   "chiederai",
+   "chiederà",
+   "chiederemo",
+   "chiederete",
+   "chiederanno"
+  ],
+  "condizionale": [
+   "chiederei",
+   "chiederesti",
+   "chiederebbe",
+   "chiederemmo",
+   "chiedereste",
+   "chiederebbero"
+  ],
+  "cong_pres": [
+   "chieda",
+   "chieda",
+   "chieda",
+   "chiediamo",
+   "chiediate",
+   "chiedano"
+  ],
+  "cong_imp": [
+   "chiedessi",
+   "chiedessi",
+   "chiedesse",
+   "chiedessimo",
+   "chiedeste",
+   "chiedessero"
+  ],
+  "imperativo": [
+   "-",
+   "chiedi",
+   "chieda",
+   "chiediamo",
+   "chiedete",
+   "chiedano"
+  ],
+  "gerundio": "chiedendo",
+  "participio": "chiesto"
+ },
+ "rispondere": {
+  "level": "normal",
+  "aux": "avere",
+  "presente": [
+   "rispondo",
+   "rispondi",
+   "risponde",
+   "rispondiamo",
+   "rispondete",
+   "rispondono"
+  ],
+  "imperfetto": [
+   "rispondevo",
+   "rispondevi",
+   "rispondeva",
+   "rispondevamo",
+   "rispondevate",
+   "rispondevano"
+  ],
+  "passato_remoto": [
+   "risposi",
+   "rispondesti",
+   "rispose",
+   "rispondemmo",
+   "rispondeste",
+   "risposero"
+  ],
+  "futuro": [
+   "risponderò",
+   "risponderai",
+   "risponderà",
+   "risponderemo",
+   "risponderete",
+   "risponderanno"
+  ],
+  "condizionale": [
+   "risponderei",
+   "risponderesti",
+   "risponderebbe",
+   "risponderemmo",
+   "rispondereste",
+   "risponderebbero"
+  ],
+  "cong_pres": [
+   "risponda",
+   "risponda",
+   "risponda",
+   "rispondiamo",
+   "rispondiate",
+   "rispondano"
+  ],
+  "cong_imp": [
+   "rispondessi",
+   "rispondessi",
+   "rispondesse",
+   "rispondessimo",
+   "rispondeste",
+   "rispondessero"
+  ],
+  "imperativo": [
+   "-",
+   "rispondi",
+   "risponda",
+   "rispondiamo",
+   "rispondete",
+   "rispondano"
+  ],
+  "gerundio": "rispondendo",
+  "participio": "risposto"
+ },
+ "decidere": {
+  "level": "normal",
+  "aux": "avere",
+  "presente": [
+   "decido",
+   "decidi",
+   "decide",
+   "decidiamo",
+   "decidete",
+   "decidono"
+  ],
+  "imperfetto": [
+   "decidevo",
+   "decidevi",
+   "decideva",
+   "decidevamo",
+   "decidevate",
+   "decidevano"
+  ],
+  "passato_remoto": [
+   "decisi",
+   "decidesti",
+   "decise",
+   "decidemmo",
+   "decideste",
+   "decisero"
+  ],
+  "futuro": [
+   "deciderò",
+   "deciderai",
+   "deciderà",
+   "decideremo",
+   "deciderete",
+   "decideranno"
+  ],
+  "condizionale": [
+   "deciderei",
+   "decideresti",
+   "deciderebbe",
+   "decideremmo",
+   "decidereste",
+   "deciderebbero"
+  ],
+  "cong_pres": [
+   "decida",
+   "decida",
+   "decida",
+   "decidiamo",
+   "decidiate",
+   "decidano"
+  ],
+  "cong_imp": [
+   "decidessi",
+   "decidessi",
+   "decidesse",
+   "decidessimo",
+   "decideste",
+   "decidessero"
+  ],
+  "imperativo": [
+   "-",
+   "decidi",
+   "decida",
+   "decidiamo",
+   "decidete",
+   "decidano"
+  ],
+  "gerundio": "decidendo",
+  "participio": "deciso"
+ },
+ "promettere": {
+  "level": "normal",
+  "aux": "avere",
+  "presente": [
+   "prometto",
+   "prometti",
+   "promette",
+   "promettiamo",
+   "promettete",
+   "promettono"
+  ],
+  "imperfetto": [
+   "promettevo",
+   "promettevi",
+   "prometteva",
+   "promettevamo",
+   "promettevate",
+   "promettevano"
+  ],
+  "passato_remoto": [
+   "promisi",
+   "promettesti",
+   "promise",
+   "promettemmo",
+   "prometteste",
+   "promisero"
+  ],
+  "futuro": [
+   "prometterò",
+   "prometterai",
+   "prometterà",
+   "prometteremo",
+   "prometterete",
+   "prometteranno"
+  ],
+  "condizionale": [
+   "prometterei",
+   "prometteresti",
+   "prometterebbe",
+   "prometteremmo",
+   "promettereste",
+   "prometterebbero"
+  ],
+  "cong_pres": [
+   "prometta",
+   "prometta",
+   "prometta",
+   "promettiamo",
+   "promettiate",
+   "promettano"
+  ],
+  "cong_imp": [
+   "promettessi",
+   "promettessi",
+   "promettesse",
+   "promettessimo",
+   "prometteste",
+   "promettessero"
+  ],
+  "imperativo": [
+   "pro-",
+   "prometti",
+   "prometta",
+   "promettiamo",
+   "promettete",
+   "promettano"
+  ],
+  "gerundio": "promettendo",
+  "participio": "promesso"
+ },
+ "sembrare": {
+  "level": "normal",
+  "aux": "essere",
+  "presente": [
+   "sembro",
+   "sembri",
+   "sembra",
+   "sembriamo",
+   "sembrate",
+   "sembrano"
+  ],
+  "imperfetto": [
+   "sembravo",
+   "sembravi",
+   "sembrava",
+   "sembravamo",
+   "sembravate",
+   "sembravano"
+  ],
+  "passato_remoto": [
+   "sembrai",
+   "sembrasti",
+   "sembrò",
+   "sembrammo",
+   "sembraste",
+   "sembrarono"
+  ],
+  "futuro": [
+   "sembrerò",
+   "sembrerai",
+   "sembrerà",
+   "sembreremo",
+   "sembrerete",
+   "sembreranno"
+  ],
+  "condizionale": [
+   "sembrerei",
+   "sembreresti",
+   "sembrerebbe",
+   "sembreremmo",
+   "sembrereste",
+   "sembrerebbero"
+  ],
+  "cong_pres": [
+   "sembri",
+   "sembri",
+   "sembri",
+   "sembriamo",
+   "sembriate",
+   "sembrino"
+  ],
+  "cong_imp": [
+   "sembrassi",
+   "sembrassi",
+   "sembrasse",
+   "sembrassimo",
+   "sembraste",
+   "sembrassero"
+  ],
+  "imperativo": [
+   "-",
+   "sembra",
+   "sembri",
+   "sembriamo",
+   "sembrate",
+   "sembrino"
+  ],
+  "gerundio": "sembrando",
+  "participio": "sembrato"
+ },
+ "diventare": {
+  "level": "normal",
+  "aux": "essere",
+  "presente": [
+   "divento",
+   "diventi",
+   "diventa",
+   "diventiamo",
+   "diventate",
+   "diventano"
+  ],
+  "imperfetto": [
+   "diventavo",
+   "diventavi",
+   "diventava",
+   "diventavamo",
+   "diventavate",
+   "diventavano"
+  ],
+  "passato_remoto": [
+   "diventai",
+   "diventasti",
+   "diventò",
+   "diventammo",
+   "diventaste",
+   "diventarono"
+  ],
+  "futuro": [
+   "diventerò",
+   "diventerai",
+   "diventerà",
+   "diventeremo",
+   "diventerete",
+   "diventeranno"
+  ],
+  "condizionale": [
+   "diventerei",
+   "diventeresti",
+   "diventerebbe",
+   "diventeremmo",
+   "diventereste",
+   "diventerebbero"
+  ],
+  "cong_pres": [
+   "diventi",
+   "diventi",
+   "diventi",
+   "diventiamo",
+   "diventiate",
+   "diventino"
+  ],
+  "cong_imp": [
+   "diventassi",
+   "diventassi",
+   "diventasse",
+   "diventassimo",
+   "diventaste",
+   "diventassero"
+  ],
+  "imperativo": [
+   "-",
+   "diventa",
+   "diventi",
+   "diventiamo",
+   "diventate",
+   "diventino"
+  ],
+  "gerundio": "diventando",
+  "participio": "diventato"
+ },
+ "rimanere": {
+  "level": "normal",
+  "aux": "essere",
+  "presente": [
+   "rimango",
+   "rimani",
+   "rimane",
+   "rimaniamo",
+   "rimanete",
+   "rimangono"
+  ],
+  "imperfetto": [
+   "rimanevo",
+   "rimanevi",
+   "rimaneva",
+   "rimanevamo",
+   "rimanevate",
+   "rimanevano"
+  ],
+  "passato_remoto": [
+   "rimasi",
+   "rimanesti",
+   "rimase",
+   "rimanemmo",
+   "rimaneste",
+   "rimasero"
+  ],
+  "futuro": [
+   "rimarrò",
+   "rimarrai",
+   "rimarrà",
+   "rimarremo",
+   "rimarrete",
+   "rimarranno"
+  ],
+  "condizionale": [
+   "rimarrei",
+   "rimarresti",
+   "rimarrebbe",
+   "rimarremmo",
+   "rimarreste",
+   "rimarrebbero"
+  ],
+  "cong_pres": [
+   "rimanga",
+   "rimanga",
+   "rimanga",
+   "rimaniamo",
+   "rimaniate",
+   "rimangano"
+  ],
+  "cong_imp": [
+   "rimanessi",
+   "rimanessi",
+   "rimanesse",
+   "rimanessimo",
+   "rimaneste",
+   "rimanessero"
+  ],
+  "imperativo": [
+   "-",
+   "rimani",
+   "rimanga",
+   "rimaniamo",
+   "rimanete",
+   "rimangano"
+  ],
+  "gerundio": "rimanendo",
+  "participio": "rimasto"
+ },
+ "scegliere": {
+  "level": "normal",
+  "aux": "avere",
+  "presente": [
+   "scelgo",
+   "scegli",
+   "sceglie",
+   "scegliamo",
+   "scegliete",
+   "scelgono"
+  ],
+  "imperfetto": [
+   "sceglievo",
+   "sceglievi",
+   "sceglieva",
+   "sceglievamo",
+   "sceglievate",
+   "sceglievano"
+  ],
+  "passato_remoto": [
+   "scelsi",
+   "scegliesti",
+   "scelse",
+   "scegliemmo",
+   "sceglieste",
+   "scelsero"
+  ],
+  "futuro": [
+   "sceglierò",
+   "sceglierai",
+   "sceglierà",
+   "sceglieremo",
+   "sceglierete",
+   "sceglieranno"
+  ],
+  "condizionale": [
+   "sceglierei",
+   "sceglieresti",
+   "sceglierebbe",
+   "sceglieremmo",
+   "scegliereste",
+   "sceglierebbero"
+  ],
+  "cong_pres": [
+   "scelga",
+   "scelga",
+   "scelga",
+   "scegliamo",
+   "scegliate",
+   "scelgano"
+  ],
+  "cong_imp": [
+   "scegliessi",
+   "scegliessi",
+   "scegliesse",
+   "scegliessimo",
+   "sceglieste",
+   "scegliessero"
+  ],
+  "imperativo": [
+   "-",
+   "scegli",
+   "scelga",
+   "scegliamo",
+   "scegliete",
+   "scelgano"
+  ],
+  "gerundio": "scegliendo",
+  "participio": "scelto"
+ },
+ "spiegare": {
+  "level": "normal",
+  "aux": "avere",
+  "presente": [
+   "spiego",
+   "spieghi",
+   "spiega",
+   "spieghiamo",
+   "spiegate",
+   "spiegano"
+  ],
+  "imperfetto": [
+   "spiegavo",
+   "spiegavi",
+   "spiegava",
+   "spiegavamo",
+   "spiegavate",
+   "spiegavano"
+  ],
+  "passato_remoto": [
+   "spiegai",
+   "spiegasti",
+   "spiegò",
+   "spiegammo",
+   "spiegaste",
+   "spiegarono"
+  ],
+  "futuro": [
+   "spiegherò",
+   "spiegherai",
+   "spiegherà",
+   "spiegheremo",
+   "spiegherete",
+   "spiegheranno"
+  ],
+  "condizionale": [
+   "spiegherei",
+   "spiegheresti",
+   "spiegherebbe",
+   "spiegheremmo",
+   "spieghereste",
+   "spiegherebbero"
+  ],
+  "cong_pres": [
+   "spieghi",
+   "spieghi",
+   "spieghi",
+   "spieghiamo",
+   "spieghiate",
+   "spieghino"
+  ],
+  "cong_imp": [
+   "spiegassi",
+   "spiegassi",
+   "spiegasse",
+   "spiegassimo",
+   "spiegaste",
+   "spiegassero"
+  ],
+  "imperativo": [
+   "-",
+   "spiega",
+   "spieghi",
+   "spieghiamo",
+   "spiegate",
+   "spieghino"
+  ],
+  "gerundio": "spiegando",
+  "participio": "spiegato"
+ },
+ "ricordare": {
+  "level": "normal",
+  "aux": "avere",
+  "presente": [
+   "ricordo",
+   "ricordi",
+   "ricorda",
+   "ricordiamo",
+   "ricordate",
+   "ricordano"
+  ],
+  "imperfetto": [
+   "ricordavo",
+   "ricordavi",
+   "ricordava",
+   "ricordavamo",
+   "ricordavate",
+   "ricordavano"
+  ],
+  "passato_remoto": [
+   "ricordai",
+   "ricordasti",
+   "ricordò",
+   "ricordammo",
+   "ricordaste",
+   "ricordarono"
+  ],
+  "futuro": [
+   "ricorderò",
+   "ricorderai",
+   "ricorderà",
+   "ricorderemo",
+   "ricorderete",
+   "ricorderanno"
+  ],
+  "condizionale": [
+   "ricorderei",
+   "ricorderesti",
+   "ricorderebbe",
+   "ricorderemmo",
+   "ricordereste",
+   "ricorderebbero"
+  ],
+  "cong_pres": [
+   "ricordi",
+   "ricordi",
+   "ricordi",
+   "ricordiamo",
+   "ricordiate",
+   "ricordino"
+  ],
+  "cong_imp": [
+   "ricordassi",
+   "ricordassi",
+   "ricordasse",
+   "ricordassimo",
+   "ricordaste",
+   "ricordassero"
+  ],
+  "imperativo": [
+   "-",
+   "ricorda",
+   "ricordi",
+   "ricordiamo",
+   "ricordate",
+   "ricordino"
+  ],
+  "gerundio": "ricordando",
+  "participio": "ricordato"
+ },
+ "dimenticare": {
+  "level": "normal",
+  "aux": "avere",
+  "presente": [
+   "dimentico",
+   "dimentichi",
+   "dimentica",
+   "dimentichiamo",
+   "dimenticate",
+   "dimenticano"
+  ],
+  "imperfetto": [
+   "dimenticavo",
+   "dimenticavi",
+   "dimenticava",
+   "dimenticavamo",
+   "dimenticavate",
+   "dimenticavano"
+  ],
+  "passato_remoto": [
+   "dimenticai",
+   "dimenticasti",
+   "dimenticò",
+   "dimenticammo",
+   "dimenticaste",
+   "dimenticarono"
+  ],
+  "futuro": [
+   "dimenticherò",
+   "dimenticherai",
+   "dimenticherà",
+   "dimenticheremo",
+   "dimenticherete",
+   "dimenticheranno"
+  ],
+  "condizionale": [
+   "dimenticherei",
+   "dimenticheresti",
+   "dimenticherebbe",
+   "dimenticheremmo",
+   "dimentichereste",
+   "dimenticherebbero"
+  ],
+  "cong_pres": [
+   "dimentichi",
+   "dimentichi",
+   "dimentichi",
+   "dimentichiamo",
+   "dimentichiate",
+   "dimentichino"
+  ],
+  "cong_imp": [
+   "dimenticassi",
+   "dimenticassi",
+   "dimenticasse",
+   "dimenticassimo",
+   "dimenticaste",
+   "dimenticassero"
+  ],
+  "imperativo": [
+   "-",
+   "dimentica",
+   "dimentichi",
+   "dimentichiamo",
+   "dimenticate",
+   "dimentichino"
+  ],
+  "gerundio": "dimenticando",
+  "participio": "dimenticato"
+ },
+ "riuscire": {
+  "level": "normal",
+  "aux": "essere",
+  "presente": [
+   "riesco",
+   "riesci",
+   "riesce",
+   "riusciamo",
+   "riuscite",
+   "riescono"
+  ],
+  "imperfetto": [
+   "riuscivo",
+   "riuscivi",
+   "riusciva",
+   "riuscivamo",
+   "riuscivate",
+   "riuscivano"
+  ],
+  "passato_remoto": [
+   "riuscii",
+   "riuscisti",
+   "riuscì",
+   "riuscimmo",
+   "riusciste",
+   "riuscirono"
+  ],
+  "futuro": [
+   "riuscirò",
+   "riuscirai",
+   "riuscirà",
+   "riusciremo",
+   "riuscirete",
+   "riusciranno"
+  ],
+  "condizionale": [
+   "riuscirei",
+   "riusciresti",
+   "riuscirebbe",
+   "riusciremmo",
+   "riuscireste",
+   "riuscirebbero"
+  ],
+  "cong_pres": [
+   "riesca",
+   "riesca",
+   "riesca",
+   "riusciamo",
+   "riusciate",
+   "riescano"
+  ],
+  "cong_imp": [
+   "riuscissi",
+   "riuscissi",
+   "riuscisse",
+   "riuscissimo",
+   "riusciste",
+   "riuscissero"
+  ],
+  "imperativo": [
+   "ri-",
+   "riesci",
+   "riesca",
+   "riusciamo",
+   "riuscite",
+   "riescano"
+  ],
+  "gerundio": "riuscendo",
+  "participio": "riuscito"
+ },
+ "evitare": {
+  "level": "normal",
+  "aux": "avere",
+  "presente": [
+   "evito",
+   "eviti",
+   "evita",
+   "evitiamo",
+   "evitate",
+   "evitano"
+  ],
+  "imperfetto": [
+   "evitavo",
+   "evitavi",
+   "evitava",
+   "evitavamo",
+   "evitavate",
+   "evitavano"
+  ],
+  "passato_remoto": [
+   "evitai",
+   "evitasti",
+   "evitò",
+   "evitammo",
+   "evitaste",
+   "evitarono"
+  ],
+  "futuro": [
+   "eviterò",
+   "eviterai",
+   "eviterà",
+   "eviteremo",
+   "eviterete",
+   "eviteranno"
+  ],
+  "condizionale": [
+   "eviterei",
+   "eviteresti",
+   "eviterebbe",
+   "eviteremmo",
+   "evitereste",
+   "eviterebbero"
+  ],
+  "cong_pres": [
+   "eviti",
+   "eviti",
+   "eviti",
+   "evitiamo",
+   "evitiate",
+   "evitino"
+  ],
+  "cong_imp": [
+   "evitassi",
+   "evitassi",
+   "evitasse",
+   "evitassimo",
+   "evitaste",
+   "evitassero"
+  ],
+  "imperativo": [
+   "-",
+   "evita",
+   "eviti",
+   "evitiamo",
+   "evitate",
+   "evitino"
+  ],
+  "gerundio": "evitando",
+  "participio": "evitato"
+ },
+ "considerare": {
+  "level": "normal",
+  "aux": "avere",
+  "presente": [
+   "considero",
+   "consideri",
+   "considera",
+   "consideriamo",
+   "considerate",
+   "considerano"
+  ],
+  "imperfetto": [
+   "consideravo",
+   "consideravi",
+   "considerava",
+   "consideravamo",
+   "consideravate",
+   "consideravano"
+  ],
+  "passato_remoto": [
+   "considerai",
+   "considerasti",
+   "considerò",
+   "considerammo",
+   "consideraste",
+   "considerarono"
+  ],
+  "futuro": [
+   "considererò",
+   "considererai",
+   "considererà",
+   "considereremo",
+   "considererete",
+   "considereranno"
+  ],
+  "condizionale": [
+   "considererei",
+   "considereresti",
+   "considererebbe",
+   "considereremmo",
+   "considerereste",
+   "considererebbero"
+  ],
+  "cong_pres": [
+   "consideri",
+   "consideri",
+   "consideri",
+   "consideriamo",
+   "consideriate",
+   "considerino"
+  ],
+  "cong_imp": [
+   "considerassi",
+   "considerassi",
+   "considerasse",
+   "considerassimo",
+   "consideraste",
+   "considerassero"
+  ],
+  "imperativo": [
+   "-",
+   "considera",
+   "consideri",
+   "consideriamo",
+   "considerate",
+   "considerino"
+  ],
+  "gerundio": "considerando",
+  "participio": "considerato"
+ },
+ "ottenere": {
+  "level": "normal",
+  "aux": "avere",
+  "presente": [
+   "ottengo",
+   "ottieni",
+   "ottiene",
+   "otteniamo",
+   "ottenete",
+   "ottengono"
+  ],
+  "imperfetto": [
+   "ottenevo",
+   "ottenevi",
+   "otteneva",
+   "ottenevamo",
+   "ottenevate",
+   "ottenevano"
+  ],
+  "passato_remoto": [
+   "ottenni",
+   "ottenesti",
+   "ottenne",
+   "ottenemmo",
+   "otteneste",
+   "ottennero"
+  ],
+  "futuro": [
+   "otterrò",
+   "otterrai",
+   "otterrà",
+   "otterremo",
+   "otterrete",
+   "otterranno"
+  ],
+  "condizionale": [
+   "otterrei",
+   "otterresti",
+   "otterrebbe",
+   "otterremmo",
+   "otterreste",
+   "otterrebbero"
+  ],
+  "cong_pres": [
+   "ottenga",
+   "ottenga",
+   "ottenga",
+   "otteniamo",
+   "otteniate",
+   "ottengano"
+  ],
+  "cong_imp": [
+   "ottenessi",
+   "ottenessi",
+   "ottenesse",
+   "ottenessimo",
+   "otteneste",
+   "ottenessero"
+  ],
+  "imperativo": [
+   "ot-",
+   "ottieni",
+   "ottenga",
+   "otteniamo",
+   "ottenete",
+   "ottengano"
+  ],
+  "gerundio": "ottenendo",
+  "participio": "ottenuto"
+ },
+ "permettere": {
+  "level": "normal",
+  "aux": "avere",
+  "presente": [
+   "permetto",
+   "permetti",
+   "permette",
+   "permettiamo",
+   "permettete",
+   "permettono"
+  ],
+  "imperfetto": [
+   "permettevo",
+   "permettevi",
+   "permetteva",
+   "permettevamo",
+   "permettevate",
+   "permettevano"
+  ],
+  "passato_remoto": [
+   "permisi",
+   "permettesti",
+   "permise",
+   "permettemmo",
+   "permetteste",
+   "permisero"
+  ],
+  "futuro": [
+   "permetterò",
+   "permetterai",
+   "permetterà",
+   "permetteremo",
+   "permetterete",
+   "permetteranno"
+  ],
+  "condizionale": [
+   "permetterei",
+   "permetteresti",
+   "permetterebbe",
+   "permetteremmo",
+   "permettereste",
+   "permetterebbero"
+  ],
+  "cong_pres": [
+   "permetta",
+   "permetta",
+   "permetta",
+   "permettiamo",
+   "permettiate",
+   "permettano"
+  ],
+  "cong_imp": [
+   "permettessi",
+   "permettessi",
+   "permettesse",
+   "permettessimo",
+   "permetteste",
+   "permettessero"
+  ],
+  "imperativo": [
+   "per-",
+   "permetti",
+   "permetta",
+   "permettiamo",
+   "permettete",
+   "permettano"
+  ],
+  "gerundio": "permettendo",
+  "participio": "permesso"
+ },
+ "raggiungere": {
+  "level": "normal",
+  "aux": "avere",
+  "presente": [
+   "raggiungo",
+   "raggiungi",
+   "raggiunge",
+   "raggiungiamo",
+   "raggiungete",
+   "raggiungono"
+  ],
+  "imperfetto": [
+   "raggiungevo",
+   "raggiungevi",
+   "raggiungeva",
+   "raggiungevamo",
+   "raggiungevate",
+   "raggiungevano"
+  ],
+  "passato_remoto": [
+   "raggiunsi",
+   "raggiungesti",
+   "raggiunse",
+   "raggiungemmo",
+   "raggiungeste",
+   "raggiunsero"
+  ],
+  "futuro": [
+   "raggiungerò",
+   "raggiungerai",
+   "raggiungerà",
+   "raggiungeremo",
+   "raggiungerete",
+   "raggiungeranno"
+  ],
+  "condizionale": [
+   "raggiungerei",
+   "raggiungeresti",
+   "raggiungerebbe",
+   "raggiungeremmo",
+   "raggiungereste",
+   "raggiungerebbero"
+  ],
+  "cong_pres": [
+   "raggiunga",
+   "raggiunga",
+   "raggiunga",
+   "raggiungiamo",
+   "raggiungiate",
+   "raggiungano"
+  ],
+  "cong_imp": [
+   "raggiungessi",
+   "raggiungessi",
+   "raggiungesse",
+   "raggiungessimo",
+   "raggiungeste",
+   "raggiungessero"
+  ],
+  "imperativo": [
+   "-",
+   "raggiungi",
+   "raggiunga",
+   "raggiungiamo",
+   "raggiungete",
+   "raggiungano"
+  ],
+  "gerundio": "raggiungendo",
+  "participio": "raggiunto"
+ },
+ "mantenere": {
+  "level": "normal",
+  "aux": "avere",
+  "presente": [
+   "mantengo",
+   "mantieni",
+   "mantiene",
+   "manteniamo",
+   "mantenete",
+   "mantengono"
+  ],
+  "imperfetto": [
+   "mantenevo",
+   "mantenevi",
+   "manteneva",
+   "mantenevamo",
+   "mantenevate",
+   "mantenevano"
+  ],
+  "passato_remoto": [
+   "mantenni",
+   "mantenesti",
+   "mantenne",
+   "mantenemmo",
+   "manteneste",
+   "mantennero"
+  ],
+  "futuro": [
+   "manterrò",
+   "manterrai",
+   "manterrà",
+   "manterremo",
+   "manterrete",
+   "manterranno"
+  ],
+  "condizionale": [
+   "manterrei",
+   "manterresti",
+   "manterrebbe",
+   "manterremmo",
+   "manterreste",
+   "manterrebbero"
+  ],
+  "cong_pres": [
+   "mantenga",
+   "mantenga",
+   "mantenga",
+   "manteniamo",
+   "manteniate",
+   "mantengano"
+  ],
+  "cong_imp": [
+   "mantenessi",
+   "mantenessi",
+   "mantenesse",
+   "mantenessimo",
+   "manteneste",
+   "mantenessero"
+  ],
+  "imperativo": [
+   "man-",
+   "mantieni",
+   "mantenga",
+   "manteniamo",
+   "mantenete",
+   "mantengano"
+  ],
+  "gerundio": "mantenendo",
+  "participio": "mantenuto"
+ },
+ "contenere": {
+  "level": "normal",
+  "aux": "avere",
+  "presente": [
+   "contengo",
+   "contieni",
+   "contiene",
+   "conteniamo",
+   "contenete",
+   "contengono"
+  ],
+  "imperfetto": [
+   "contenevo",
+   "contenevi",
+   "conteneva",
+   "contenevamo",
+   "contenevate",
+   "contenevano"
+  ],
+  "passato_remoto": [
+   "contenni",
+   "contenesti",
+   "contenne",
+   "contenemmo",
+   "conteneste",
+   "contennero"
+  ],
+  "futuro": [
+   "conterrò",
+   "conterrai",
+   "conterrà",
+   "conterremo",
+   "conterrete",
+   "conterranno"
+  ],
+  "condizionale": [
+   "conterrei",
+   "conterresti",
+   "conterrebbe",
+   "conterremmo",
+   "conterreste",
+   "conterrebbero"
+  ],
+  "cong_pres": [
+   "contenga",
+   "contenga",
+   "contenga",
+   "conteniamo",
+   "conteniate",
+   "contengano"
+  ],
+  "cong_imp": [
+   "contenessi",
+   "contenessi",
+   "contenesse",
+   "contenessimo",
+   "conteneste",
+   "contenessero"
+  ],
+  "imperativo": [
+   "con-",
+   "contieni",
+   "contenga",
+   "conteniamo",
+   "contenete",
+   "contengano"
+  ],
+  "gerundio": "contenendo",
+  "participio": "contenuto"
+ },
+ "appartenere": {
+  "level": "normal",
+  "aux": "avere",
+  "presente": [
+   "appartengo",
+   "appartieni",
+   "appartiene",
+   "apparteniamo",
+   "appartenete",
+   "appartengono"
+  ],
+  "imperfetto": [
+   "appartenevo",
+   "appartenevi",
+   "apparteneva",
+   "appartenevamo",
+   "appartenevate",
+   "appartenevano"
+  ],
+  "passato_remoto": [
+   "appartenni",
+   "appartenesti",
+   "appartenne",
+   "appartenemmo",
+   "apparteneste",
+   "appartennero"
+  ],
+  "futuro": [
+   "apparterrò",
+   "apparterrai",
+   "apparterrà",
+   "apparterremo",
+   "apparterrete",
+   "apparterranno"
+  ],
+  "condizionale": [
+   "apparterrei",
+   "apparterresti",
+   "apparterrebbe",
+   "apparterremmo",
+   "apparterreste",
+   "apparterrebbero"
+  ],
+  "cong_pres": [
+   "appartenga",
+   "appartenga",
+   "appartenga",
+   "apparteniamo",
+   "apparteniate",
+   "appartengano"
+  ],
+  "cong_imp": [
+   "appartenessi",
+   "appartenessi",
+   "appartenesse",
+   "appartenessimo",
+   "apparteneste",
+   "appartenessero"
+  ],
+  "imperativo": [
+   "appar-",
+   "appartieni",
+   "appartenga",
+   "apparteniamo",
+   "appartenete",
+   "appartengano"
+  ],
+  "gerundio": "appartenendo",
+  "participio": "appartenuto"
+ },
+ "costruire": {
+  "level": "normal",
+  "aux": "avere",
+  "presente": [
+   "costruisco",
+   "costruisci",
+   "costruisce",
+   "costruiamo",
+   "costruite",
+   "costruiscono"
+  ],
+  "imperfetto": [
+   "costruivo",
+   "costruivi",
+   "costruiva",
+   "costruivamo",
+   "costruivate",
+   "costruivano"
+  ],
+  "passato_remoto": [
+   "costruii",
+   "costruisti",
+   "costruì",
+   "costruimmo",
+   "costruiste",
+   "costruirono"
+  ],
+  "futuro": [
+   "costruirò",
+   "costruirai",
+   "costruirà",
+   "costruiremo",
+   "costruirete",
+   "costruiranno"
+  ],
+  "condizionale": [
+   "costruirei",
+   "costruiresti",
+   "costruirebbe",
+   "costruiremmo",
+   "costruireste",
+   "costruirebbero"
+  ],
+  "cong_pres": [
+   "costruisca",
+   "costruisca",
+   "costruisca",
+   "costruiamo",
+   "costruiate",
+   "costruiscano"
+  ],
+  "cong_imp": [
+   "costruissi",
+   "costruissi",
+   "costruisse",
+   "costruissimo",
+   "costruiste",
+   "costruissero"
+  ],
+  "imperativo": [
+   "-",
+   "costruisci",
+   "costruisca",
+   "costruiamo",
+   "costruite",
+   "costruiscano"
+  ],
+  "gerundio": "costruendo",
+  "participio": "costruito"
+ },
+ "produrre": {
+  "level": "normal",
+  "aux": "avere",
+  "presente": [
+   "produco",
+   "produci",
+   "produce",
+   "produciamo",
+   "producete",
+   "producono"
+  ],
+  "imperfetto": [
+   "producevo",
+   "producevi",
+   "produceva",
+   "producevamo",
+   "producevate",
+   "producevano"
+  ],
+  "passato_remoto": [
+   "produssi",
+   "producesti",
+   "produsse",
+   "producemmo",
+   "produceste",
+   "produssero"
+  ],
+  "futuro": [
+   "produrrò",
+   "produrrai",
+   "produrrà",
+   "produrremo",
+   "produrrete",
+   "produrranno"
+  ],
+  "condizionale": [
+   "produrrei",
+   "produrresti",
+   "produrrebbe",
+   "produrremmo",
+   "produrreste",
+   "produrrebbero"
+  ],
+  "cong_pres": [
+   "produca",
+   "produca",
+   "produca",
+   "produciamo",
+   "produciate",
+   "producano"
+  ],
+  "cong_imp": [
+   "producessi",
+   "producessi",
+   "producesse",
+   "producessimo",
+   "produceste",
+   "producessero"
+  ],
+  "imperativo": [
+   "pro-",
+   "produci",
+   "produca",
+   "produciamo",
+   "producete",
+   "producano"
+  ],
+  "gerundio": "producendo",
+  "participio": "prodotto"
+ },
+ "ridurre": {
+  "level": "normal",
+  "aux": "avere",
+  "presente": [
+   "riduco",
+   "riduci",
+   "riduce",
+   "riduciamo",
+   "riducete",
+   "riducono"
+  ],
+  "imperfetto": [
+   "riducevo",
+   "riducevi",
+   "riduceva",
+   "riducevamo",
+   "riducevate",
+   "riducevano"
+  ],
+  "passato_remoto": [
+   "ridussi",
+   "riducesti",
+   "ridusse",
+   "riducemmo",
+   "riduceste",
+   "ridussero"
+  ],
+  "futuro": [
+   "ridurrò",
+   "ridurrai",
+   "ridurrà",
+   "ridurremo",
+   "ridurrete",
+   "ridurranno"
+  ],
+  "condizionale": [
+   "ridurrei",
+   "ridurresti",
+   "ridurrebbe",
+   "ridurremmo",
+   "ridurreste",
+   "ridurrebbero"
+  ],
+  "cong_pres": [
+   "riduca",
+   "riduca",
+   "riduca",
+   "riduciamo",
+   "riduciate",
+   "riducano"
+  ],
+  "cong_imp": [
+   "riducessi",
+   "riducessi",
+   "riducesse",
+   "riducessimo",
+   "riduceste",
+   "riducessero"
+  ],
+  "imperativo": [
+   "ri-",
+   "riduci",
+   "riduca",
+   "riduciamo",
+   "riducete",
+   "riducano"
+  ],
+  "gerundio": "riducendo",
+  "participio": "ridotto"
+ },
+ "tradurre": {
+  "level": "normal",
+  "aux": "avere",
+  "presente": [
+   "traduco",
+   "traduci",
+   "traduce",
+   "traduciamo",
+   "traducete",
+   "traducono"
+  ],
+  "imperfetto": [
+   "traducevo",
+   "traducevi",
+   "traduceva",
+   "traducevamo",
+   "traducevate",
+   "traducevano"
+  ],
+  "passato_remoto": [
+   "tradussi",
+   "traducesti",
+   "tradusse",
+   "traducemmo",
+   "traduceste",
+   "tradussero"
+  ],
+  "futuro": [
+   "tradurrò",
+   "tradurrai",
+   "tradurrà",
+   "tradurremo",
+   "tradurrete",
+   "tradurranno"
+  ],
+  "condizionale": [
+   "tradurrei",
+   "tradurresti",
+   "tradurrebbe",
+   "tradurremmo",
+   "tradurreste",
+   "tradurrebbero"
+  ],
+  "cong_pres": [
+   "traduca",
+   "traduca",
+   "traduca",
+   "traduciamo",
+   "traduciate",
+   "traducano"
+  ],
+  "cong_imp": [
+   "traducessi",
+   "traducessi",
+   "traducesse",
+   "traducessimo",
+   "traduceste",
+   "traducessero"
+  ],
+  "imperativo": [
+   "-",
+   "traduci",
+   "traduca",
+   "traduciamo",
+   "traducete",
+   "traducano"
+  ],
+  "gerundio": "traducendo",
+  "participio": "tradotto"
+ },
+ "condurre": {
+  "level": "normal",
+  "aux": "avere",
+  "presente": [
+   "conduco",
+   "conduci",
+   "conduce",
+   "conduciamo",
+   "conducete",
+   "conducono"
+  ],
+  "imperfetto": [
+   "conducevo",
+   "conducevi",
+   "conduceva",
+   "conducevamo",
+   "conducevate",
+   "conducevano"
+  ],
+  "passato_remoto": [
+   "condussi",
+   "conducesti",
+   "condusse",
+   "conducemmo",
+   "conduceste",
+   "condussero"
+  ],
+  "futuro": [
+   "condurrò",
+   "condurrai",
+   "condurrà",
+   "condurremo",
+   "condurrete",
+   "condurranno"
+  ],
+  "condizionale": [
+   "condurrei",
+   "condurresti",
+   "condurrebbe",
+   "condurremmo",
+   "condurreste",
+   "condurrebbero"
+  ],
+  "cong_pres": [
+   "conduca",
+   "conduca",
+   "conduca",
+   "conduciamo",
+   "conduciate",
+   "conducano"
+  ],
+  "cong_imp": [
+   "conducessi",
+   "conducessi",
+   "conducesse",
+   "conducessimo",
+   "conduceste",
+   "conducessero"
+  ],
+  "imperativo": [
+   "con-",
+   "conduci",
+   "conduca",
+   "conduciamo",
+   "conducete",
+   "conducano"
+  ],
+  "gerundio": "conducendo",
+  "participio": "condotto"
+ },
+ "proporre": {
+  "level": "normal",
+  "aux": "avere",
+  "presente": [
+   "propongo",
+   "proponi",
+   "propone",
+   "proponiamo",
+   "proponete",
+   "propongono"
+  ],
+  "imperfetto": [
+   "proponevo",
+   "proponevi",
+   "proponeva",
+   "proponevamo",
+   "proponevate",
+   "proponevano"
+  ],
+  "passato_remoto": [
+   "proposi",
+   "proponesti",
+   "propose",
+   "proponemmo",
+   "proponeste",
+   "proposero"
+  ],
+  "futuro": [
+   "proporrò",
+   "proporrai",
+   "proporrà",
+   "proporremo",
+   "proporrete",
+   "proporranno"
+  ],
+  "condizionale": [
+   "proporrei",
+   "proporresti",
+   "proporrebbe",
+   "proporremmo",
+   "proporreste",
+   "proporrebbero"
+  ],
+  "cong_pres": [
+   "proponga",
+   "proponga",
+   "proponga",
+   "proponiamo",
+   "proponiate",
+   "propongano"
+  ],
+  "cong_imp": [
+   "proponessi",
+   "proponessi",
+   "proponesse",
+   "proponessimo",
+   "proponeste",
+   "proponessero"
+  ],
+  "imperativo": [
+   "pro-",
+   "proponi",
+   "proponga",
+   "proponiamo",
+   "proponete",
+   "propongano"
+  ],
+  "gerundio": "proponendo",
+  "participio": "proposto"
+ },
+ "supporre": {
+  "level": "normal",
+  "aux": "avere",
+  "presente": [
+   "suppongo",
+   "supponi",
+   "suppone",
+   "supponiamo",
+   "supponete",
+   "suppongono"
+  ],
+  "imperfetto": [
+   "supponevo",
+   "supponevi",
+   "supponeva",
+   "supponevamo",
+   "supponevate",
+   "supponevano"
+  ],
+  "passato_remoto": [
+   "supposi",
+   "supponesti",
+   "suppose",
+   "supponemmo",
+   "supponeste",
+   "supposero"
+  ],
+  "futuro": [
+   "supporrò",
+   "supporrai",
+   "supporrà",
+   "supporremo",
+   "supporrete",
+   "supporranno"
+  ],
+  "condizionale": [
+   "supporrei",
+   "supporresti",
+   "supporrebbe",
+   "supporremmo",
+   "supporreste",
+   "supporrebbero"
+  ],
+  "cong_pres": [
+   "supponga",
+   "supponga",
+   "supponga",
+   "supponiamo",
+   "supponiate",
+   "suppongano"
+  ],
+  "cong_imp": [
+   "supponessi",
+   "supponessi",
+   "supponesse",
+   "supponessimo",
+   "supponeste",
+   "supponessero"
+  ],
+  "imperativo": [
+   "sup-",
+   "supponi",
+   "supponga",
+   "supponiamo",
+   "supponete",
+   "suppongano"
+  ],
+  "gerundio": "supponendo",
+  "participio": "supposto"
+ },
+ "opporre": {
+  "level": "normal",
+  "aux": "avere",
+  "presente": [
+   "oppongo",
+   "opponi",
+   "oppone",
+   "opponiamo",
+   "opponete",
+   "oppongono"
+  ],
+  "imperfetto": [
+   "opponevo",
+   "opponevi",
+   "opponeva",
+   "opponevamo",
+   "opponevate",
+   "opponevano"
+  ],
+  "passato_remoto": [
+   "opposi",
+   "opponesti",
+   "oppose",
+   "opponemmo",
+   "opponeste",
+   "opposero"
+  ],
+  "futuro": [
+   "opporrò",
+   "opporrai",
+   "opporrà",
+   "opporremo",
+   "opporrete",
+   "opporranno"
+  ],
+  "condizionale": [
+   "opporrei",
+   "opporresti",
+   "opporrebbe",
+   "opporremmo",
+   "opporreste",
+   "opporrebbero"
+  ],
+  "cong_pres": [
+   "opponga",
+   "opponga",
+   "opponga",
+   "opponiamo",
+   "opponiate",
+   "oppongano"
+  ],
+  "cong_imp": [
+   "opponessi",
+   "opponessi",
+   "opponesse",
+   "opponessimo",
+   "opponeste",
+   "opponessero"
+  ],
+  "imperativo": [
+   "op-",
+   "opponi",
+   "opponga",
+   "opponiamo",
+   "opponete",
+   "oppongano"
+  ],
+  "gerundio": "opponendo",
+  "participio": "opposto"
+ },
+ "comporre": {
+  "level": "normal",
+  "aux": "avere",
+  "presente": [
+   "compongo",
+   "componi",
+   "compone",
+   "componiamo",
+   "componete",
+   "compongono"
+  ],
+  "imperfetto": [
+   "componevo",
+   "componevi",
+   "componeva",
+   "componevamo",
+   "componevate",
+   "componevano"
+  ],
+  "passato_remoto": [
+   "composi",
+   "componesti",
+   "compose",
+   "componemmo",
+   "componeste",
+   "composero"
+  ],
+  "futuro": [
+   "comporrò",
+   "comporrai",
+   "comporrà",
+   "comporremo",
+   "comporrete",
+   "comporranno"
+  ],
+  "condizionale": [
+   "comporrei",
+   "comporresti",
+   "comporrebbe",
+   "comporremmo",
+   "comporreste",
+   "comporrebbero"
+  ],
+  "cong_pres": [
+   "componga",
+   "componga",
+   "componga",
+   "componiamo",
+   "componiate",
+   "compongano"
+  ],
+  "cong_imp": [
+   "componessi",
+   "componessi",
+   "componesse",
+   "componessimo",
+   "componeste",
+   "componessero"
+  ],
+  "imperativo": [
+   "com-",
+   "componi",
+   "componga",
+   "componiamo",
+   "componete",
+   "compongano"
+  ],
+  "gerundio": "componendo",
+  "participio": "composto"
+ },
+ "imporre": {
+  "level": "normal",
+  "aux": "avere",
+  "presente": [
+   "impongo",
+   "imponi",
+   "impone",
+   "imponiamo",
+   "imponete",
+   "impongono"
+  ],
+  "imperfetto": [
+   "imponevo",
+   "imponevi",
+   "imponeva",
+   "imponevamo",
+   "imponevate",
+   "imponevano"
+  ],
+  "passato_remoto": [
+   "imposi",
+   "imponesti",
+   "impose",
+   "imponemmo",
+   "imponeste",
+   "imposero"
+  ],
+  "futuro": [
+   "imporrò",
+   "imporrai",
+   "imporrà",
+   "imporremo",
+   "imporrete",
+   "imporranno"
+  ],
+  "condizionale": [
+   "imporrei",
+   "imporresti",
+   "imporrebbe",
+   "imporremmo",
+   "imporreste",
+   "imporrebbero"
+  ],
+  "cong_pres": [
+   "imponga",
+   "imponga",
+   "imponga",
+   "imponiamo",
+   "imponiate",
+   "impongano"
+  ],
+  "cong_imp": [
+   "imponessi",
+   "imponessi",
+   "imponesse",
+   "imponessimo",
+   "imponeste",
+   "imponessero"
+  ],
+  "imperativo": [
+   "im-",
+   "imponi",
+   "imponga",
+   "imponiamo",
+   "imponete",
+   "impongano"
+  ],
+  "gerundio": "imponendo",
+  "participio": "imposto"
+ },
+ "esporre": {
+  "level": "normal",
+  "aux": "avere",
+  "presente": [
+   "espongo",
+   "esponi",
+   "espone",
+   "esponiamo",
+   "esponete",
+   "espongono"
+  ],
+  "imperfetto": [
+   "esponevo",
+   "esponevi",
+   "esponeva",
+   "esponevamo",
+   "esponevate",
+   "esponevano"
+  ],
+  "passato_remoto": [
+   "esposi",
+   "esponesti",
+   "espose",
+   "esponemmo",
+   "esponeste",
+   "esposero"
+  ],
+  "futuro": [
+   "esporrò",
+   "esporrai",
+   "esporrà",
+   "esporremo",
+   "esporrete",
+   "esporranno"
+  ],
+  "condizionale": [
+   "esporrei",
+   "esporresti",
+   "esporrebbe",
+   "esporremmo",
+   "esporreste",
+   "esporrebbero"
+  ],
+  "cong_pres": [
+   "esponga",
+   "esponga",
+   "esponga",
+   "esponiamo",
+   "esponiate",
+   "espongano"
+  ],
+  "cong_imp": [
+   "esponessi",
+   "esponessi",
+   "esponesse",
+   "esponessimo",
+   "esponeste",
+   "esponessero"
+  ],
+  "imperativo": [
+   "es-",
+   "esponi",
+   "esponga",
+   "esponiamo",
+   "esponete",
+   "espongano"
+  ],
+  "gerundio": "esponendo",
+  "participio": "esposto"
+ },
+ "disporre": {
+  "level": "normal",
+  "aux": "avere",
+  "presente": [
+   "dispongo",
+   "disponi",
+   "dispone",
+   "disponiamo",
+   "disponete",
+   "dispongono"
+  ],
+  "imperfetto": [
+   "disponevo",
+   "disponevi",
+   "disponeva",
+   "disponevamo",
+   "disponevate",
+   "disponevano"
+  ],
+  "passato_remoto": [
+   "disposi",
+   "disponesti",
+   "dispose",
+   "disponemmo",
+   "disponeste",
+   "disposero"
+  ],
+  "futuro": [
+   "disporrò",
+   "disporrai",
+   "disporrà",
+   "disporremo",
+   "disporrete",
+   "disporranno"
+  ],
+  "condizionale": [
+   "disporrei",
+   "disporresti",
+   "disporrebbe",
+   "disporremmo",
+   "disporreste",
+   "disporrebbero"
+  ],
+  "cong_pres": [
+   "disponga",
+   "disponga",
+   "disponga",
+   "disponiamo",
+   "disponiate",
+   "dispongano"
+  ],
+  "cong_imp": [
+   "disponessi",
+   "disponessi",
+   "disponesse",
+   "disponessimo",
+   "disponeste",
+   "disponessero"
+  ],
+  "imperativo": [
+   "dis-",
+   "disponi",
+   "disponga",
+   "disponiamo",
+   "disponete",
+   "dispongano"
+  ],
+  "gerundio": "disponendo",
+  "participio": "disposto"
+ },
+ "scomparire": {
+  "level": "normal",
+  "aux": "essere",
+  "presente": [
+   "scomparisco",
+   "scomparisci",
+   "scomparisce",
+   "scompariamo",
+   "scomparite",
+   "scompariscono"
+  ],
+  "imperfetto": [
+   "scomparivo",
+   "scomparivi",
+   "scompariva",
+   "scomparivamo",
+   "scomparivate",
+   "scomparivano"
+  ],
+  "passato_remoto": [
+   "scomparii",
+   "scomparisti",
+   "scomparì",
+   "scomparimmo",
+   "scompariste",
+   "scomparirono"
+  ],
+  "futuro": [
+   "scomparirò",
+   "scomparirai",
+   "scomparirà",
+   "scompariremo",
+   "scomparirete",
+   "scompariranno"
+  ],
+  "condizionale": [
+   "scomparirei",
+   "scompariresti",
+   "scomparirebbe",
+   "scompariremmo",
+   "scomparireste",
+   "scomparirebbero"
+  ],
+  "cong_pres": [
+   "scomparisca",
+   "scomparisca",
+   "scomparisca",
+   "scompariamo",
+   "scompariate",
+   "scompariscano"
+  ],
+  "cong_imp": [
+   "scomparissi",
+   "scomparissi",
+   "scomparisse",
+   "scomparissimo",
+   "scompariste",
+   "scomparissero"
+  ],
+  "imperativo": [
+   "-",
+   "scomparisci",
+   "scomparisca",
+   "scompariamo",
+   "scomparite",
+   "scompariscano"
+  ],
+  "gerundio": "scomparendo",
+  "participio": "scomparito"
+ },
+ "comparire": {
+  "level": "normal",
+  "aux": "essere",
+  "presente": [
+   "comparisco",
+   "comparisci",
+   "comparisce",
+   "compariamo",
+   "comparite",
+   "compariscono"
+  ],
+  "imperfetto": [
+   "comparivo",
+   "comparivi",
+   "compariva",
+   "comparivamo",
+   "comparivate",
+   "comparivano"
+  ],
+  "passato_remoto": [
+   "comparii",
+   "comparisti",
+   "comparì",
+   "comparimmo",
+   "compariste",
+   "comparirono"
+  ],
+  "futuro": [
+   "comparirò",
+   "comparirai",
+   "comparirà",
+   "compariremo",
+   "comparirete",
+   "compariranno"
+  ],
+  "condizionale": [
+   "comparirei",
+   "compariresti",
+   "comparirebbe",
+   "compariremmo",
+   "comparireste",
+   "comparirebbero"
+  ],
+  "cong_pres": [
+   "comparisca",
+   "comparisca",
+   "comparisca",
+   "compariamo",
+   "compariate",
+   "compariscano"
+  ],
+  "cong_imp": [
+   "comparissi",
+   "comparissi",
+   "comparisse",
+   "comparissimo",
+   "compariste",
+   "comparissero"
+  ],
+  "imperativo": [
+   "-",
+   "comparisci",
+   "comparisca",
+   "compariamo",
+   "comparite",
+   "compariscano"
+  ],
+  "gerundio": "comparendo",
+  "participio": "comparito"
+ },
+ "apparire": {
+  "level": "normal",
+  "aux": "essere",
+  "presente": [
+   "appaio",
+   "appari",
+   "appare",
+   "appariamo",
+   "apparite",
+   "appaiono"
+  ],
+  "imperfetto": [
+   "apparivo",
+   "apparivi",
+   "appariva",
+   "apparivamo",
+   "apparivate",
+   "apparivano"
+  ],
+  "passato_remoto": [
+   "apparvi",
+   "apparisti",
+   "apparve",
+   "apparimmo",
+   "appariste",
+   "apparvero"
+  ],
+  "futuro": [
+   "apparirò",
+   "apparirai",
+   "apparirà",
+   "appariremo",
+   "apparirete",
+   "appariranno"
+  ],
+  "condizionale": [
+   "apparirei",
+   "appariresti",
+   "apparirebbe",
+   "appariremmo",
+   "apparireste",
+   "apparirebbero"
+  ],
+  "cong_pres": [
+   "appaia",
+   "appaia",
+   "appaia",
+   "appariamo",
+   "appariate",
+   "appaiano"
+  ],
+  "cong_imp": [
+   "apparissi",
+   "apparissi",
+   "apparisse",
+   "apparissimo",
+   "appariste",
+   "apparissero"
+  ],
+  "imperativo": [
+   "-",
+   "appari",
+   "appaia",
+   "appariamo",
+   "apparite",
+   "appaiano"
+  ],
+  "gerundio": "apparendo",
+  "participio": "apparso"
+ },
+ "sparire": {
+  "level": "normal",
+  "aux": "essere",
+  "presente": [
+   "sparisco",
+   "sparisci",
+   "sparisce",
+   "spariamo",
+   "sparite",
+   "spariscono"
+  ],
+  "imperfetto": [
+   "sparivo",
+   "sparivi",
+   "spariva",
+   "sparivamo",
+   "sparivate",
+   "sparivano"
+  ],
+  "passato_remoto": [
+   "sparii",
+   "sparisti",
+   "sparì",
+   "sparimmo",
+   "spariste",
+   "sparirono"
+  ],
+  "futuro": [
+   "sparirò",
+   "sparirai",
+   "sparirà",
+   "spariremo",
+   "sparirete",
+   "spariranno"
+  ],
+  "condizionale": [
+   "sparirei",
+   "spariresti",
+   "sparirebbe",
+   "spariremmo",
+   "sparireste",
+   "sparirebbero"
+  ],
+  "cong_pres": [
+   "sparisca",
+   "sparisca",
+   "sparisca",
+   "spariamo",
+   "spariate",
+   "spariscano"
+  ],
+  "cong_imp": [
+   "sparissi",
+   "sparissi",
+   "sparisse",
+   "sparissimo",
+   "spariste",
+   "sparissero"
+  ],
+  "imperativo": [
+   "-",
+   "sparisci",
+   "sparisca",
+   "spariamo",
+   "sparite",
+   "spariscano"
+  ],
+  "gerundio": "sparendo",
+  "participio": "sparito"
+ },
+ "preferire": {
+  "level": "normal",
+  "aux": "avere",
+  "presente": [
+   "preferisco",
+   "preferisci",
+   "preferisce",
+   "preferiamo",
+   "preferite",
+   "preferiscono"
+  ],
+  "imperfetto": [
+   "preferivo",
+   "preferivi",
+   "preferiva",
+   "preferivamo",
+   "preferivate",
+   "preferivano"
+  ],
+  "passato_remoto": [
+   "preferii",
+   "preferisti",
+   "preferì",
+   "preferimmo",
+   "preferiste",
+   "preferirono"
+  ],
+  "futuro": [
+   "preferirò",
+   "preferirai",
+   "preferirà",
+   "preferiremo",
+   "preferirete",
+   "preferiranno"
+  ],
+  "condizionale": [
+   "preferirei",
+   "preferiresti",
+   "preferirebbe",
+   "preferiremmo",
+   "preferireste",
+   "preferirebbero"
+  ],
+  "cong_pres": [
+   "preferisca",
+   "preferisca",
+   "preferisca",
+   "preferiamo",
+   "preferiate",
+   "preferiscano"
+  ],
+  "cong_imp": [
+   "preferissi",
+   "preferissi",
+   "preferisse",
+   "preferissimo",
+   "preferiste",
+   "preferissero"
+  ],
+  "imperativo": [
+   "-",
+   "preferisci",
+   "preferisca",
+   "preferiamo",
+   "preferite",
+   "preferiscano"
+  ],
+  "gerundio": "preferendo",
+  "participio": "preferito"
+ },
+ "offrire": {
+  "level": "normal",
+  "aux": "avere",
+  "presente": [
+   "offro",
+   "offri",
+   "offre",
+   "offriamo",
+   "offrite",
+   "offrono"
+  ],
+  "imperfetto": [
+   "offrivo",
+   "offrivi",
+   "offriva",
+   "offrivamo",
+   "offrivate",
+   "offrivano"
+  ],
+  "passato_remoto": [
+   "offrii",
+   "offristi",
+   "offrì",
+   "offrimmo",
+   "offriste",
+   "offrirono"
+  ],
+  "futuro": [
+   "offrirò",
+   "offrirai",
+   "offrirà",
+   "offriremo",
+   "offrirete",
+   "offriranno"
+  ],
+  "condizionale": [
+   "offrirei",
+   "offriresti",
+   "offrirebbe",
+   "offriremmo",
+   "offrireste",
+   "offrirebbero"
+  ],
+  "cong_pres": [
+   "offra",
+   "offra",
+   "offra",
+   "offriamo",
+   "offriate",
+   "offrano"
+  ],
+  "cong_imp": [
+   "offrissi",
+   "offrissi",
+   "offrisse",
+   "offrissimo",
+   "offriste",
+   "offrissero"
+  ],
+  "imperativo": [
+   "-",
+   "offri",
+   "offra",
+   "offriamo",
+   "offrite",
+   "offrano"
+  ],
+  "gerundio": "offrendo",
+  "participio": "offerto"
+ },
+ "soffrire": {
+  "level": "normal",
+  "aux": "avere",
+  "presente": [
+   "soffro",
+   "soffri",
+   "soffre",
+   "soffriamo",
+   "soffrite",
+   "soffrono"
+  ],
+  "imperfetto": [
+   "soffrivo",
+   "soffrivi",
+   "soffriva",
+   "soffrivamo",
+   "soffrivate",
+   "soffrivano"
+  ],
+  "passato_remoto": [
+   "soffrii",
+   "soffristi",
+   "soffrì",
+   "soffrimmo",
+   "soffriste",
+   "soffrirono"
+  ],
+  "futuro": [
+   "soffrirò",
+   "soffrirai",
+   "soffrirà",
+   "soffriremo",
+   "soffrirete",
+   "soffriranno"
+  ],
+  "condizionale": [
+   "soffrirei",
+   "soffriresti",
+   "soffrirebbe",
+   "soffriremmo",
+   "soffrireste",
+   "soffrirebbero"
+  ],
+  "cong_pres": [
+   "soffra",
+   "soffra",
+   "soffra",
+   "soffriamo",
+   "soffriate",
+   "soffrano"
+  ],
+  "cong_imp": [
+   "soffrissi",
+   "soffrissi",
+   "soffrisse",
+   "soffrissimo",
+   "soffriste",
+   "soffrissero"
+  ],
+  "imperativo": [
+   "s-",
+   "soffri",
+   "soffra",
+   "soffriamo",
+   "soffrite",
+   "soffrano"
+  ],
+  "gerundio": "soffrendo",
+  "participio": "sofferto"
+ },
+ "coprire": {
+  "level": "normal",
+  "aux": "avere",
+  "presente": [
+   "copro",
+   "copri",
+   "copre",
+   "copriamo",
+   "coprite",
+   "coprono"
+  ],
+  "imperfetto": [
+   "coprivo",
+   "coprivi",
+   "copriva",
+   "coprivamo",
+   "coprivate",
+   "coprivano"
+  ],
+  "passato_remoto": [
+   "coprii",
+   "copristi",
+   "coprì",
+   "coprimmo",
+   "copriste",
+   "coprirono"
+  ],
+  "futuro": [
+   "coprirò",
+   "coprirai",
+   "coprirà",
+   "copriremo",
+   "coprirete",
+   "copriranno"
+  ],
+  "condizionale": [
+   "coprirei",
+   "copriresti",
+   "coprirebbe",
+   "copriremmo",
+   "coprireste",
+   "coprirebbero"
+  ],
+  "cong_pres": [
+   "copra",
+   "copra",
+   "copra",
+   "copriamo",
+   "copriate",
+   "coprano"
+  ],
+  "cong_imp": [
+   "coprissi",
+   "coprissi",
+   "coprisse",
+   "coprissimo",
+   "copriste",
+   "coprissero"
+  ],
+  "imperativo": [
+   "-",
+   "copri",
+   "copra",
+   "copriamo",
+   "coprite",
+   "coprano"
+  ],
+  "gerundio": "coprendo",
+  "participio": "coperto"
+ },
+ "sopravvivere": {
+  "level": "dificil",
+  "aux": "essere",
+  "presente": [
+   "sopravvivo",
+   "sopravvivi",
+   "sopravvive",
+   "sopravviviamo",
+   "sopravvivete",
+   "sopravvivono"
+  ],
+  "imperfetto": [
+   "sopravvivevo",
+   "sopravvivevi",
+   "sopravviveva",
+   "sopravvivevamo",
+   "sopravvivevate",
+   "sopravvivevano"
+  ],
+  "passato_remoto": [
+   "sopravvissi",
+   "sopravvivesti",
+   "sopravvisse",
+   "sopravvivemmo",
+   "sopravviveste",
+   "sopravvissero"
+  ],
+  "futuro": [
+   "sopravvivrò",
+   "sopravvivrai",
+   "sopravvivrà",
+   "sopravvivremo",
+   "sopravvivrete",
+   "sopravvivranno"
+  ],
+  "condizionale": [
+   "sopravvivrei",
+   "sopravvivresti",
+   "sopravvivrebbe",
+   "sopravvivremmo",
+   "sopravvivreste",
+   "sopravvivrebbero"
+  ],
+  "cong_pres": [
+   "sopravviva",
+   "sopravviva",
+   "sopravviva",
+   "sopravviviamo",
+   "sopravviviate",
+   "sopravvivano"
+  ],
+  "cong_imp": [
+   "sopravvivessi",
+   "sopravvivessi",
+   "sopravvivesse",
+   "sopravvivessimo",
+   "sopravviveste",
+   "sopravvivessero"
+  ],
+  "imperativo": [
+   "-",
+   "sopravvivi",
+   "sopravviva",
+   "sopravviviamo",
+   "sopravvivete",
+   "sopravvivano"
+  ],
+  "gerundio": "sopravvivendo",
+  "participio": "sopravvissuto"
+ },
+ "prevedere": {
+  "level": "dificil",
+  "aux": "avere",
+  "presente": [
+   "prevedo",
+   "prevedi",
+   "prevede",
+   "prevediamo",
+   "prevedete",
+   "prevedono"
+  ],
+  "imperfetto": [
+   "prevedevo",
+   "prevedevi",
+   "prevedeva",
+   "prevedevamo",
+   "prevedevate",
+   "prevedevano"
+  ],
+  "passato_remoto": [
+   "previdi",
+   "prevedesti",
+   "previde",
+   "prevedemmo",
+   "prevedeste",
+   "previdero"
+  ],
+  "futuro": [
+   "prevedrò",
+   "prevedrai",
+   "prevedrà",
+   "prevedremo",
+   "prevedrete",
+   "prevedranno"
+  ],
+  "condizionale": [
+   "prevedrei",
+   "prevedresti",
+   "prevedrebbe",
+   "prevedremmo",
+   "prevedreste",
+   "prevedrebbero"
+  ],
+  "cong_pres": [
+   "preveda",
+   "preveda",
+   "preveda",
+   "prevediamo",
+   "prevediate",
+   "prevedano"
+  ],
+  "cong_imp": [
+   "prevedessi",
+   "prevedessi",
+   "prevedesse",
+   "prevedessimo",
+   "prevedeste",
+   "prevedessero"
+  ],
+  "imperativo": [
+   "pre-",
+   "prevedi",
+   "preveda",
+   "prevediamo",
+   "prevedete",
+   "prevedano"
+  ],
+  "gerundio": "prevedendo",
+  "participio": "previsto"
+ },
+ "presumere": {
+  "level": "dificil",
+  "aux": "avere",
+  "presente": [
+   "presumo",
+   "presumi",
+   "presume",
+   "presumiamo",
+   "presumete",
+   "presumono"
+  ],
+  "imperfetto": [
+   "presumevo",
+   "presumevi",
+   "presumeva",
+   "presumevamo",
+   "presumevate",
+   "presumevano"
+  ],
+  "passato_remoto": [
+   "presunsi",
+   "presumesti",
+   "presunse",
+   "presumemmo",
+   "presumeste",
+   "presunsero"
+  ],
+  "futuro": [
+   "presumerò",
+   "presumerai",
+   "presumerà",
+   "presumeremo",
+   "presumerete",
+   "presumeranno"
+  ],
+  "condizionale": [
+   "presumerei",
+   "presumeresti",
+   "presumerebbe",
+   "presumeremmo",
+   "presumereste",
+   "presumerebbero"
+  ],
+  "cong_pres": [
+   "presuma",
+   "presuma",
+   "presuma",
+   "presumiamo",
+   "presumiate",
+   "presumano"
+  ],
+  "cong_imp": [
+   "presumessi",
+   "presumessi",
+   "presumesse",
+   "presumessimo",
+   "presumeste",
+   "presumessero"
+  ],
+  "imperativo": [
+   "-",
+   "presumi",
+   "presuma",
+   "presumiamo",
+   "presumete",
+   "presumano"
+  ],
+  "gerundio": "presumendo",
+  "participio": "presunto"
+ },
+ "ostentare": {
+  "level": "dificil",
+  "aux": "avere",
+  "presente": [
+   "ostento",
+   "ostenti",
+   "ostenta",
+   "ostentiamo",
+   "ostentate",
+   "ostentano"
+  ],
+  "imperfetto": [
+   "ostentavo",
+   "ostentavi",
+   "ostentava",
+   "ostentavamo",
+   "ostentavate",
+   "ostentavano"
+  ],
+  "passato_remoto": [
+   "ostentai",
+   "ostentasti",
+   "ostentò",
+   "ostentammo",
+   "ostentaste",
+   "ostentarono"
+  ],
+  "futuro": [
+   "ostenterò",
+   "ostenterai",
+   "ostenterà",
+   "ostenteremo",
+   "ostenterete",
+   "ostenteranno"
+  ],
+  "condizionale": [
+   "ostenterei",
+   "ostenteresti",
+   "ostenterebbe",
+   "ostenteremmo",
+   "ostentereste",
+   "ostenterebbero"
+  ],
+  "cong_pres": [
+   "ostenti",
+   "ostenti",
+   "ostenti",
+   "ostentiamo",
+   "ostentiate",
+   "ostentino"
+  ],
+  "cong_imp": [
+   "ostentassi",
+   "ostentassi",
+   "ostentasse",
+   "ostentassimo",
+   "ostentaste",
+   "ostentassero"
+  ],
+  "imperativo": [
+   "-",
+   "ostenta",
+   "ostenti",
+   "ostentiamo",
+   "ostentate",
+   "ostentino"
+  ],
+  "gerundio": "ostentando",
+  "participio": "ostentato"
+ },
+ "prescindere": {
+  "level": "dificil",
+  "aux": "avere",
+  "presente": [
+   "prescindo",
+   "prescindi",
+   "prescinde",
+   "prescindiamo",
+   "prescindete",
+   "prescindono"
+  ],
+  "imperfetto": [
+   "prescindevo",
+   "prescindevi",
+   "prescindeva",
+   "prescindevamo",
+   "prescindevate",
+   "prescindevano"
+  ],
+  "passato_remoto": [
+   "prescissi",
+   "prescindesti",
+   "prescisse",
+   "prescindemmo",
+   "prescindeste",
+   "prescissero"
+  ],
+  "futuro": [
+   "prescinderò",
+   "prescinderai",
+   "prescinderà",
+   "prescinderemo",
+   "prescinderete",
+   "prescinderanno"
+  ],
+  "condizionale": [
+   "prescinderei",
+   "prescinderesti",
+   "prescinderebbe",
+   "prescinderemmo",
+   "prescindereste",
+   "prescinderebbero"
+  ],
+  "cong_pres": [
+   "prescinda",
+   "prescinda",
+   "prescinda",
+   "prescindiamo",
+   "prescindiate",
+   "prescindano"
+  ],
+  "cong_imp": [
+   "prescindessi",
+   "prescindessi",
+   "prescindesse",
+   "prescindessimo",
+   "prescindeste",
+   "prescindessero"
+  ],
+  "imperativo": [
+   "pre-",
+   "prescindi",
+   "prescinda",
+   "prescindiamo",
+   "prescindete",
+   "prescindano"
+  ],
+  "gerundio": "prescindendo",
+  "participio": "prescisso"
+ },
+ "discernere": {
+  "level": "dificil",
+  "aux": "avere",
+  "presente": [
+   "discerno",
+   "discerni",
+   "discerne",
+   "discerniamo",
+   "discernete",
+   "discernono"
+  ],
+  "imperfetto": [
+   "discernevo",
+   "discernevi",
+   "discerneva",
+   "discernevamo",
+   "discernevate",
+   "discernevano"
+  ],
+  "passato_remoto": [
+   "discernei",
+   "discernesti",
+   "discerné",
+   "discernemmo",
+   "discerneste",
+   "discernerono"
+  ],
+  "futuro": [
+   "discernerò",
+   "discernerai",
+   "discernerà",
+   "discerneremo",
+   "discernerete",
+   "discerneranno"
+  ],
+  "condizionale": [
+   "discernerei",
+   "discerneresti",
+   "discernerebbe",
+   "discerneremmo",
+   "discernereste",
+   "discernerebbero"
+  ],
+  "cong_pres": [
+   "discerna",
+   "discerna",
+   "discerna",
+   "discerniamo",
+   "discerniate",
+   "discernano"
+  ],
+  "cong_imp": [
+   "discernessi",
+   "discernessi",
+   "discernesse",
+   "discernessimo",
+   "discerneste",
+   "discernessero"
+  ],
+  "imperativo": [
+   "-",
+   "discerni",
+   "discerna",
+   "discerniamo",
+   "discernete",
+   "discernano"
+  ],
+  "gerundio": "discernendo",
+  "participio": "discernuto"
+ },
+ "esplicare": {
+  "level": "dificil",
+  "aux": "avere",
+  "presente": [
+   "esplico",
+   "esplichi",
+   "esplica",
+   "esplichiamo",
+   "esplicate",
+   "esplicano"
+  ],
+  "imperfetto": [
+   "esplicavo",
+   "esplicavi",
+   "esplicava",
+   "esplicavamo",
+   "esplicavate",
+   "esplicavano"
+  ],
+  "passato_remoto": [
+   "esplicai",
+   "esplicasti",
+   "esplicò",
+   "esplicammo",
+   "esplicaste",
+   "esplicarono"
+  ],
+  "futuro": [
+   "esplicherò",
+   "esplicherai",
+   "esplicherà",
+   "esplicheremo",
+   "esplicherete",
+   "esplicheranno"
+  ],
+  "condizionale": [
+   "esplicherei",
+   "esplicheresti",
+   "esplicherebbe",
+   "esplicheremmo",
+   "esplichereste",
+   "esplicherebbero"
+  ],
+  "cong_pres": [
+   "esplichi",
+   "esplichi",
+   "esplichi",
+   "esplichiamo",
+   "esplichiate",
+   "esplichino"
+  ],
+  "cong_imp": [
+   "esplicassi",
+   "esplicassi",
+   "esplicasse",
+   "esplicassimo",
+   "esplicaste",
+   "esplicassero"
+  ],
+  "imperativo": [
+   "-",
+   "esplica",
+   "esplichi",
+   "esplichiamo",
+   "esplicate",
+   "esplichino"
+  ],
+  "gerundio": "esplicando",
+  "participio": "esplicato"
+ },
+ "delineare": {
+  "level": "dificil",
+  "aux": "avere",
+  "presente": [
+   "delineo",
+   "delinei",
+   "delinea",
+   "delineiamo",
+   "delineate",
+   "delineano"
+  ],
+  "imperfetto": [
+   "delineavo",
+   "delineavi",
+   "delineava",
+   "delineavamo",
+   "delineavate",
+   "delineavano"
+  ],
+  "passato_remoto": [
+   "delineai",
+   "delineasti",
+   "delineò",
+   "delineammo",
+   "delineaste",
+   "delinearono"
+  ],
+  "futuro": [
+   "delineerò",
+   "delineerai",
+   "delineerà",
+   "delineeremo",
+   "delineerete",
+   "delineeranno"
+  ],
+  "condizionale": [
+   "delineerei",
+   "delineeresti",
+   "delineerebbe",
+   "delineeremmo",
+   "delineereste",
+   "delineerebbero"
+  ],
+  "cong_pres": [
+   "delinei",
+   "delinei",
+   "delinei",
+   "delineiamo",
+   "delineiate",
+   "delineino"
+  ],
+  "cong_imp": [
+   "delineassi",
+   "delineassi",
+   "delineasse",
+   "delineassimo",
+   "delineaste",
+   "delineassero"
+  ],
+  "imperativo": [
+   "-",
+   "delinea",
+   "delinei",
+   "delineiamo",
+   "delineate",
+   "delineino"
+  ],
+  "gerundio": "delineando",
+  "participio": "delineato"
+ },
+ "comportare": {
+  "level": "dificil",
+  "aux": "avere",
+  "presente": [
+   "comporto",
+   "comporti",
+   "comporta",
+   "comportiamo",
+   "comportate",
+   "comportano"
+  ],
+  "imperfetto": [
+   "comportavo",
+   "comportavi",
+   "comportava",
+   "comportavamo",
+   "comportavate",
+   "comportavano"
+  ],
+  "passato_remoto": [
+   "comportai",
+   "comportasti",
+   "comportò",
+   "comportammo",
+   "comportaste",
+   "comportarono"
+  ],
+  "futuro": [
+   "comporterò",
+   "comporterai",
+   "comporterà",
+   "comporteremo",
+   "comporterete",
+   "comporteranno"
+  ],
+  "condizionale": [
+   "comporterei",
+   "comporteresti",
+   "comporterebbe",
+   "comporteremmo",
+   "comportereste",
+   "comporterebbero"
+  ],
+  "cong_pres": [
+   "comporti",
+   "comporti",
+   "comporti",
+   "comportiamo",
+   "comportiate",
+   "comportino"
+  ],
+  "cong_imp": [
+   "comportassi",
+   "comportassi",
+   "comportasse",
+   "comportassimo",
+   "comportaste",
+   "comportassero"
+  ],
+  "imperativo": [
+   "-",
+   "comporta",
+   "comporti",
+   "comportiamo",
+   "comportate",
+   "comportino"
+  ],
+  "gerundio": "comportando",
+  "participio": "comportato"
+ },
+ "auspicare": {
+  "level": "dificil",
+  "aux": "avere",
+  "presente": [
+   "auspico",
+   "auspichi",
+   "auspica",
+   "auspichiamo",
+   "auspicate",
+   "auspicano"
+  ],
+  "imperfetto": [
+   "auspicavo",
+   "auspicavi",
+   "auspicava",
+   "auspicavamo",
+   "auspicavate",
+   "auspicavano"
+  ],
+  "passato_remoto": [
+   "auspicai",
+   "auspicasti",
+   "auspicò",
+   "auspicammo",
+   "auspicaste",
+   "auspicarono"
+  ],
+  "futuro": [
+   "auspicherò",
+   "auspicherai",
+   "auspicherà",
+   "auspicheremo",
+   "auspicherete",
+   "auspicheranno"
+  ],
+  "condizionale": [
+   "auspicherei",
+   "auspicheresti",
+   "auspicherebbe",
+   "auspicheremmo",
+   "auspichereste",
+   "auspicherebbero"
+  ],
+  "cong_pres": [
+   "auspichi",
+   "auspichi",
+   "auspichi",
+   "auspichiamo",
+   "auspichiate",
+   "auspichino"
+  ],
+  "cong_imp": [
+   "auspicassi",
+   "auspicassi",
+   "auspicasse",
+   "auspicassimo",
+   "auspicaste",
+   "auspicassero"
+  ],
+  "imperativo": [
+   "-",
+   "auspica",
+   "auspichi",
+   "auspichiamo",
+   "auspicate",
+   "auspichino"
+  ],
+  "gerundio": "auspicando",
+  "participio": "auspicato"
+ },
+ "precludere": {
+  "level": "dificil",
+  "aux": "avere",
+  "presente": [
+   "precludo",
+   "precludi",
+   "preclude",
+   "precludiamo",
+   "precludete",
+   "precludono"
+  ],
+  "imperfetto": [
+   "precludevo",
+   "precludevi",
+   "precludeva",
+   "precludevamo",
+   "precludevate",
+   "precludevano"
+  ],
+  "passato_remoto": [
+   "preclusi",
+   "precludesti",
+   "precluse",
+   "precludemmo",
+   "precludeste",
+   "preclusero"
+  ],
+  "futuro": [
+   "precluderò",
+   "precluderai",
+   "precluderà",
+   "precluderemo",
+   "precluderete",
+   "precluderanno"
+  ],
+  "condizionale": [
+   "precluderei",
+   "precluderesti",
+   "precluderebbe",
+   "precluderemmo",
+   "precludereste",
+   "precluderebbero"
+  ],
+  "cong_pres": [
+   "precluda",
+   "precluda",
+   "precluda",
+   "precludiamo",
+   "precludiate",
+   "precludano"
+  ],
+  "cong_imp": [
+   "precludessi",
+   "precludessi",
+   "precludesse",
+   "precludessimo",
+   "precludeste",
+   "precludessero"
+  ],
+  "imperativo": [
+   "-",
+   "precludi",
+   "precluda",
+   "precludiamo",
+   "precludete",
+   "precludano"
+  ],
+  "gerundio": "precludendo",
+  "participio": "precluso"
+ },
+ "procrastinare": {
+  "level": "dificil",
+  "aux": "avere",
+  "presente": [
+   "procrastino",
+   "procrastini",
+   "procrastina",
+   "procrastiniamo",
+   "procrastinate",
+   "procrastinano"
+  ],
+  "imperfetto": [
+   "procrastinavo",
+   "procrastinavi",
+   "procrastinava",
+   "procrastinavamo",
+   "procrastinavate",
+   "procrastinavano"
+  ],
+  "passato_remoto": [
+   "procrastinai",
+   "procrastinasti",
+   "procrastinò",
+   "procrastinammo",
+   "procrastinaste",
+   "procrastinarono"
+  ],
+  "futuro": [
+   "procrastinerò",
+   "procrastinerai",
+   "procrastinerà",
+   "procrastineremo",
+   "procrastinerete",
+   "procrastineranno"
+  ],
+  "condizionale": [
+   "procrastinerei",
+   "procrastineresti",
+   "procrastinerebbe",
+   "procrastineremmo",
+   "procrastinereste",
+   "procrastinerebbero"
+  ],
+  "cong_pres": [
+   "procrastini",
+   "procrastini",
+   "procrastini",
+   "procrastiniamo",
+   "procrastiniate",
+   "procrastinino"
+  ],
+  "cong_imp": [
+   "procrastinassi",
+   "procrastinassi",
+   "procrastinasse",
+   "procrastinassimo",
+   "procrastinaste",
+   "procrastinassero"
+  ],
+  "imperativo": [
+   "-",
+   "procrastina",
+   "procrastini",
+   "procrastiniamo",
+   "procrastinate",
+   "procrastinino"
+  ],
+  "gerundio": "procrastinando",
+  "participio": "procrastinato"
+ },
+ "plasmare": {
+  "level": "dificil",
+  "aux": "avere",
+  "presente": [
+   "plasmo",
+   "plasmi",
+   "plasma",
+   "plasmiamo",
+   "plasmate",
+   "plasmano"
+  ],
+  "imperfetto": [
+   "plasmavo",
+   "plasmavi",
+   "plasmava",
+   "plasmavamo",
+   "plasmavate",
+   "plasmavano"
+  ],
+  "passato_remoto": [
+   "plasmai",
+   "plasmasti",
+   "plasmò",
+   "plasmammo",
+   "plasmaste",
+   "plasmarono"
+  ],
+  "futuro": [
+   "plasmerò",
+   "plasmerai",
+   "plasmerà",
+   "plasmeremo",
+   "plasmerete",
+   "plasmeranno"
+  ],
+  "condizionale": [
+   "plasmerei",
+   "plasmeresti",
+   "plasmerebbe",
+   "plasmeremmo",
+   "plasmereste",
+   "plasmerebbero"
+  ],
+  "cong_pres": [
+   "plasmi",
+   "plasmi",
+   "plasmi",
+   "plasmiamo",
+   "plasmiate",
+   "plasmino"
+  ],
+  "cong_imp": [
+   "plasmassi",
+   "plasmassi",
+   "plasmasse",
+   "plasmassimo",
+   "plasmaste",
+   "plasmassero"
+  ],
+  "imperativo": [
+   "-",
+   "plasma",
+   "plasmi",
+   "plasmiamo",
+   "plasmate",
+   "plasmino"
+  ],
+  "gerundio": "plasmando",
+  "participio": "plasmato"
+ },
+ "conseguire": {
+  "level": "dificil",
+  "aux": "avere",
+  "presente": [
+   "conseguo",
+   "consegui",
+   "consegue",
+   "conseguiamo",
+   "conseguite",
+   "conseguono"
+  ],
+  "imperfetto": [
+   "conseguivo",
+   "conseguivi",
+   "conseguiva",
+   "conseguivamo",
+   "conseguivate",
+   "conseguivano"
+  ],
+  "passato_remoto": [
+   "conseguii",
+   "conseguisti",
+   "conseguì",
+   "conseguimmo",
+   "conseguiste",
+   "conseguirono"
+  ],
+  "futuro": [
+   "conseguirò",
+   "conseguirai",
+   "conseguirà",
+   "conseguiremo",
+   "conseguirete",
+   "conseguiranno"
+  ],
+  "condizionale": [
+   "conseguirei",
+   "conseguiresti",
+   "conseguirebbe",
+   "conseguiremmo",
+   "conseguireste",
+   "conseguirebbero"
+  ],
+  "cong_pres": [
+   "consegua",
+   "consegua",
+   "consegua",
+   "conseguiamo",
+   "conseguiate",
+   "conseguano"
+  ],
+  "cong_imp": [
+   "conseguissi",
+   "conseguissi",
+   "conseguisse",
+   "conseguissimo",
+   "conseguiste",
+   "conseguissero"
+  ],
+  "imperativo": [
+   "-",
+   "consegui",
+   "consegua",
+   "conseguiamo",
+   "conseguite",
+   "conseguano"
+  ],
+  "gerundio": "conseguendo",
+  "participio": "conseguito"
+ },
+ "sancire": {
+  "level": "dificil",
+  "aux": "avere",
+  "presente": [
+   "sancisco",
+   "sancisci",
+   "sancisce",
+   "sanciamo",
+   "sancite",
+   "sanciscono"
+  ],
+  "imperfetto": [
+   "sancivo",
+   "sancivi",
+   "sanciva",
+   "sancivamo",
+   "sancivate",
+   "sancivano"
+  ],
+  "passato_remoto": [
+   "sancii",
+   "sancisti",
+   "sancì",
+   "sancimmo",
+   "sanciste",
+   "sancirono"
+  ],
+  "futuro": [
+   "sancirò",
+   "sancirai",
+   "sancirà",
+   "sanciremo",
+   "sancirete",
+   "sanciranno"
+  ],
+  "condizionale": [
+   "sancirei",
+   "sanciresti",
+   "sancirebbe",
+   "sanciremmo",
+   "sancireste",
+   "sancirebbero"
+  ],
+  "cong_pres": [
+   "sancisca",
+   "sancisca",
+   "sancisca",
+   "sanciamo",
+   "sanciate",
+   "sanciscano"
+  ],
+  "cong_imp": [
+   "sancissi",
+   "sancissi",
+   "sancisse",
+   "sancissimo",
+   "sanciste",
+   "sancissero"
+  ],
+  "imperativo": [
+   "-",
+   "sancisci",
+   "sancisca",
+   "sanciamo",
+   "sancite",
+   "sanciscano"
+  ],
+  "gerundio": "sancendo",
+  "participio": "sancito"
+ },
+ "propendere": {
+  "level": "dificil",
+  "aux": "avere",
+  "presente": [
+   "propendo",
+   "propendi",
+   "propende",
+   "propendiamo",
+   "propendete",
+   "propendono"
+  ],
+  "imperfetto": [
+   "propendevo",
+   "propendevi",
+   "propendeva",
+   "propendevamo",
+   "propendevate",
+   "propendevano"
+  ],
+  "passato_remoto": [
+   "propendei",
+   "propendesti",
+   "propendé",
+   "propendemmo",
+   "propendeste",
+   "propenderono"
+  ],
+  "futuro": [
+   "propenderò",
+   "propenderai",
+   "propenderà",
+   "propenderemo",
+   "propenderete",
+   "propenderanno"
+  ],
+  "condizionale": [
+   "propenderei",
+   "propenderesti",
+   "propenderebbe",
+   "propenderemmo",
+   "propendereste",
+   "propenderebbero"
+  ],
+  "cong_pres": [
+   "propenda",
+   "propenda",
+   "propenda",
+   "propendiamo",
+   "propendiate",
+   "propendano"
+  ],
+  "cong_imp": [
+   "propendessi",
+   "propendessi",
+   "propendesse",
+   "propendessimo",
+   "propendeste",
+   "propendessero"
+  ],
+  "imperativo": [
+   "-",
+   "propendi",
+   "propenda",
+   "propendiamo",
+   "propendete",
+   "propendano"
+  ],
+  "gerundio": "propendendo",
+  "participio": "propenduto"
+ },
+ "esulare": {
+  "level": "dificil",
+  "aux": "essere",
+  "presente": [
+   "esulo",
+   "esuli",
+   "esula",
+   "esuliamo",
+   "esulate",
+   "esulano"
+  ],
+  "imperfetto": [
+   "esulavo",
+   "esulavi",
+   "esulava",
+   "esulavamo",
+   "esulavate",
+   "esulavano"
+  ],
+  "passato_remoto": [
+   "esulai",
+   "esulasti",
+   "esulò",
+   "esulammo",
+   "esulaste",
+   "esularono"
+  ],
+  "futuro": [
+   "esulerò",
+   "esulerai",
+   "esulerà",
+   "esuleremo",
+   "esulerete",
+   "esuleranno"
+  ],
+  "condizionale": [
+   "esulerei",
+   "esuleresti",
+   "esulerebbe",
+   "esuleremmo",
+   "esulereste",
+   "esulerebbero"
+  ],
+  "cong_pres": [
+   "esuli",
+   "esuli",
+   "esuli",
+   "esuliamo",
+   "esuliate",
+   "esulino"
+  ],
+  "cong_imp": [
+   "esulassi",
+   "esulassi",
+   "esulasse",
+   "esulassimo",
+   "esulaste",
+   "esulassero"
+  ],
+  "imperativo": [
+   "-",
+   "esula",
+   "esuli",
+   "esuliamo",
+   "esulate",
+   "esulino"
+  ],
+  "gerundio": "esulando",
+  "participio": "esulato"
+ },
+ "retrocedere": {
+  "level": "dificil",
+  "aux": "avere",
+  "presente": [
+   "retrocedo",
+   "retrocedi",
+   "retrocede",
+   "retrocediamo",
+   "retrocedete",
+   "retrocedono"
+  ],
+  "imperfetto": [
+   "retrocedevo",
+   "retrocedevi",
+   "retrocedeva",
+   "retrocedevamo",
+   "retrocedevate",
+   "retrocedevano"
+  ],
+  "passato_remoto": [
+   "retrocedei",
+   "retrocedesti",
+   "retrocedé",
+   "retrocedemmo",
+   "retrocedeste",
+   "retrocederono"
+  ],
+  "futuro": [
+   "retrocederò",
+   "retrocederai",
+   "retrocederà",
+   "retrocederemo",
+   "retrocederete",
+   "retrocederanno"
+  ],
+  "condizionale": [
+   "retrocederei",
+   "retrocederesti",
+   "retrocederebbe",
+   "retrocederemmo",
+   "retrocedereste",
+   "retrocederebbero"
+  ],
+  "cong_pres": [
+   "retroceda",
+   "retroceda",
+   "retroceda",
+   "retrocediamo",
+   "retrocediate",
+   "retrocedano"
+  ],
+  "cong_imp": [
+   "retrocedessi",
+   "retrocedessi",
+   "retrocedesse",
+   "retrocedessimo",
+   "retrocedeste",
+   "retrocedessero"
+  ],
+  "imperativo": [
+   "retro-",
+   "retrocedi",
+   "retroceda",
+   "retrocediamo",
+   "retrocedete",
+   "retrocedano"
+  ],
+  "gerundio": "retrocedendo",
+  "participio": "retroceduto"
+ },
+ "sovvertire": {
+  "level": "dificil",
+  "aux": "avere",
+  "presente": [
+   "sovverto",
+   "sovverti",
+   "sovverte",
+   "sovvertiamo",
+   "sovvertite",
+   "sovvertono"
+  ],
+  "imperfetto": [
+   "sovvertivo",
+   "sovvertivi",
+   "sovvertiva",
+   "sovvertivamo",
+   "sovvertivate",
+   "sovvertivano"
+  ],
+  "passato_remoto": [
+   "sovvertii",
+   "sovvertisti",
+   "sovvertì",
+   "sovvertimmo",
+   "sovvertiste",
+   "sovvertirono"
+  ],
+  "futuro": [
+   "sovvertirò",
+   "sovvertirai",
+   "sovvertirà",
+   "sovvertiremo",
+   "sovvertirete",
+   "sovvertiranno"
+  ],
+  "condizionale": [
+   "sovvertirei",
+   "sovvertiresti",
+   "sovvertirebbe",
+   "sovvertiremmo",
+   "sovvertireste",
+   "sovvertirebbero"
+  ],
+  "cong_pres": [
+   "sovverta",
+   "sovverta",
+   "sovverta",
+   "sovvertiamo",
+   "sovvertiate",
+   "sovvertano"
+  ],
+  "cong_imp": [
+   "sovvertissi",
+   "sovvertissi",
+   "sovvertisse",
+   "sovvertissimo",
+   "sovvertiste",
+   "sovvertissero"
+  ],
+  "imperativo": [
+   "-",
+   "sovverti",
+   "sovverta",
+   "sovvertiamo",
+   "sovvertite",
+   "sovvertano"
+  ],
+  "gerundio": "sovvertendo",
+  "participio": "sovvertito"
+ },
+ "arginare": {
+  "level": "dificil",
+  "aux": "avere",
+  "presente": [
+   "argino",
+   "argini",
+   "argina",
+   "arginiamo",
+   "arginate",
+   "arginano"
+  ],
+  "imperfetto": [
+   "arginavo",
+   "arginavi",
+   "arginava",
+   "arginavamo",
+   "arginavate",
+   "arginavano"
+  ],
+  "passato_remoto": [
+   "arginai",
+   "arginasti",
+   "arginò",
+   "arginammo",
+   "arginaste",
+   "arginarono"
+  ],
+  "futuro": [
+   "arginerò",
+   "arginerai",
+   "arginerà",
+   "argineremo",
+   "arginerete",
+   "argineranno"
+  ],
+  "condizionale": [
+   "arginerei",
+   "argineresti",
+   "arginerebbe",
+   "argineremmo",
+   "arginereste",
+   "arginerebbero"
+  ],
+  "cong_pres": [
+   "argini",
+   "argini",
+   "argini",
+   "arginiamo",
+   "arginiate",
+   "arginino"
+  ],
+  "cong_imp": [
+   "arginassi",
+   "arginassi",
+   "arginasse",
+   "arginassimo",
+   "arginaste",
+   "arginassero"
+  ],
+  "imperativo": [
+   "-",
+   "argina",
+   "argini",
+   "arginiamo",
+   "arginate",
+   "arginino"
+  ],
+  "gerundio": "arginando",
+  "participio": "arginato"
+ },
+ "circoscrivere": {
+  "level": "dificil",
+  "aux": "avere",
+  "presente": [
+   "circoscrivo",
+   "circoscrivi",
+   "circoscrive",
+   "circoscriviamo",
+   "circoscrivete",
+   "circoscrivono"
+  ],
+  "imperfetto": [
+   "circoscrivevo",
+   "circoscrivevi",
+   "circoscriveva",
+   "circoscrivevamo",
+   "circoscrivevate",
+   "circoscrivevano"
+  ],
+  "passato_remoto": [
+   "circoscrissi",
+   "circoscrivesti",
+   "circoscrisse",
+   "circoscrivemmo",
+   "circoscriveste",
+   "circoscrissero"
+  ],
+  "futuro": [
+   "circoscriverò",
+   "circoscriverai",
+   "circoscriverà",
+   "circoscriveremo",
+   "circoscriverete",
+   "circoscriveranno"
+  ],
+  "condizionale": [
+   "circoscriverei",
+   "circoscriveresti",
+   "circoscriverebbe",
+   "circoscriveremmo",
+   "circoscrivereste",
+   "circoscriverebbero"
+  ],
+  "cong_pres": [
+   "circoscriva",
+   "circoscriva",
+   "circoscriva",
+   "circoscriviamo",
+   "circoscriviate",
+   "circoscrivano"
+  ],
+  "cong_imp": [
+   "circoscrivessi",
+   "circoscrivessi",
+   "circoscrivesse",
+   "circoscrivessimo",
+   "circoscriveste",
+   "circoscrivessero"
+  ],
+  "imperativo": [
+   "circo-",
+   "circoscrivi",
+   "circoscriva",
+   "circoscriviamo",
+   "circoscrivete",
+   "circoscrivano"
+  ],
+  "gerundio": "circoscrivendo",
+  "participio": "circoscritto"
+ },
+ "comprovare": {
+  "level": "dificil",
+  "aux": "avere",
+  "presente": [
+   "comprovo",
+   "comprovi",
+   "comprova",
+   "comproviamo",
+   "comprovate",
+   "comprovano"
+  ],
+  "imperfetto": [
+   "comprovavo",
+   "comprovavi",
+   "comprovava",
+   "comprovavamo",
+   "comprovavate",
+   "comprovavano"
+  ],
+  "passato_remoto": [
+   "comprovai",
+   "comprovasti",
+   "comprovò",
+   "comprovammo",
+   "comprovaste",
+   "comprovarono"
+  ],
+  "futuro": [
+   "comproverò",
+   "comproverai",
+   "comproverà",
+   "comproveremo",
+   "comproverete",
+   "comproveranno"
+  ],
+  "condizionale": [
+   "comproverei",
+   "comproveresti",
+   "comproverebbe",
+   "comproveremmo",
+   "comprovereste",
+   "comproverebbero"
+  ],
+  "cong_pres": [
+   "comprovi",
+   "comprovi",
+   "comprovi",
+   "comproviamo",
+   "comproviate",
+   "comprovino"
+  ],
+  "cong_imp": [
+   "comprovassi",
+   "comprovassi",
+   "comprovasse",
+   "comprovassimo",
+   "comprovaste",
+   "comprovassero"
+  ],
+  "imperativo": [
+   "-",
+   "comprova",
+   "comprovi",
+   "comproviamo",
+   "comprovate",
+   "comprovino"
+  ],
+  "gerundio": "comprovando",
+  "participio": "comprovato"
+ },
+ "disattendere": {
+  "level": "dificil",
+  "aux": "avere",
+  "presente": [
+   "disattendo",
+   "disattendi",
+   "disattende",
+   "disattendiamo",
+   "disattendete",
+   "disattendono"
+  ],
+  "imperfetto": [
+   "disattendevo",
+   "disattendevi",
+   "disattendeva",
+   "disattendevamo",
+   "disattendevate",
+   "disattendevano"
+  ],
+  "passato_remoto": [
+   "disattesi",
+   "disattendesti",
+   "disattese",
+   "disattendemmo",
+   "disattendeste",
+   "disattesero"
+  ],
+  "futuro": [
+   "disattenderò",
+   "disattenderai",
+   "disattenderà",
+   "disattenderemo",
+   "disattenderete",
+   "disattenderanno"
+  ],
+  "condizionale": [
+   "disattenderei",
+   "disattenderesti",
+   "disattenderebbe",
+   "disattenderemmo",
+   "disattendereste",
+   "disattenderebbero"
+  ],
+  "cong_pres": [
+   "disattenda",
+   "disattenda",
+   "disattenda",
+   "disattendiamo",
+   "disattendiate",
+   "disattendano"
+  ],
+  "cong_imp": [
+   "disattendessi",
+   "disattendessi",
+   "disattendesse",
+   "disattendessimo",
+   "disattendeste",
+   "disattendessero"
+  ],
+  "imperativo": [
+   "dis-",
+   "disattendi",
+   "disattenda",
+   "disattendiamo",
+   "disattendete",
+   "disattendano"
+  ],
+  "gerundio": "disattendendo",
+  "participio": "disatteso"
+ },
+ "equivalere": {
+  "level": "dificil",
+  "aux": "essere",
+  "presente": [
+   "equivalgo",
+   "equivali",
+   "equivale",
+   "equivaliamo",
+   "equivalete",
+   "equivalgono"
+  ],
+  "imperfetto": [
+   "equivalevo",
+   "equivalevi",
+   "equivaleva",
+   "equivalevamo",
+   "equivalevate",
+   "equivalevano"
+  ],
+  "passato_remoto": [
+   "equivalsi",
+   "equivalesti",
+   "equivalse",
+   "equivalemmo",
+   "equivaleste",
+   "equivalsero"
+  ],
+  "futuro": [
+   "equivarrò",
+   "equivarrai",
+   "equivarrà",
+   "equivarremo",
+   "equivarrete",
+   "equivarranno"
+  ],
+  "condizionale": [
+   "equivarrei",
+   "equivarresti",
+   "equivarrebbe",
+   "equivarremmo",
+   "equivarreste",
+   "equivarrebbero"
+  ],
+  "cong_pres": [
+   "equivalga",
+   "equivalga",
+   "equivalga",
+   "equivaliamo",
+   "equivaliate",
+   "equivalgano"
+  ],
+  "cong_imp": [
+   "equivalessi",
+   "equivalessi",
+   "equivalesse",
+   "equivalessimo",
+   "equivaleste",
+   "equivalessero"
+  ],
+  "imperativo": [
+   "equi-",
+   "equivali",
+   "equivalga",
+   "equivaliamo",
+   "equivalete",
+   "equivalgano"
+  ],
+  "gerundio": "equivalendo",
+  "participio": "equivalso"
+ },
+ "sopperire": {
+  "level": "dificil",
+  "aux": "avere",
+  "presente": [
+   "sopperisco",
+   "sopperisci",
+   "sopperisce",
+   "sopperiamo",
+   "sopperite",
+   "sopperiscono"
+  ],
+  "imperfetto": [
+   "sopperivo",
+   "sopperivi",
+   "sopperiva",
+   "sopperivamo",
+   "sopperivate",
+   "sopperivano"
+  ],
+  "passato_remoto": [
+   "sopperii",
+   "sopperisti",
+   "sopperì",
+   "sopperimmo",
+   "sopperiste",
+   "sopperirono"
+  ],
+  "futuro": [
+   "sopperirò",
+   "sopperirai",
+   "sopperirà",
+   "sopperiremo",
+   "sopperirete",
+   "sopperiranno"
+  ],
+  "condizionale": [
+   "sopperirei",
+   "sopperiresti",
+   "sopperirebbe",
+   "sopperiremmo",
+   "sopperireste",
+   "sopperirebbero"
+  ],
+  "cong_pres": [
+   "sopperisca",
+   "sopperisca",
+   "sopperisca",
+   "sopperiamo",
+   "sopperiate",
+   "sopperiscano"
+  ],
+  "cong_imp": [
+   "sopperissi",
+   "sopperissi",
+   "sopperisse",
+   "sopperissimo",
+   "sopperiste",
+   "sopperissero"
+  ],
+  "imperativo": [
+   "-",
+   "sopperisci",
+   "sopperisca",
+   "sopperiamo",
+   "sopperite",
+   "sopperiscano"
+  ],
+  "gerundio": "sopperendo",
+  "participio": "sopperito"
+ },
+ "sospingere": {
+  "level": "dificil",
+  "aux": "avere",
+  "presente": [
+   "sospingo",
+   "sospingi",
+   "sospinge",
+   "sospingiamo",
+   "sospingete",
+   "sospingono"
+  ],
+  "imperfetto": [
+   "sospingevo",
+   "sospingevi",
+   "sospingeva",
+   "sospingevamo",
+   "sospingevate",
+   "sospingevano"
+  ],
+  "passato_remoto": [
+   "sospinsi",
+   "sospingesti",
+   "sospinse",
+   "sospingemmo",
+   "sospingeste",
+   "sospinsero"
+  ],
+  "futuro": [
+   "sospingerò",
+   "sospingerai",
+   "sospingerà",
+   "sospingeremo",
+   "sospingerete",
+   "sospingeranno"
+  ],
+  "condizionale": [
+   "sospingerei",
+   "sospingeresti",
+   "sospingerebbe",
+   "sospingeremmo",
+   "sospingereste",
+   "sospingerebbero"
+  ],
+  "cong_pres": [
+   "sospinga",
+   "sospinga",
+   "sospinga",
+   "sospingiamo",
+   "sospingiate",
+   "sospingano"
+  ],
+  "cong_imp": [
+   "sospingessi",
+   "sospingessi",
+   "sospingesse",
+   "sospingessimo",
+   "sospingeste",
+   "sospingessero"
+  ],
+  "imperativo": [
+   "so-",
+   "sospingi",
+   "sospinga",
+   "sospingiamo",
+   "sospingete",
+   "sospingano"
+  ],
+  "gerundio": "sospingendo",
+  "participio": "sospinto"
+ },
+ "tralasciare": {
+  "level": "dificil",
+  "aux": "avere",
+  "presente": [
+   "tralascio",
+   "tralasci",
+   "tralascia",
+   "tralasciamo",
+   "tralasciate",
+   "tralasciano"
+  ],
+  "imperfetto": [
+   "tralasciavo",
+   "tralasciavi",
+   "tralasciava",
+   "tralasciavamo",
+   "tralasciavate",
+   "tralasciavano"
+  ],
+  "passato_remoto": [
+   "tralasciai",
+   "tralasciasti",
+   "tralasciò",
+   "tralasciammo",
+   "tralasciaste",
+   "tralasciarono"
+  ],
+  "futuro": [
+   "tralascerò",
+   "tralascerai",
+   "tralascerà",
+   "tralasceremo",
+   "tralascerete",
+   "tralasceranno"
+  ],
+  "condizionale": [
+   "tralascerei",
+   "tralasceresti",
+   "tralascerebbe",
+   "tralasceremmo",
+   "tralascereste",
+   "tralascerebbero"
+  ],
+  "cong_pres": [
+   "tralasci",
+   "tralasci",
+   "tralasci",
+   "tralasciamo",
+   "tralasciate",
+   "tralascino"
+  ],
+  "cong_imp": [
+   "tralasciassi",
+   "tralasciassi",
+   "tralasciasse",
+   "tralasciassimo",
+   "tralasciaste",
+   "tralasciassero"
+  ],
+  "imperativo": [
+   "-",
+   "tralascia",
+   "tralasci",
+   "tralasciamo",
+   "tralasciate",
+   "tralascino"
+  ],
+  "gerundio": "tralasciando",
+  "participio": "tralasciato"
+ },
+ "vagliare": {
+  "level": "dificil",
+  "aux": "avere",
+  "presente": [
+   "vaglio",
+   "vagli",
+   "vaglia",
+   "vagliamo",
+   "vagliate",
+   "vagliano"
+  ],
+  "imperfetto": [
+   "vagliavo",
+   "vagliavi",
+   "vagliava",
+   "vagliavamo",
+   "vagliavate",
+   "vagliavano"
+  ],
+  "passato_remoto": [
+   "vagliai",
+   "vagliasti",
+   "vagliò",
+   "vagliammo",
+   "vagliaste",
+   "vagliarono"
+  ],
+  "futuro": [
+   "vaglierò",
+   "vaglierai",
+   "vaglierà",
+   "vaglieremo",
+   "vaglierete",
+   "vaglieranno"
+  ],
+  "condizionale": [
+   "vaglierei",
+   "vaglieresti",
+   "vaglierebbe",
+   "vaglieremmo",
+   "vagliereste",
+   "vaglierebbero"
+  ],
+  "cong_pres": [
+   "vagli",
+   "vagli",
+   "vagli",
+   "vagliamo",
+   "vagliate",
+   "vaglino"
+  ],
+  "cong_imp": [
+   "vagliassi",
+   "vagliassi",
+   "vagliasse",
+   "vagliassimo",
+   "vagliaste",
+   "vagliassero"
+  ],
+  "imperativo": [
+   "-",
+   "vaglia",
+   "vagli",
+   "vagliamo",
+   "vagliate",
+   "vaglino"
+  ],
+  "gerundio": "vagliando",
+  "participio": "vagliato"
+ },
+ "ravvivare": {
+  "level": "dificil",
+  "aux": "avere",
+  "presente": [
+   "ravvivo",
+   "ravvivi",
+   "ravviva",
+   "ravviviamo",
+   "ravvivate",
+   "ravvivano"
+  ],
+  "imperfetto": [
+   "ravvivavo",
+   "ravvivavi",
+   "ravvivava",
+   "ravvivavamo",
+   "ravvivavate",
+   "ravvivavano"
+  ],
+  "passato_remoto": [
+   "ravvivai",
+   "ravvivasti",
+   "ravvivò",
+   "ravvivammo",
+   "ravvivaste",
+   "ravvivarono"
+  ],
+  "futuro": [
+   "ravviverò",
+   "ravviverai",
+   "ravviverà",
+   "ravviveremo",
+   "ravviverete",
+   "ravviveranno"
+  ],
+  "condizionale": [
+   "ravviverei",
+   "ravviveresti",
+   "ravviverebbe",
+   "ravviveremmo",
+   "ravvivereste",
+   "ravviverebbero"
+  ],
+  "cong_pres": [
+   "ravvivi",
+   "ravvivi",
+   "ravvivi",
+   "ravviviamo",
+   "ravviviate",
+   "ravvivino"
+  ],
+  "cong_imp": [
+   "ravvivassi",
+   "ravvivassi",
+   "ravvivasse",
+   "ravvivassimo",
+   "ravvivaste",
+   "ravvivassero"
+  ],
+  "imperativo": [
+   "-",
+   "ravviva",
+   "ravvivi",
+   "ravviviamo",
+   "ravvivate",
+   "ravvivino"
+  ],
+  "gerundio": "ravvivando",
+  "participio": "ravvivato"
+ },
+ "ridimensionare": {
+  "level": "dificil",
+  "aux": "avere",
+  "presente": [
+   "ridimensiono",
+   "ridimensioni",
+   "ridimensiona",
+   "ridimensioniamo",
+   "ridimensionate",
+   "ridimensionano"
+  ],
+  "imperfetto": [
+   "ridimensionavo",
+   "ridimensionavi",
+   "ridimensionava",
+   "ridimensionavamo",
+   "ridimensionavate",
+   "ridimensionavano"
+  ],
+  "passato_remoto": [
+   "ridimensionai",
+   "ridimensionasti",
+   "ridimensionò",
+   "ridimensionammo",
+   "ridimensionaste",
+   "ridimensionarono"
+  ],
+  "futuro": [
+   "ridimensionerò",
+   "ridimensionerai",
+   "ridimensionerà",
+   "ridimensioneremo",
+   "ridimensionerete",
+   "ridimensioneranno"
+  ],
+  "condizionale": [
+   "ridimensionerei",
+   "ridimensioneresti",
+   "ridimensionerebbe",
+   "ridimensioneremmo",
+   "ridimensionereste",
+   "ridimensionerebbero"
+  ],
+  "cong_pres": [
+   "ridimensioni",
+   "ridimensioni",
+   "ridimensioni",
+   "ridimensioniamo",
+   "ridimensioniate",
+   "ridimensionino"
+  ],
+  "cong_imp": [
+   "ridimensionassi",
+   "ridimensionassi",
+   "ridimensionasse",
+   "ridimensionassimo",
+   "ridimensionaste",
+   "ridimensionassero"
+  ],
+  "imperativo": [
+   "-",
+   "ridimensiona",
+   "ridimensioni",
+   "ridimensioniamo",
+   "ridimensionate",
+   "ridimensionino"
+  ],
+  "gerundio": "ridimensionando",
+  "participio": "ridimensionato"
+ },
+ "riscontrare": {
+  "level": "dificil",
+  "aux": "avere",
+  "presente": [
+   "riscontro",
+   "riscontri",
+   "riscontra",
+   "riscontriamo",
+   "riscontrate",
+   "riscontrano"
+  ],
+  "imperfetto": [
+   "riscontravo",
+   "riscontravi",
+   "riscontrava",
+   "riscontravamo",
+   "riscontravate",
+   "riscontravano"
+  ],
+  "passato_remoto": [
+   "riscontrai",
+   "riscontrasti",
+   "riscontrò",
+   "riscontrammo",
+   "riscontraste",
+   "riscontrarono"
+  ],
+  "futuro": [
+   "riscontrerò",
+   "riscontrerai",
+   "riscontrerà",
+   "riscontreremo",
+   "riscontrerete",
+   "riscontreranno"
+  ],
+  "condizionale": [
+   "riscontrerei",
+   "riscontreresti",
+   "riscontrerebbe",
+   "riscontreremmo",
+   "riscontrereste",
+   "riscontrerebbero"
+  ],
+  "cong_pres": [
+   "riscontri",
+   "riscontri",
+   "riscontri",
+   "riscontriamo",
+   "riscontriate",
+   "riscontrino"
+  ],
+  "cong_imp": [
+   "riscontrassi",
+   "riscontrassi",
+   "riscontrasse",
+   "riscontrassimo",
+   "riscontraste",
+   "riscontrassero"
+  ],
+  "imperativo": [
+   "-",
+   "riscontra",
+   "riscontri",
+   "riscontriamo",
+   "riscontrate",
+   "riscontrino"
+  ],
+  "gerundio": "riscontrando",
+  "participio": "riscontrato"
+ },
+ "presagire": {
+  "level": "dificil",
+  "aux": "avere",
+  "presente": [
+   "presagisco",
+   "presagisci",
+   "presagisce",
+   "presagiamo",
+   "presagite",
+   "presagiscono"
+  ],
+  "imperfetto": [
+   "presagivo",
+   "presagivi",
+   "presagiva",
+   "presagivamo",
+   "presagivate",
+   "presagivano"
+  ],
+  "passato_remoto": [
+   "presagii",
+   "presagisti",
+   "presagì",
+   "presagimmo",
+   "presagiste",
+   "presagirono"
+  ],
+  "futuro": [
+   "presagirò",
+   "presagirai",
+   "presagirà",
+   "presagiremo",
+   "presagirete",
+   "presagiranno"
+  ],
+  "condizionale": [
+   "presagirei",
+   "presagiresti",
+   "presagirebbe",
+   "presagiremmo",
+   "presagireste",
+   "presagirebbero"
+  ],
+  "cong_pres": [
+   "presagisca",
+   "presagisca",
+   "presagisca",
+   "presagiamo",
+   "presagiate",
+   "presagiscano"
+  ],
+  "cong_imp": [
+   "presagissi",
+   "presagissi",
+   "presagisse",
+   "presagissimo",
+   "presagiste",
+   "presagissero"
+  ],
+  "imperativo": [
+   "-",
+   "presagisci",
+   "presagisca",
+   "presagiamo",
+   "presagite",
+   "presagiscano"
+  ],
+  "gerundio": "presagendo",
+  "participio": "presagito"
+ },
+ "paventare": {
+  "level": "dificil",
+  "aux": "avere",
+  "presente": [
+   "pavento",
+   "paventi",
+   "paventa",
+   "paventiamo",
+   "paventate",
+   "paventano"
+  ],
+  "imperfetto": [
+   "paventavo",
+   "paventavi",
+   "paventava",
+   "paventavamo",
+   "paventavate",
+   "paventavano"
+  ],
+  "passato_remoto": [
+   "paventai",
+   "paventasti",
+   "paventò",
+   "paventammo",
+   "paventaste",
+   "paventarono"
+  ],
+  "futuro": [
+   "paventerò",
+   "paventerai",
+   "paventerà",
+   "paventeremo",
+   "paventerete",
+   "paventeranno"
+  ],
+  "condizionale": [
+   "paventerei",
+   "paventeresti",
+   "paventerebbe",
+   "paventeremmo",
+   "paventereste",
+   "paventerebbero"
+  ],
+  "cong_pres": [
+   "paventi",
+   "paventi",
+   "paventi",
+   "paventiamo",
+   "paventiate",
+   "paventino"
+  ],
+  "cong_imp": [
+   "paventassi",
+   "paventassi",
+   "paventasse",
+   "paventassimo",
+   "paventaste",
+   "paventassero"
+  ],
+  "imperativo": [
+   "-",
+   "paventa",
+   "paventi",
+   "paventiamo",
+   "paventate",
+   "paventino"
+  ],
+  "gerundio": "paventando",
+  "participio": "paventato"
+ },
+ "decretare": {
+  "level": "dificil",
+  "aux": "avere",
+  "presente": [
+   "decreto",
+   "decreti",
+   "decreta",
+   "decretiamo",
+   "decretate",
+   "decretano"
+  ],
+  "imperfetto": [
+   "decretavo",
+   "decretavi",
+   "decretava",
+   "decretavamo",
+   "decretavate",
+   "decretavano"
+  ],
+  "passato_remoto": [
+   "decretai",
+   "decretasti",
+   "decretò",
+   "decretammo",
+   "decretaste",
+   "decretarono"
+  ],
+  "futuro": [
+   "decreterò",
+   "decreterai",
+   "decreterà",
+   "decreteremo",
+   "decreterete",
+   "decreteranno"
+  ],
+  "condizionale": [
+   "decreterei",
+   "decreteresti",
+   "decreterebbe",
+   "decreteremmo",
+   "decretereste",
+   "decreterebbero"
+  ],
+  "cong_pres": [
+   "decreti",
+   "decreti",
+   "decreti",
+   "decretiamo",
+   "decretiate",
+   "decretino"
+  ],
+  "cong_imp": [
+   "decretassi",
+   "decretassi",
+   "decretasse",
+   "decretassimo",
+   "decretaste",
+   "decretassero"
+  ],
+  "imperativo": [
+   "-",
+   "decreta",
+   "decreti",
+   "decretiamo",
+   "decretate",
+   "decretino"
+  ],
+  "gerundio": "decretando",
+  "participio": "decretato"
+ },
+ "esibire": {
+  "level": "dificil",
+  "aux": "avere",
+  "presente": [
+   "esibisco",
+   "esibisci",
+   "esibisce",
+   "esibiamo",
+   "esibite",
+   "esibiscono"
+  ],
+  "imperfetto": [
+   "esibivo",
+   "esibivi",
+   "esibiva",
+   "esibivamo",
+   "esibivate",
+   "esibivano"
+  ],
+  "passato_remoto": [
+   "esibii",
+   "esibisti",
+   "esibì",
+   "esibimmo",
+   "esibiste",
+   "esibirono"
+  ],
+  "futuro": [
+   "esibirò",
+   "esibirai",
+   "esibirà",
+   "esibiremo",
+   "esibirete",
+   "esibiranno"
+  ],
+  "condizionale": [
+   "esibirei",
+   "esibiresti",
+   "esibirebbe",
+   "esibiremmo",
+   "esibireste",
+   "esibirebbero"
+  ],
+  "cong_pres": [
+   "esibisca",
+   "esibisca",
+   "esibisca",
+   "esibiamo",
+   "esibiate",
+   "esibiscano"
+  ],
+  "cong_imp": [
+   "esibissi",
+   "esibissi",
+   "esibisse",
+   "esibissimo",
+   "esibiste",
+   "esibissero"
+  ],
+  "imperativo": [
+   "-",
+   "esibisci",
+   "esibisca",
+   "esibiamo",
+   "esibite",
+   "esibiscano"
+  ],
+  "gerundio": "esibendo",
+  "participio": "esibito"
+ },
+ "esordire": {
+  "level": "dificil",
+  "aux": "avere",
+  "presente": [
+   "esordisco",
+   "esordisci",
+   "esordisce",
+   "esordiamo",
+   "esordite",
+   "esordiscono"
+  ],
+  "imperfetto": [
+   "esordivo",
+   "esordivi",
+   "esordiva",
+   "esordivamo",
+   "esordivate",
+   "esordivano"
+  ],
+  "passato_remoto": [
+   "esordii",
+   "esordisti",
+   "esordì",
+   "esordimmo",
+   "esordiste",
+   "esordirono"
+  ],
+  "futuro": [
+   "esordirò",
+   "esordirai",
+   "esordirà",
+   "esordiremo",
+   "esordirete",
+   "esordiranno"
+  ],
+  "condizionale": [
+   "esordirei",
+   "esordiresti",
+   "esordirebbe",
+   "esordiremmo",
+   "esordireste",
+   "esordirebbero"
+  ],
+  "cong_pres": [
+   "esordisca",
+   "esordisca",
+   "esordisca",
+   "esordiamo",
+   "esordiate",
+   "esordiscano"
+  ],
+  "cong_imp": [
+   "esordissi",
+   "esordissi",
+   "esordisse",
+   "esordissimo",
+   "esordiste",
+   "esordissero"
+  ],
+  "imperativo": [
+   "-",
+   "esordisci",
+   "esordisca",
+   "esordiamo",
+   "esordite",
+   "esordiscano"
+  ],
+  "gerundio": "esordendo",
+  "participio": "esordito"
+ },
+ "divulgare": {
+  "level": "dificil",
+  "aux": "avere",
+  "presente": [
+   "divulgo",
+   "divulghi",
+   "divulga",
+   "divulghiamo",
+   "divulgate",
+   "divulgano"
+  ],
+  "imperfetto": [
+   "divulgavo",
+   "divulgavi",
+   "divulgava",
+   "divulgavamo",
+   "divulgavate",
+   "divulgavano"
+  ],
+  "passato_remoto": [
+   "divulgai",
+   "divulgasti",
+   "divulgò",
+   "divulgammo",
+   "divulgaste",
+   "divulgarono"
+  ],
+  "futuro": [
+   "divulgherò",
+   "divulgherai",
+   "divulgherà",
+   "divulgheremo",
+   "divulgherete",
+   "divulgheranno"
+  ],
+  "condizionale": [
+   "divulgherei",
+   "divulgheresti",
+   "divulgherebbe",
+   "divulgheremmo",
+   "divulghereste",
+   "divulgherebbero"
+  ],
+  "cong_pres": [
+   "divulghi",
+   "divulghi",
+   "divulghi",
+   "divulghiamo",
+   "divulghiate",
+   "divulghino"
+  ],
+  "cong_imp": [
+   "divulgassi",
+   "divulgassi",
+   "divulgasse",
+   "divulgassimo",
+   "divulgaste",
+   "divulgassero"
+  ],
+  "imperativo": [
+   "-",
+   "divulga",
+   "divulghi",
+   "divulghiamo",
+   "divulgate",
+   "divulghino"
+  ],
+  "gerundio": "divulgando",
+  "participio": "divulgato"
+ },
+ "scaturire": {
+  "level": "dificil",
+  "aux": "essere",
+  "presente": [
+   "scaturisco",
+   "scaturisci",
+   "scaturisce",
+   "scaturiamo",
+   "scaturite",
+   "scaturiscono"
+  ],
+  "imperfetto": [
+   "scaturivo",
+   "scaturivi",
+   "scaturiva",
+   "scaturivamo",
+   "scaturivate",
+   "scaturivano"
+  ],
+  "passato_remoto": [
+   "scaturii",
+   "scaturisti",
+   "scaturì",
+   "scaturimmo",
+   "scaturiste",
+   "scaturirono"
+  ],
+  "futuro": [
+   "scaturirò",
+   "scaturirai",
+   "scaturirà",
+   "scaturiremo",
+   "scaturirete",
+   "scaturiranno"
+  ],
+  "condizionale": [
+   "scaturirei",
+   "scaturiresti",
+   "scaturirebbe",
+   "scaturiremmo",
+   "scaturireste",
+   "scaturirebbero"
+  ],
+  "cong_pres": [
+   "scaturisca",
+   "scaturisca",
+   "scaturisca",
+   "scaturiamo",
+   "scaturiate",
+   "scaturiscano"
+  ],
+  "cong_imp": [
+   "scaturissi",
+   "scaturissi",
+   "scaturisse",
+   "scaturissimo",
+   "scaturiste",
+   "scaturissero"
+  ],
+  "imperativo": [
+   "-",
+   "scaturisci",
+   "scaturisca",
+   "scaturiamo",
+   "scaturite",
+   "scaturiscano"
+  ],
+  "gerundio": "scaturendo",
+  "participio": "scaturito"
+ },
+ "conferire": {
+  "level": "dificil",
+  "aux": "avere",
+  "presente": [
+   "conferisco",
+   "conferisci",
+   "conferisce",
+   "conferiamo",
+   "conferite",
+   "conferiscono"
+  ],
+  "imperfetto": [
+   "conferivo",
+   "conferivi",
+   "conferiva",
+   "conferivamo",
+   "conferivate",
+   "conferivano"
+  ],
+  "passato_remoto": [
+   "conferii",
+   "conferisti",
+   "conferì",
+   "conferimmo",
+   "conferiste",
+   "conferirono"
+  ],
+  "futuro": [
+   "conferirò",
+   "conferirai",
+   "conferirà",
+   "conferiremo",
+   "conferirete",
+   "conferiranno"
+  ],
+  "condizionale": [
+   "conferirei",
+   "conferiresti",
+   "conferirebbe",
+   "conferiremmo",
+   "conferireste",
+   "conferirebbero"
+  ],
+  "cong_pres": [
+   "conferisca",
+   "conferisca",
+   "conferisca",
+   "conferiamo",
+   "conferiate",
+   "conferiscano"
+  ],
+  "cong_imp": [
+   "conferissi",
+   "conferissi",
+   "conferisse",
+   "conferissimo",
+   "conferiste",
+   "conferissero"
+  ],
+  "imperativo": [
+   "-",
+   "conferisci",
+   "conferisca",
+   "conferiamo",
+   "conferite",
+   "conferiscano"
+  ],
+  "gerundio": "conferendo",
+  "participio": "conferito"
+ },
+ "alimentare": {
+  "level": "dificil",
+  "aux": "avere",
+  "presente": [
+   "alimento",
+   "alimenti",
+   "alimenta",
+   "alimentiamo",
+   "alimentate",
+   "alimentano"
+  ],
+  "imperfetto": [
+   "alimentavo",
+   "alimentavi",
+   "alimentava",
+   "alimentavamo",
+   "alimentavate",
+   "alimentavano"
+  ],
+  "passato_remoto": [
+   "alimentai",
+   "alimentasti",
+   "alimentò",
+   "alimentammo",
+   "alimentaste",
+   "alimentarono"
+  ],
+  "futuro": [
+   "alimenterò",
+   "alimenterai",
+   "alimenterà",
+   "alimenteremo",
+   "alimenterete",
+   "alimenteranno"
+  ],
+  "condizionale": [
+   "alimenterei",
+   "alimenteresti",
+   "alimenterebbe",
+   "alimenteremmo",
+   "alimentereste",
+   "alimenterebbero"
+  ],
+  "cong_pres": [
+   "alimenti",
+   "alimenti",
+   "alimenti",
+   "alimentiamo",
+   "alimentiate",
+   "alimentino"
+  ],
+  "cong_imp": [
+   "alimentassi",
+   "alimentassi",
+   "alimentasse",
+   "alimentassimo",
+   "alimentaste",
+   "alimentassero"
+  ],
+  "imperativo": [
+   "-",
+   "alimenta",
+   "alimenti",
+   "alimentiamo",
+   "alimentate",
+   "alimentino"
+  ],
+  "gerundio": "alimentando",
+  "participio": "alimentato"
+ }
+}
