@@ -4,7 +4,7 @@
    cache is just a fallback for when the phone/computer is offline. Live
    chat (Groq) and library live-lookup (verbe.cc) requests are never cached
    at all, they always need to be fresh/interactive. */
-const CACHE_NAME = "tanapp-v3";
+const CACHE_NAME = "tanapp-v4";
 const APP_SHELL = [
   "./",
   "./index.html",
@@ -22,6 +22,9 @@ const APP_SHELL = [
   "./data/verb_es.js",
   "./data/verbs120.json",
   "./manifest.json",
+  "./assets/logo-header.svg",
+  "./assets/logo-icon.svg",
+  "./icons/favicon-32.png",
   "./icons/icon-192.png",
   "./icons/icon-512.png"
 ];

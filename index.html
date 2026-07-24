@@ -4,9 +4,10 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 <title>Tanapp</title>
-<meta name="theme-color" content="#008C45">
+<meta name="theme-color" content="#414042">
 <link rel="manifest" href="manifest.json">
-<link rel="icon" href="icons/icon-192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="icons/favicon-32.png">
+<link rel="icon" type="image/png" sizes="192x192" href="icons/icon-192.png">
 <link rel="apple-touch-icon" href="icons/icon-192.png">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
@@ -15,9 +16,14 @@
 </head>
 <body>
 
+<!-- ================= SPLASH SCREEN (shown ~3s on open) ================= -->
+<div id="splashScreen" class="splash-screen">
+  <img src="assets/logo-icon.svg" alt="Tanapp" class="splash-logo">
+</div>
+
 <div class="tricolor-bar"><span></span><span></span><span></span></div>
 <header class="topbar">
-  <div class="brand"><span class="logo"><span class="logo-bold">TAN</span><span class="logo-light">APP</span></span></div>
+  <div class="brand"><img src="assets/logo-header.svg" alt="Tanapp" class="header-logo"></div>
   <div class="topbar-right">
     <div id="streakBadge" class="streak-badge" title="Racha actual"><span class="icon-slot" data-icon="flame"></span> <span id="streakCount">0</span></div>
     <button id="btnSettings" class="icon-btn" title="Ajustes" aria-label="Ajustes"><span class="icon-slot" data-icon="settings"></span></button>

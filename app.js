@@ -2,6 +2,14 @@
 (function () {
   "use strict";
 
+  // ---------- splash screen (visible ~3s on open, then fades out) ----------
+  setTimeout(() => {
+    const splash = document.getElementById("splashScreen");
+    if (!splash) return;
+    splash.classList.add("fade-out");
+    setTimeout(() => splash.remove(), 400);
+  }, 3000);
+
   // ---------- icons (replace data-icon slots with inline SVG) ----------
   document.querySelectorAll("[data-icon]").forEach(el => {
     el.innerHTML = Icons[el.dataset.icon] || "";

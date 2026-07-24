@@ -5,9 +5,10 @@
   --white:#F4F5F0;
   --red:#CD212A;
   --red-dark:#a01820;
-  /* the topbar uses its own tone (deep pine green) so it reads as a
-     distinct surface from the bright flag-green tricolor stripe above it */
-  --header-green:#0E4B3D;
+  /* dark gray to match the logo lockup's own frame color -- the header
+     stays this same dark tone in both light and dark theme, since the
+     header logo artwork is drawn in white for a dark background */
+  --header-bg:#414042;
   --amber:#b8860b;
   --bg:#F7F7F2;
   --card:#ffffff;
@@ -23,7 +24,6 @@
 :root[data-theme="dark"]{
   --green:#00a651;
   --green-dark:#00c465;
-  --header-green:#0a2e26;
   --bg:#14171a;
   --card:#1d2226;
   --ink:#eef0ec;
@@ -44,6 +44,19 @@ html,body{margin:0;padding:0;background:var(--bg);color:var(--ink);overflow-x:hi
 html,body{height:100vh;height:100dvh;overflow:hidden;}
 body{display:flex;flex-direction:column;}
 
+.splash-screen{
+  position:fixed;inset:0;z-index:200;
+  background:#f1f2f2;
+  display:flex;align-items:center;justify-content:center;
+  transition:opacity .4s ease;
+}
+.splash-screen.fade-out{opacity:0;pointer-events:none;}
+.splash-logo{width:38vw;max-width:220px;min-width:120px;animation:splashPop .5s ease;}
+@keyframes splashPop{
+  from{transform:scale(.85);opacity:0;}
+  to{transform:scale(1);opacity:1;}
+}
+
 .tricolor-bar{flex:0 0 auto;display:flex;height:6px;width:100%;}
 .tricolor-bar span{flex:1;}
 .tricolor-bar span:nth-child(1){background:var(--green);}
@@ -53,18 +66,11 @@ body{display:flex;flex-direction:column;}
 .topbar{
   flex:0 0 auto;
   display:flex;align-items:center;justify-content:space-between;
-  background:var(--header-green);color:#fff;padding:14px 16px;
+  background:var(--header-bg);color:#fff;padding:14px 16px;
   box-shadow:var(--shadow);
 }
 .brand{display:flex;align-items:center;}
-.logo{
-  font-family:'Segoe UI Variable Display','Segoe UI Variable Text','Segoe UI',
-    -apple-system,BlinkMacSystemFont,Roboto,Arial,sans-serif;
-  text-transform:uppercase;letter-spacing:-0.05em;
-  font-size:1.25rem;color:#fff;
-}
-.logo-bold{font-weight:700;}
-.logo-light{font-weight:350;}
+.header-logo{height:26px;width:auto;display:block;}
 .topbar-right{display:flex;align-items:center;gap:10px;}
 .streak-badge{
   display:flex;align-items:center;gap:5px;background:rgba(255,255,255,.18);
