@@ -11,16 +11,13 @@
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 <meta name="apple-mobile-web-app-title" content="Tanapp">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700;800&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
 <div class="tricolor-bar"><span></span><span></span><span></span></div>
 <header class="topbar">
-  <div class="brand"><span class="logo">TANAPP</span></div>
+  <div class="brand"><span class="logo"><span class="logo-bold">TAN</span><span class="logo-light">APP</span></span></div>
   <div class="topbar-right">
     <div id="streakBadge" class="streak-badge" title="Racha actual"><span class="icon-slot" data-icon="flame"></span> <span id="streakCount">0</span></div>
     <button id="btnSettings" class="icon-btn" title="Ajustes" aria-label="Ajustes"><span class="icon-slot" data-icon="settings"></span></button>
@@ -46,6 +43,7 @@
     <div id="practiceIntro" class="card intro-card">
       <h2>Conjugación en contexto</h2>
       <p>Elegí un nivel para empezar una tanda de 10 verbos. Vas a ver el verbo en infinitivo arriba y una frase con un espacio para completar. Después de responder te digo si está bien o mal, y te explico el tiempo verbal.</p>
+      <button id="btnShowRulesTable" class="btn-secondary"><span class="icon-slot" data-icon="book"></span> Ver tabla de reglas de conjugación</button>
     </div>
 
     <div id="practiceGame" class="card hidden">
@@ -213,6 +211,185 @@
       <p class="muted small">Cada frase que respondés queda anotada en un sistema de repetición espaciada: si la acertás, tarda más en volver a aparecer (1, 3, 7, 16 días); si te equivocás, vuelve a aparecer enseguida en la próxima tanda. Cuando hay verbos esperando, ves la tarjeta "Repaso pendiente" en Conjugar.</p>
 
       <button id="btnResetProgress" class="btn-secondary">Borrar progreso guardado (racha, repaso y chat)</button>
+    </div>
+  </div>
+</div>
+
+<!-- ================= CONJUGATION RULES REFERENCE TABLE ================= -->
+<div id="rulesTableModal" class="modal hidden">
+  <div class="modal-card">
+    <div class="modal-header">
+      <h2>Reglas de conjugación</h2>
+      <button id="btnCloseRulesTable" class="icon-btn"><span class="icon-slot" data-icon="close"></span></button>
+    </div>
+    <div class="modal-body">
+      <p class="muted small">Terminaciones de los verbos <strong>regulares</strong>, agrupadas por infinitivo. Muchos verbos frecuentes (essere, avere, fare, andare, potere...) son irregulares y no siguen estas reglas al pie de la letra — para ver la conjugación real de cualquier verbo puntual, usá la <strong>Biblioteca</strong>.</p>
+
+      <details class="tutorial" open>
+        <summary>Verbos en <strong>-ARE</strong> (ej. parlare → parl-)</summary>
+        <div class="mood-block"><div class="tense-name">Presente</div><div class="tense-grid">
+          <div class="pron">io</div><div>parlo</div><div class="pron">tu</div><div>parli</div>
+          <div class="pron">lui/lei</div><div>parla</div><div class="pron">noi</div><div>parliamo</div>
+          <div class="pron">voi</div><div>parlate</div><div class="pron">loro</div><div>parlano</div>
+        </div></div>
+        <div class="mood-block"><div class="tense-name">Imperfetto</div><div class="tense-grid">
+          <div class="pron">io</div><div>parlavo</div><div class="pron">tu</div><div>parlavi</div>
+          <div class="pron">lui/lei</div><div>parlava</div><div class="pron">noi</div><div>parlavamo</div>
+          <div class="pron">voi</div><div>parlavate</div><div class="pron">loro</div><div>parlavano</div>
+        </div></div>
+        <div class="mood-block"><div class="tense-name">Futuro semplice</div><div class="tense-grid">
+          <div class="pron">io</div><div>parlerò</div><div class="pron">tu</div><div>parlerai</div>
+          <div class="pron">lui/lei</div><div>parlerà</div><div class="pron">noi</div><div>parleremo</div>
+          <div class="pron">voi</div><div>parlerete</div><div class="pron">loro</div><div>parleranno</div>
+        </div></div>
+        <div class="mood-block"><div class="tense-name">Condizionale presente</div><div class="tense-grid">
+          <div class="pron">io</div><div>parlerei</div><div class="pron">tu</div><div>parleresti</div>
+          <div class="pron">lui/lei</div><div>parlerebbe</div><div class="pron">noi</div><div>parleremmo</div>
+          <div class="pron">voi</div><div>parlereste</div><div class="pron">loro</div><div>parlerebbero</div>
+        </div></div>
+        <div class="mood-block"><div class="tense-name">Congiuntivo presente</div><div class="tense-grid">
+          <div class="pron">io</div><div>parli</div><div class="pron">tu</div><div>parli</div>
+          <div class="pron">lui/lei</div><div>parli</div><div class="pron">noi</div><div>parliamo</div>
+          <div class="pron">voi</div><div>parliate</div><div class="pron">loro</div><div>parlino</div>
+        </div></div>
+        <div class="mood-block"><div class="tense-name">Congiuntivo imperfetto</div><div class="tense-grid">
+          <div class="pron">io</div><div>parlassi</div><div class="pron">tu</div><div>parlassi</div>
+          <div class="pron">lui/lei</div><div>parlasse</div><div class="pron">noi</div><div>parlassimo</div>
+          <div class="pron">voi</div><div>parlaste</div><div class="pron">loro</div><div>parlassero</div>
+        </div></div>
+        <div class="mood-block"><div class="tense-name">Passato remoto</div><div class="tense-grid">
+          <div class="pron">io</div><div>parlai</div><div class="pron">tu</div><div>parlasti</div>
+          <div class="pron">lui/lei</div><div>parlò</div><div class="pron">noi</div><div>parlammo</div>
+          <div class="pron">voi</div><div>parlaste</div><div class="pron">loro</div><div>parlarono</div>
+        </div></div>
+        <div class="mood-block"><div class="tense-name">Imperativo</div><div class="tense-grid">
+          <div class="pron">tu</div><div>parla</div><div class="pron">lui/lei</div><div>parli</div>
+          <div class="pron">noi</div><div>parliamo</div><div class="pron">voi</div><div>parlate</div>
+          <div class="pron">loro</div><div>parlino</div>
+        </div></div>
+        <p class="muted small">Gerundio: <strong>parlando</strong> · Participio passato: <strong>parlato</strong></p>
+      </details>
+
+      <details class="tutorial">
+        <summary>Verbos en <strong>-ERE</strong> (ej. credere → cred-)</summary>
+        <div class="mood-block"><div class="tense-name">Presente</div><div class="tense-grid">
+          <div class="pron">io</div><div>credo</div><div class="pron">tu</div><div>credi</div>
+          <div class="pron">lui/lei</div><div>crede</div><div class="pron">noi</div><div>crediamo</div>
+          <div class="pron">voi</div><div>credete</div><div class="pron">loro</div><div>credono</div>
+        </div></div>
+        <div class="mood-block"><div class="tense-name">Imperfetto</div><div class="tense-grid">
+          <div class="pron">io</div><div>credevo</div><div class="pron">tu</div><div>credevi</div>
+          <div class="pron">lui/lei</div><div>credeva</div><div class="pron">noi</div><div>credevamo</div>
+          <div class="pron">voi</div><div>credevate</div><div class="pron">loro</div><div>credevano</div>
+        </div></div>
+        <div class="mood-block"><div class="tense-name">Futuro semplice</div><div class="tense-grid">
+          <div class="pron">io</div><div>crederò</div><div class="pron">tu</div><div>crederai</div>
+          <div class="pron">lui/lei</div><div>crederà</div><div class="pron">noi</div><div>crederemo</div>
+          <div class="pron">voi</div><div>crederete</div><div class="pron">loro</div><div>crederanno</div>
+        </div></div>
+        <div class="mood-block"><div class="tense-name">Condizionale presente</div><div class="tense-grid">
+          <div class="pron">io</div><div>crederei</div><div class="pron">tu</div><div>crederesti</div>
+          <div class="pron">lui/lei</div><div>crederebbe</div><div class="pron">noi</div><div>crederemmo</div>
+          <div class="pron">voi</div><div>credereste</div><div class="pron">loro</div><div>crederebbero</div>
+        </div></div>
+        <div class="mood-block"><div class="tense-name">Congiuntivo presente</div><div class="tense-grid">
+          <div class="pron">io</div><div>creda</div><div class="pron">tu</div><div>creda</div>
+          <div class="pron">lui/lei</div><div>creda</div><div class="pron">noi</div><div>crediamo</div>
+          <div class="pron">voi</div><div>crediate</div><div class="pron">loro</div><div>credano</div>
+        </div></div>
+        <div class="mood-block"><div class="tense-name">Congiuntivo imperfetto</div><div class="tense-grid">
+          <div class="pron">io</div><div>credessi</div><div class="pron">tu</div><div>credessi</div>
+          <div class="pron">lui/lei</div><div>credesse</div><div class="pron">noi</div><div>credessimo</div>
+          <div class="pron">voi</div><div>credeste</div><div class="pron">loro</div><div>credessero</div>
+        </div></div>
+        <div class="mood-block"><div class="tense-name">Passato remoto</div><div class="tense-grid">
+          <div class="pron">io</div><div>credei</div><div class="pron">tu</div><div>credesti</div>
+          <div class="pron">lui/lei</div><div>credé</div><div class="pron">noi</div><div>credemmo</div>
+          <div class="pron">voi</div><div>credeste</div><div class="pron">loro</div><div>crederono</div>
+        </div></div>
+        <div class="mood-block"><div class="tense-name">Imperativo</div><div class="tense-grid">
+          <div class="pron">tu</div><div>credi</div><div class="pron">lui/lei</div><div>creda</div>
+          <div class="pron">noi</div><div>crediamo</div><div class="pron">voi</div><div>credete</div>
+          <div class="pron">loro</div><div>credano</div>
+        </div></div>
+        <p class="muted small">Gerundio: <strong>credendo</strong> · Participio passato: <strong>creduto</strong> · Nota: el passato remoto de muchos -ere también acepta la forma alternativa "-etti/-ette/-ettero" (credetti, credette, credettero).</p>
+      </details>
+
+      <details class="tutorial">
+        <summary>Verbos en <strong>-IRE</strong> (ej. dormire → dorm-)</summary>
+        <div class="mood-block"><div class="tense-name">Presente</div><div class="tense-grid">
+          <div class="pron">io</div><div>dormo</div><div class="pron">tu</div><div>dormi</div>
+          <div class="pron">lui/lei</div><div>dorme</div><div class="pron">noi</div><div>dormiamo</div>
+          <div class="pron">voi</div><div>dormite</div><div class="pron">loro</div><div>dormono</div>
+        </div></div>
+        <div class="mood-block"><div class="tense-name">Imperfetto</div><div class="tense-grid">
+          <div class="pron">io</div><div>dormivo</div><div class="pron">tu</div><div>dormivi</div>
+          <div class="pron">lui/lei</div><div>dormiva</div><div class="pron">noi</div><div>dormivamo</div>
+          <div class="pron">voi</div><div>dormivate</div><div class="pron">loro</div><div>dormivano</div>
+        </div></div>
+        <div class="mood-block"><div class="tense-name">Futuro semplice</div><div class="tense-grid">
+          <div class="pron">io</div><div>dormirò</div><div class="pron">tu</div><div>dormirai</div>
+          <div class="pron">lui/lei</div><div>dormirà</div><div class="pron">noi</div><div>dormiremo</div>
+          <div class="pron">voi</div><div>dormirete</div><div class="pron">loro</div><div>dormiranno</div>
+        </div></div>
+        <div class="mood-block"><div class="tense-name">Condizionale presente</div><div class="tense-grid">
+          <div class="pron">io</div><div>dormirei</div><div class="pron">tu</div><div>dormiresti</div>
+          <div class="pron">lui/lei</div><div>dormirebbe</div><div class="pron">noi</div><div>dormiremmo</div>
+          <div class="pron">voi</div><div>dormireste</div><div class="pron">loro</div><div>dormirebbero</div>
+        </div></div>
+        <div class="mood-block"><div class="tense-name">Congiuntivo presente</div><div class="tense-grid">
+          <div class="pron">io</div><div>dorma</div><div class="pron">tu</div><div>dorma</div>
+          <div class="pron">lui/lei</div><div>dorma</div><div class="pron">noi</div><div>dormiamo</div>
+          <div class="pron">voi</div><div>dormiate</div><div class="pron">loro</div><div>dormano</div>
+        </div></div>
+        <div class="mood-block"><div class="tense-name">Congiuntivo imperfetto</div><div class="tense-grid">
+          <div class="pron">io</div><div>dormissi</div><div class="pron">tu</div><div>dormissi</div>
+          <div class="pron">lui/lei</div><div>dormisse</div><div class="pron">noi</div><div>dormissimo</div>
+          <div class="pron">voi</div><div>dormiste</div><div class="pron">loro</div><div>dormissero</div>
+        </div></div>
+        <div class="mood-block"><div class="tense-name">Passato remoto</div><div class="tense-grid">
+          <div class="pron">io</div><div>dormii</div><div class="pron">tu</div><div>dormisti</div>
+          <div class="pron">lui/lei</div><div>dormì</div><div class="pron">noi</div><div>dormimmo</div>
+          <div class="pron">voi</div><div>dormiste</div><div class="pron">loro</div><div>dormirono</div>
+        </div></div>
+        <div class="mood-block"><div class="tense-name">Imperativo</div><div class="tense-grid">
+          <div class="pron">tu</div><div>dormi</div><div class="pron">lui/lei</div><div>dorma</div>
+          <div class="pron">noi</div><div>dormiamo</div><div class="pron">voi</div><div>dormite</div>
+          <div class="pron">loro</div><div>dormano</div>
+        </div></div>
+        <p class="muted small">Gerundio: <strong>dormendo</strong> · Participio passato: <strong>dormito</strong></p>
+      </details>
+
+      <details class="tutorial">
+        <summary>Verbos en <strong>-IRE con -isc-</strong> (ej. capire → cap-)</summary>
+        <p class="muted small">La mayoría de los -ire nuevos siguen este patrón (capire, finire, preferire, costruire...). Solo cambia respecto al grupo anterior en presente, congiuntivo presente e imperativo, donde se intercala "-isc-" antes de la desinencia (menos en noi/voi).</p>
+        <div class="mood-block"><div class="tense-name">Presente</div><div class="tense-grid">
+          <div class="pron">io</div><div>capisco</div><div class="pron">tu</div><div>capisci</div>
+          <div class="pron">lui/lei</div><div>capisce</div><div class="pron">noi</div><div>capiamo</div>
+          <div class="pron">voi</div><div>capite</div><div class="pron">loro</div><div>capiscono</div>
+        </div></div>
+        <div class="mood-block"><div class="tense-name">Congiuntivo presente</div><div class="tense-grid">
+          <div class="pron">io</div><div>capisca</div><div class="pron">tu</div><div>capisca</div>
+          <div class="pron">lui/lei</div><div>capisca</div><div class="pron">noi</div><div>capiamo</div>
+          <div class="pron">voi</div><div>capiate</div><div class="pron">loro</div><div>capiscano</div>
+        </div></div>
+        <div class="mood-block"><div class="tense-name">Imperativo</div><div class="tense-grid">
+          <div class="pron">tu</div><div>capisci</div><div class="pron">lui/lei</div><div>capisca</div>
+          <div class="pron">noi</div><div>capiamo</div><div class="pron">voi</div><div>capite</div>
+          <div class="pron">loro</div><div>capiscano</div>
+        </div></div>
+        <p class="muted small">El resto de los tiempos (imperfetto, futuro, condizionale, congiuntivo imperfetto, passato remoto) son idénticos al grupo -IRE sin -isc-: <strong>capivo, capirò, capirei, capissi, capii...</strong> Gerundio: <strong>capendo</strong> · Participio passato: <strong>capito</strong></p>
+      </details>
+
+      <hr>
+      <h3>Notas ortográficas</h3>
+      <ul>
+        <li><strong>-care / -gare</strong> (cercare, pagare): agregan una "h" antes de e/i para mantener el sonido duro → cerco, <strong>cercherò, cerchi</strong>; pago, <strong>pagherò, paghi</strong>.</li>
+        <li><strong>-ciare / -giare</strong> (cominciare, mangiare): pierden la "i" del radical antes de e/i → comincio, <strong>comincerò</strong> (no "-ciere"); mangio, <strong>mangerò</strong>.</li>
+        <li><strong>-iare</strong> sin c/g (studiare, inviare): mantienen la "i" antes de desinencias en "e" pero la pierden antes de desinencias en "i" → tu <strong>studi</strong> (no "studii"), pero io <strong>studierò</strong>.</li>
+      </ul>
+      <h3>Auxiliar: avere o essere</h3>
+      <p class="muted small">En los tiempos compuestos (passato prossimo, trapassato...) la mayoría de los verbos usa <strong>avere</strong> (ho parlato). Un grupo más chico —verbos de movimiento, cambio de estado, reflexivos y "essere" mismo— usa <strong>essere</strong> (sono andato/andata), y ahí el participio concuerda en género y número con el sujeto.</p>
     </div>
   </div>
 </div>

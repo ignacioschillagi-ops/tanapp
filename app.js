@@ -66,6 +66,14 @@
   });
   document.getElementById("btnCloseStreak").addEventListener("click", () => streakModal.classList.add("hidden"));
   streakModal.addEventListener("click", (e) => { if (e.target === streakModal) streakModal.classList.add("hidden"); });
+
+  // ---------- conjugation rules reference table ----------
+  const rulesTableModal = document.getElementById("rulesTableModal");
+  document.getElementById("btnShowRulesTable").addEventListener("click", () => {
+    rulesTableModal.classList.remove("hidden");
+  });
+  document.getElementById("btnCloseRulesTable").addEventListener("click", () => rulesTableModal.classList.add("hidden"));
+  rulesTableModal.addEventListener("click", (e) => { if (e.target === rulesTableModal) rulesTableModal.classList.add("hidden"); });
   document.getElementById("btnResetProgress").addEventListener("click", () => {
     Chat.clearHistory();
     Stats.clearAll();

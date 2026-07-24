@@ -36,8 +36,12 @@ html,body{margin:0;padding:0;background:var(--bg);color:var(--ink);overflow-x:hi
 /* app shell: header/topbar/nav have fixed natural height, main takes the
    rest and scrolls internally -- this keeps the bottom nav always in view
    without needing extra scrolling, and lets the chat view fill exactly the
-   remaining space instead of relying on a vh() guess. */
-html,body{height:100vh;height:100dvh;}
+   remaining space instead of relying on a vh() guess.
+   min-height:0 on main is the crucial bit: flex items default to
+   min-height:auto, which refuses to shrink below its content size and
+   silently pushes the whole page (and the bottomnav with it) taller than
+   the screen -- exactly the "have to scroll to see the menu" bug. */
+html,body{height:100vh;height:100dvh;overflow:hidden;}
 body{display:flex;flex-direction:column;}
 
 .tricolor-bar{flex:0 0 auto;display:flex;height:6px;width:100%;}
@@ -54,10 +58,13 @@ body{display:flex;flex-direction:column;}
 }
 .brand{display:flex;align-items:center;}
 .logo{
-  font-family:'Montserrat',-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
-  font-weight:800;text-transform:uppercase;letter-spacing:.04em;
+  font-family:'Segoe UI Variable Display','Segoe UI Variable Text','Segoe UI',
+    -apple-system,BlinkMacSystemFont,Roboto,Arial,sans-serif;
+  text-transform:uppercase;letter-spacing:-0.05em;
   font-size:1.25rem;color:#fff;
 }
+.logo-bold{font-weight:700;}
+.logo-light{font-weight:350;}
 .topbar-right{display:flex;align-items:center;gap:10px;}
 .streak-badge{
   display:flex;align-items:center;gap:5px;background:rgba(255,255,255,.18);
@@ -76,17 +83,23 @@ body{display:flex;flex-direction:column;}
 }
 .small-icon-btn .icon{width:18px;height:18px;}
 
-/* inline outline-icon sizing (see icons.js) */
-.icon{width:20px;height:20px;display:inline-block;vertical-align:-5px;flex-shrink:0;}
-.streak-badge .icon{width:16px;height:16px;vertical-align:-3px;color:#ffe6a7;}
-.nav-btn .icon{width:22px;height:22px;vertical-align:0;margin-bottom:2px;}
+/* inline outline-icon sizing (see icons.js). icon-slot wraps the static
+   data-icon svgs in an inline-flex box so they're always perfectly centered
+   inside buttons regardless of line-height quirks (fixes the send button's
+   icon looking off-center); vertical-align on .icon itself is the fallback
+   for icons inserted directly into text (e.g. the feedback checkmark),
+   which flex ignores anyway when a .icon-slot wrapper is present. */
+.icon-slot{display:inline-flex;align-items:center;justify-content:center;}
+.icon{width:20px;height:20px;display:inline-block;vertical-align:-4px;flex-shrink:0;}
+.streak-badge .icon{width:16px;height:16px;color:#ffe6a7;}
+.nav-btn .icon{width:22px;height:22px;margin-bottom:2px;}
 .verdict .icon{margin-right:2px;}
-.review-card h2 .icon{color:var(--red);vertical-align:-4px;}
-.btn-secondary .icon,.btn-primary .icon{width:18px;height:18px;vertical-align:-4px;}
+.review-card h2 .icon{color:var(--red);}
+.btn-secondary .icon,.btn-primary .icon{width:18px;height:18px;}
 .rules-help summary .icon{color:var(--green-dark);}
 
 main{
-  flex:1 1 auto;overflow-y:auto;-webkit-overflow-scrolling:touch;
+  flex:1 1 auto;min-height:0;overflow-y:auto;-webkit-overflow-scrolling:touch;
   max-width:640px;width:100%;margin:0 auto;padding:16px;
 }
 .view.hidden{display:none}
@@ -144,7 +157,7 @@ main{
 }
 .btn-primary{background:var(--green);color:#fff;}
 .btn-primary:active{background:var(--green-dark);}
-.btn-secondary{background:#fff;color:var(--ink);border:1px solid var(--border);}
+.btn-secondary{background:var(--card);color:var(--ink);border:1px solid var(--border);}
 .hidden{display:none !important;}
 
 .feedback{margin-top:18px;padding:14px 16px;border-radius:12px;font-size:.98rem;line-height:1.55;}
@@ -199,7 +212,7 @@ main{
   display:flex;align-items:center;justify-content:center;padding:0;
 }
 .send-btn:active{background:var(--green-dark);transform:scale(.94);}
-.send-btn .icon{width:20px;height:20px;vertical-align:0;margin-right:-2px;}
+.send-btn .icon{width:20px;height:20px;}
 
 /* flashcards */
 .flashcard{perspective:1000px;height:220px;margin-bottom:10px;cursor:pointer;}
