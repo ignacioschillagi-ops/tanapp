@@ -1,7 +1,10 @@
-/* Simple offline-first service worker for the static app shell.
-   Live chat (Groq) and library live-lookup (verbe.cc) requests are always
-   fetched fresh from the network since they need to be up to date. */
-const CACHE_NAME = "tanapp-v2";
+/* Service worker for the static app shell, network-first: whenever there is
+   internet, every same-origin file (index.html, css, js, data) is always
+   fetched fresh so a new deploy shows up immediately on next reload -- the
+   cache is just a fallback for when the phone/computer is offline. Live
+   chat (Groq) and library live-lookup (verbe.cc) requests are never cached
+   at all, they always need to be fresh/interactive. */
+const CACHE_NAME = "tanapp-v3";
 const APP_SHELL = [
   "./",
   "./index.html",
@@ -43,16 +46,20 @@ self.addEventListener("fetch", (event) => {
   if (url.hostname.includes("groq.com") || url.hostname.includes("verbe.cc")) {
     return;
   }
+  // only handle our own same-origin GET requests here; let everything else
+  // (e.g. the Google Fonts CSS/font files) go straight to the network
+  if (event.request.method !== "GET" || url.origin !== self.location.origin) {
+    return;
+  }
   event.respondWith(
-    caches.match(event.request).then((cached) => {
-      if (cached) return cached;
-      return fetch(event.request).then((resp) => {
-        if (event.request.method === "GET" && resp.ok && url.origin === self.location.origin) {
+    fetch(event.request)
+      .then((resp) => {
+        if (resp.ok) {
           const clone = resp.clone();
           caches.open(CACHE_NAME).then((cache) => cache.put(event.request, clone));
         }
         return resp;
-      }).catch(() => cached);
-    })
+      })
+      .catch(() => caches.match(event.request))
   );
 });
