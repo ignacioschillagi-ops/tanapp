@@ -52,6 +52,7 @@
       <div class="progress-row">
         <div class="progress-track"><div id="progressFill" class="progress-fill"></div></div>
         <span id="progressLabel">1 / 10</span>
+        <button type="button" id="btnAbandonPractice" class="icon-btn small-icon-btn" title="Abandonar tanda" aria-label="Abandonar tanda"><span class="icon-slot" data-icon="logOut"></span></button>
       </div>
 
       <div class="infinitive-badge" id="infinitiveBadge">parlare</div>
@@ -66,6 +67,11 @@
       </form>
 
       <div id="feedback" class="feedback hidden"></div>
+
+      <details class="rules-help">
+        <summary><span class="icon-slot" data-icon="helpCircle"></span> ¿Por qué este tiempo verbal? Ver la regla</summary>
+        <p id="rulesHelpText" class="muted small"></p>
+      </details>
     </div>
 
     <div id="practiceSummary" class="card hidden">
@@ -101,7 +107,7 @@
       <div id="chatMessages" class="chat-messages"></div>
       <div class="chat-input-row">
         <input type="text" id="chatInput" placeholder="Scrivi qualcosa in italiano..." autocomplete="off">
-        <button id="btnChatSend" class="btn-primary">Enviar</button>
+        <button id="btnChatSend" class="send-btn" aria-label="Enviar" title="Enviar"><span class="icon-slot" data-icon="send"></span></button>
       </div>
     </div>
   </section>
@@ -121,10 +127,11 @@
       <div class="progress-row">
         <div class="progress-track"><div id="cardsProgressFill" class="progress-fill"></div></div>
         <span id="cardsProgressLabel">1 / 10</span>
+        <button type="button" id="btnAbandonCards" class="icon-btn small-icon-btn" title="Abandonar" aria-label="Abandonar"><span class="icon-slot" data-icon="logOut"></span></button>
       </div>
       <div id="flashcard" class="flashcard">
         <div class="flashcard-inner">
-          <div class="flashcard-front"><span id="cardWord"></span></div>
+          <div class="flashcard-front"><span id="cardType" class="card-type hidden"></span><span id="cardWord"></span></div>
           <div class="flashcard-back"><span id="cardMeaning"></span><div id="cardExample" class="card-example"></div></div>
         </div>
       </div>
@@ -154,6 +161,10 @@
     </div>
 
     <div class="modal-body">
+      <h3>Apariencia</h3>
+      <button id="btnToggleTheme" class="btn-secondary"><span class="icon-slot" data-icon="moon"></span> Modo oscuro</button>
+
+      <hr>
       <h3>API key de Groq (para el Chat IA)</h3>
       <p class="muted small">Se guarda solo en este dispositivo (localStorage del navegador). Nunca se envía a ningún servidor excepto a Groq directamente.</p>
       <input type="password" id="groqKeyInput" placeholder="gsk_...">
@@ -171,9 +182,36 @@
         </ol>
       </details>
 
+      <details class="tutorial">
+        <summary>¿Cómo instalo la app en el celular?</summary>
+        <ol>
+          <li><strong>Android (Chrome):</strong> tocá el menú ⋮ arriba a la derecha del navegador y elegí "Agregar a pantalla de inicio" o "Instalar app".</li>
+          <li><strong>iPhone (Safari):</strong> tocá el ícono de compartir (el cuadrado con la flecha hacia arriba) y elegí "Añadir a pantalla de inicio".</li>
+          <li>Confirmá el nombre (Tanapp) y tocá "Agregar". Va a quedar instalada con su propio ícono, y funciona sin conexión para Conjugar, Biblioteca (verbos ya guardados) y Tarjetas.</li>
+          <li>Para que aparezca esta opción, la app tiene que estar servida por HTTPS (por ejemplo, ya publicada en Vercel o GitHub Pages) — abrir el archivo local no alcanza para instalarla.</li>
+        </ol>
+      </details>
+    </div>
+  </div>
+</div>
+
+<!-- ================= STREAK / PROGRESS POPUP ================= -->
+<div id="streakModal" class="modal hidden">
+  <div class="modal-card">
+    <div class="modal-header">
+      <h2><span class="icon-slot" data-icon="flame"></span> Tu progreso</h2>
+      <button id="btnCloseStreak" class="icon-btn"><span class="icon-slot" data-icon="close"></span></button>
+    </div>
+    <div class="modal-body">
+      <p class="muted small">Racha actual: <strong id="streakModalCurrent">0</strong> · Mejor racha: <strong id="streakModalBest">0</strong> · Verbos en repaso: <strong id="streakModalReview">0</strong></p>
+
       <hr>
-      <h3>Progreso</h3>
-      <p class="muted small">Racha actual: <strong id="settingsStreak">0</strong> · Mejor racha: <strong id="settingsBestStreak">0</strong> · Verbos en repaso: <strong id="settingsReviewCount">0</strong></p>
+      <h3>¿Cómo funciona la racha?</h3>
+      <p class="muted small">Cada vez que respondés bien un ejercicio en "Conjugar", la racha 🔥 sube 1. Si te equivocás, vuelve a 0. "Mejor racha" guarda tu récord histórico, y nunca baja.</p>
+
+      <h3>¿Y el repaso?</h3>
+      <p class="muted small">Cada frase que respondés queda anotada en un sistema de repetición espaciada: si la acertás, tarda más en volver a aparecer (1, 3, 7, 16 días); si te equivocás, vuelve a aparecer enseguida en la próxima tanda. Cuando hay verbos esperando, ves la tarjeta "Repaso pendiente" en Conjugar.</p>
+
       <button id="btnResetProgress" class="btn-secondary">Borrar progreso guardado (racha, repaso y chat)</button>
     </div>
   </div>

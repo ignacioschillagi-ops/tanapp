@@ -52,7 +52,17 @@ const VOCAB = {
     {word:"il lucchetto", meaning:"el candado", example:"Ho perso la chiave del lucchetto."},
     {word:"il portafoglio", meaning:"la billetera / cartera", example:"Ho lasciato il portafoglio a casa."},
     {word:"lo stendino", meaning:"el tendedero", example:"Metti i panni bagnati sullo stendino."},
-    {word:"il barattolo", meaning:"el frasco / bote", example:"Conserva la marmellata in un barattolo."}
+    {word:"il barattolo", meaning:"el frasco / bote", example:"Conserva la marmellata in un barattolo."},
+    {word:"perché", meaning:"porque / por qué", type:"conector", example:"Non esco perché piove."},
+    {word:"quindi", meaning:"entonces / por lo tanto", type:"conector", example:"Ho perso il treno, quindi arriverò tardi."},
+    {word:"però", meaning:"pero / sin embargo", type:"conector", example:"Mi piace, però è troppo caro."},
+    {word:"anche", meaning:"también", type:"adverbio", example:"Vengo anche io alla festa."},
+    {word:"già", meaning:"ya", type:"adverbio", example:"Ho già finito i compiti."},
+    {word:"ancora", meaning:"todavía / aún / de nuevo", type:"adverbio", example:"Non ho ancora mangiato."},
+    {word:"magari", meaning:"ojalá / tal vez", type:"expresión", example:"Magari domani non piove!"},
+    {word:"davvero", meaning:"de verdad / en serio", type:"adverbio", example:"Sei davvero bravo in questo."},
+    {word:"per caso", meaning:"por casualidad", type:"expresión", example:"Hai visto per caso le mie chiavi?"},
+    {word:"in fondo", meaning:"en el fondo / al fin y al cabo", type:"expresión", example:"In fondo, ha ragione lui."}
   ],
   normal: [
     {word:"lo spunto", meaning:"el punto de partida / idea inicial", example:"Questo libro mi ha dato uno spunto interessante."},
@@ -102,7 +112,17 @@ const VOCAB = {
     {word:"la spregiudicatezza", meaning:"la audacia sin escrúpulos", example:"Agisce con una spregiudicatezza sorprendente."},
     {word:"lo scoramento", meaning:"el desaliento", example:"Non lasciarti prendere dallo scoramento."},
     {word:"l'insofferenza", meaning:"la impaciencia / intolerancia", example:"Mostra insofferenza verso le regole."},
-    {word:"l'inclemenza", meaning:"la inclemencia", example:"L'inclemenza del tempo ha rovinato la gita."}
+    {word:"l'inclemenza", meaning:"la inclemencia", example:"L'inclemenza del tempo ha rovinato la gita."},
+    {word:"tuttavia", meaning:"sin embargo / no obstante", type:"conector", example:"Il piano era buono, tuttavia non ha funzionato."},
+    {word:"nonostante", meaning:"a pesar de / no obstante", type:"conector", example:"Nonostante la pioggia, siamo usciti."},
+    {word:"pertanto", meaning:"por lo tanto", type:"conector", example:"Non ha studiato, pertanto ha fallito l'esame."},
+    {word:"appena", meaning:"apenas / en cuanto", type:"adverbio", example:"Appena arrivi, chiamami."},
+    {word:"comunque", meaning:"de todos modos / en cualquier caso", type:"conector", example:"Comunque vada, ti sosterrò."},
+    {word:"a patto che", meaning:"con la condición de que", type:"expresión", example:"Vengo a patto che tu guidi."},
+    {word:"a proposito", meaning:"a propósito", type:"expresión", example:"A proposito, hai sentito Marco?"},
+    {word:"per giunta", meaning:"además / por si fuera poco", type:"expresión", example:"Era tardi e, per giunta, pioveva."},
+    {word:"anzi", meaning:"al contrario / es más", type:"conector", example:"Non mi disturba, anzi mi fa piacere."},
+    {word:"senza dubbio", meaning:"sin duda", type:"expresión", example:"È senza dubbio il migliore."}
   ],
   dificil: [
     {word:"l'ostracismo", meaning:"el ostracismo", example:"È stato condannato all'ostracismo dal gruppo."},
@@ -153,6 +173,16 @@ const VOCAB = {
     {word:"l'inanità", meaning:"la inanidad / futilidad", example:"L'inanità del suo discorso era evidente."},
     {word:"la scaltrezza", meaning:"la astucia / sagacidad", example:"Ha usato la sua scaltrezza per uscirne."},
     {word:"l'impellenza", meaning:"la urgencia apremiante", example:"Ha agito con impellenza data la situazione."},
-    {word:"la rimostranza", meaning:"la queja formal / protesta", example:"Ha presentato una rimostranza ufficiale."}
+    {word:"la rimostranza", meaning:"la queja formal / protesta", example:"Ha presentato una rimostranza ufficiale."},
+    {word:"cionondimeno", meaning:"no obstante / sin embargo", type:"conector", example:"Il rischio era alto; cionondimeno decise di procedere."},
+    {word:"sennonché", meaning:"salvo que / solo que", type:"conector", example:"Tutto andava bene, sennonché si è messo a piovere."},
+    {word:"a maggior ragione", meaning:"con mayor razón", type:"expresión", example:"Se lui ce l'ha fatta, a maggior ragione puoi farcela tu."},
+    {word:"per l'appunto", meaning:"precisamente / justamente", type:"expresión", example:"È per l'appunto quello che intendevo dire."},
+    {word:"a dispetto di", meaning:"a pesar de / pese a", type:"conector", example:"A dispetto delle previsioni, il progetto è riuscito."},
+    {word:"ex abrupto", meaning:"de repente / abruptamente", type:"expresión", example:"È entrato ex abrupto nella stanza."},
+    {word:"a fortiori", meaning:"con mayor razón aún", type:"expresión", example:"Se è vero per pochi, a fortiori lo è per tutti."},
+    {word:"per contro", meaning:"por el contrario / en cambio", type:"conector", example:"Lui è ottimista; lei, per contro, è scettica."},
+    {word:"a scanso di equivoci", meaning:"para evitar malentendidos", type:"expresión", example:"A scanso di equivoci, ripeto la regola."},
+    {word:"laddove", meaning:"mientras que / en tanto que", type:"conector", example:"Laddove possibile, evitiamo sprechi."}
   ]
 };

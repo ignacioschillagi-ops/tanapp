@@ -7,6 +7,24 @@
     el.innerHTML = Icons[el.dataset.icon] || "";
   });
 
+  // ---------- theme (light/dark) ----------
+  const THEME_KEY = "tanapp_theme";
+  function getTheme() { return localStorage.getItem(THEME_KEY) || "light"; }
+  function applyTheme(theme) {
+    document.documentElement.setAttribute("data-theme", theme);
+    const btn = document.getElementById("btnToggleTheme");
+    if (btn) {
+      btn.innerHTML = (theme === "dark" ? Icons.sun : Icons.moon) +
+        (theme === "dark" ? " Modo claro" : " Modo oscuro");
+    }
+  }
+  applyTheme(getTheme());
+  document.getElementById("btnToggleTheme").addEventListener("click", () => {
+    const next = getTheme() === "dark" ? "light" : "dark";
+    localStorage.setItem(THEME_KEY, next);
+    applyTheme(next);
+  });
+
   // ---------- navigation ----------
   const views = ["practice","library","chat","cards"];
   function showView(name) {
@@ -25,7 +43,6 @@
   const modal = document.getElementById("settingsModal");
   document.getElementById("btnSettings").addEventListener("click", () => {
     document.getElementById("groqKeyInput").value = Chat.getKey();
-    refreshStreakUI();
     modal.classList.remove("hidden");
   });
   document.getElementById("btnCloseSettings").addEventListener("click", () => modal.classList.add("hidden"));
@@ -40,22 +57,30 @@
     document.getElementById("keyStatus").innerHTML = val ? Icons.checkCircle + " API key guardada" : "API key borrada.";
     refreshChatSetupVisibility();
   });
+
+  // ---------- streak / progress popup (opens from the flame badge) ----------
+  const streakModal = document.getElementById("streakModal");
+  document.getElementById("streakBadge").addEventListener("click", () => {
+    refreshStreakUI();
+    streakModal.classList.remove("hidden");
+  });
+  document.getElementById("btnCloseStreak").addEventListener("click", () => streakModal.classList.add("hidden"));
+  streakModal.addEventListener("click", (e) => { if (e.target === streakModal) streakModal.classList.add("hidden"); });
   document.getElementById("btnResetProgress").addEventListener("click", () => {
     Chat.clearHistory();
     Stats.clearAll();
     renderChatHistory();
     refreshStreakUI();
     refreshReviewCard();
-    document.getElementById("keyStatus").textContent = "Progreso, racha, repaso e historial de chat borrados.";
   });
 
   // ---------- streak + spaced-repetition UI ----------
   function refreshStreakUI() {
     const s = Stats.getStreak();
     document.getElementById("streakCount").textContent = s.current;
-    document.getElementById("settingsStreak").textContent = s.current;
-    document.getElementById("settingsBestStreak").textContent = s.best;
-    document.getElementById("settingsReviewCount").textContent = Stats.reviewCount();
+    document.getElementById("streakModalCurrent").textContent = s.current;
+    document.getElementById("streakModalBest").textContent = s.best;
+    document.getElementById("streakModalReview").textContent = Stats.reviewCount();
   }
 
   function refreshReviewCard() {
@@ -68,7 +93,7 @@
     } else {
       card.classList.add("hidden");
     }
-    document.getElementById("settingsReviewCount").textContent = n;
+    document.getElementById("streakModalReview").textContent = n;
   }
 
   document.getElementById("btnStartReview").addEventListener("click", async () => {
@@ -79,6 +104,7 @@
     practiceIntro.classList.add("hidden");
     practiceSummary.classList.add("hidden");
     practiceGame.classList.remove("hidden");
+    setPracticeLevelsLocked(true);
     renderQuestion();
   });
 
@@ -91,6 +117,11 @@
   const answerForm = document.getElementById("answerForm");
   let selectedLevel = null;
 
+  function setPracticeLevelsLocked(locked) {
+    document.querySelectorAll("#view-practice .level-btn").forEach(b => { b.disabled = locked; });
+    document.getElementById("btnStartReview").disabled = locked;
+  }
+
   document.querySelectorAll("#view-practice .level-btn").forEach(btn => {
     btn.addEventListener("click", async () => {
       document.querySelectorAll("#view-practice .level-btn").forEach(b => b.classList.remove("active"));
@@ -101,8 +132,18 @@
       practiceIntro.classList.add("hidden");
       practiceSummary.classList.add("hidden");
       practiceGame.classList.remove("hidden");
+      setPracticeLevelsLocked(true);
       renderQuestion();
     });
+  });
+
+  document.getElementById("btnAbandonPractice").addEventListener("click", () => {
+    practiceGame.classList.add("hidden");
+    practiceSummary.classList.add("hidden");
+    practiceIntro.classList.remove("hidden");
+    document.querySelectorAll("#view-practice .level-btn").forEach(b => b.classList.remove("active"));
+    setPracticeLevelsLocked(false);
+    refreshReviewCard();
   });
 
   function renderQuestion() {
@@ -118,6 +159,8 @@
     document.getElementById("feedback").classList.add("hidden");
     document.getElementById("btnCheck").classList.remove("hidden");
     document.getElementById("btnNext").classList.add("hidden");
+    document.getElementById("rulesHelpText").textContent = TENSE_EXPLANATIONS[item.tense] || "";
+    document.querySelector("#practiceGame .rules-help").open = false;
     setTimeout(() => document.getElementById("answerInput")?.focus(), 50);
   }
 
@@ -152,6 +195,7 @@
         `${Icons.flame} Racha actual: ${s.current} · Mejor racha: ${s.best}`;
       refreshStreakUI();
       refreshReviewCard();
+      setPracticeLevelsLocked(false);
     } else {
       Exercise.advance();
       renderQuestion();
@@ -161,13 +205,20 @@
   document.getElementById("btnRestart").addEventListener("click", async () => {
     if (Exercise.isReviewMode()) {
       const ok = await Exercise.buildReviewBatch();
-      if (!ok) { practiceSummary.classList.add("hidden"); practiceIntro.classList.remove("hidden"); refreshReviewCard(); return; }
+      if (!ok) {
+        practiceSummary.classList.add("hidden");
+        practiceIntro.classList.remove("hidden");
+        setPracticeLevelsLocked(false);
+        refreshReviewCard();
+        return;
+      }
     } else {
       if (!selectedLevel) return;
       await Exercise.buildBatch(selectedLevel);
     }
     practiceSummary.classList.add("hidden");
     practiceGame.classList.remove("hidden");
+    setPracticeLevelsLocked(true);
     renderQuestion();
   });
 
@@ -262,6 +313,10 @@
   const cardsGame = document.getElementById("cardsGame");
   const flashcard = document.getElementById("flashcard");
 
+  function setCardLevelsLocked(locked) {
+    document.querySelectorAll(".card-level-btn").forEach(b => { b.disabled = locked; });
+  }
+
   document.querySelectorAll(".card-level-btn").forEach(btn => {
     btn.addEventListener("click", () => {
       document.querySelectorAll(".card-level-btn").forEach(b => b.classList.remove("active"));
@@ -269,22 +324,50 @@
       Cards.start(btn.dataset.level);
       cardsIntro.classList.add("hidden");
       cardsGame.classList.remove("hidden");
+      setCardLevelsLocked(true);
       renderCard();
     });
   });
 
+  document.getElementById("btnAbandonCards").addEventListener("click", () => {
+    cardsGame.classList.add("hidden");
+    cardsIntro.classList.remove("hidden");
+    document.querySelectorAll(".card-level-btn").forEach(b => b.classList.remove("active"));
+    setCardLevelsLocked(false);
+  });
+
   function renderCard() {
-    flashcard.classList.remove("flipped");
     const c = Cards.current();
     document.getElementById("cardWord").textContent = c.word;
     document.getElementById("cardMeaning").textContent = c.meaning;
     document.getElementById("cardExample").textContent = c.example;
+    const typeEl = document.getElementById("cardType");
+    typeEl.textContent = c.type || "";
+    typeEl.classList.toggle("hidden", !c.type);
     document.getElementById("cardsProgressLabel").textContent = Cards.position() + " / " + Cards.total();
     document.getElementById("cardsProgressFill").style.width = (Cards.position() / Cards.total() * 100) + "%";
   }
+
+  // if the card is currently flipped (showing the Spanish/back side), flip it
+  // back to front FIRST and only swap the word/meaning after the flip
+  // animation is mostly done -- otherwise the next card's back-side text is
+  // briefly visible mid-flip before it settles back to front.
+  function goToCard(direction) {
+    const wasFlipped = flashcard.classList.contains("flipped");
+    if (wasFlipped) {
+      flashcard.classList.remove("flipped");
+      setTimeout(() => {
+        if (direction === "next") Cards.next(); else Cards.prev();
+        renderCard();
+      }, 300);
+    } else {
+      if (direction === "next") Cards.next(); else Cards.prev();
+      renderCard();
+    }
+  }
   flashcard.addEventListener("click", () => flashcard.classList.toggle("flipped"));
-  document.getElementById("btnCardNext").addEventListener("click", () => { Cards.next(); renderCard(); });
-  document.getElementById("btnCardPrev").addEventListener("click", () => { Cards.prev(); renderCard(); });
+  document.getElementById("btnCardNext").addEventListener("click", () => goToCard("next"));
+  document.getElementById("btnCardPrev").addEventListener("click", () => goToCard("prev"));
 
   // ---------- init ----------
   refreshChatSetupVisibility();

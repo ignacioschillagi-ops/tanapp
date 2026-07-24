@@ -56,7 +56,7 @@ Regole fisse per OGNI tua risposta:
         "Content-Type": "application/json",
         "Authorization": "Bearer " + key
       },
-      body: JSON.stringify({ model: MODEL, messages, temperature: 0.6, max_tokens: 400 })
+      body: JSON.stringify({ model: MODEL, messages, temperature: 0.6, max_tokens: 900 })
     });
     if (!res.ok) {
       const errBody = await res.text().catch(() => "");
