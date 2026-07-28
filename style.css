@@ -119,6 +119,32 @@ main{
 .small{font-size:.85rem}
 .center{text-align:center}
 
+/* exercises hub */
+.exercises-hub h2{margin-top:0}
+.hub-card{
+  display:flex;align-items:center;gap:12px;width:100%;text-align:left;
+  background:var(--card);border:1px solid var(--border);border-radius:var(--radius);
+  padding:16px;margin-bottom:12px;cursor:pointer;box-shadow:var(--shadow);
+  font-family:inherit;
+}
+.hub-card:active{transform:scale(.98)}
+.hub-card-icon .icon{width:26px;height:26px;color:var(--green-dark);}
+.hub-card-chevron .icon{width:18px;height:18px;color:var(--muted);}
+.hub-card-text{display:flex;flex-direction:column;gap:2px;flex:1;min-width:0;}
+.hub-card-text strong{font-size:1.02rem;color:var(--ink);}
+.hub-badge{
+  background:var(--red);color:#fff;font-size:.66rem;font-weight:700;
+  padding:3px 8px;border-radius:999px;text-transform:uppercase;letter-spacing:.02em;
+  flex-shrink:0;
+}
+
+.back-link{
+  display:inline-flex;align-items:center;gap:2px;background:none;border:none;
+  color:var(--green-dark);font-weight:600;font-size:.92rem;cursor:pointer;
+  padding:6px 0 14px;font-family:inherit;
+}
+.back-link:active{opacity:.7}
+
 .level-bar{display:flex;gap:8px;margin-bottom:14px;}
 .level-btn{
   flex:1;padding:10px 6px;border-radius:12px;border:1px solid var(--border);

@@ -33,8 +33,8 @@
     applyTheme(next);
   });
 
-  // ---------- navigation ----------
-  const views = ["practice","library","chat","cards"];
+  // ---------- navigation (3 top-level tabs) ----------
+  const views = ["exercises","chat","library"];
   function showView(name) {
     views.forEach(v => {
       document.getElementById("view-" + v).classList.toggle("hidden", v !== name);
@@ -45,6 +45,22 @@
   }
   document.querySelectorAll(".nav-btn").forEach(btn => {
     btn.addEventListener("click", () => showView(btn.dataset.view));
+  });
+
+  // ---------- exercises hub (Ejercicios tab: Conjugar / Tarjetas) ----------
+  // "Ejercicios" holds sub-activities (today: Conjugar and Tarjetas, more can
+  // be added later) behind a small hub screen instead of separate top-level
+  // nav tabs.
+  const exercisesHub = document.getElementById("exercisesHub");
+  let currentExerciseSub = "hub";
+  function showExerciseSub(name) {
+    currentExerciseSub = name;
+    exercisesHub.classList.toggle("hidden", name !== "hub");
+    document.getElementById("view-practice").classList.toggle("hidden", name !== "practice");
+    document.getElementById("view-cards").classList.toggle("hidden", name !== "cards");
+  }
+  document.querySelectorAll(".hub-card").forEach(btn => {
+    btn.addEventListener("click", () => showExerciseSub(btn.dataset.exercise));
   });
 
   // ---------- settings modal ----------
@@ -64,6 +80,7 @@
     Chat.setKey(val);
     document.getElementById("keyStatus").innerHTML = val ? Icons.checkCircle + " API key guardada" : "API key borrada.";
     refreshChatSetupVisibility();
+    refreshDictSetupVisibility();
   });
 
   // ---------- streak / progress popup (opens from the flame badge) ----------
@@ -110,6 +127,7 @@
       card.classList.add("hidden");
     }
     document.getElementById("streakModalReview").textContent = n;
+    document.getElementById("hubReviewBadge")?.classList.toggle("hidden", n === 0);
   }
 
   document.getElementById("btnStartReview").addEventListener("click", async () => {
@@ -153,13 +171,18 @@
     });
   });
 
-  document.getElementById("btnAbandonPractice").addEventListener("click", () => {
+  function abandonPracticeGame() {
     practiceGame.classList.add("hidden");
     practiceSummary.classList.add("hidden");
     practiceIntro.classList.remove("hidden");
     document.querySelectorAll("#view-practice .level-btn").forEach(b => b.classList.remove("active"));
     setPracticeLevelsLocked(false);
     refreshReviewCard();
+  }
+  document.getElementById("btnAbandonPractice").addEventListener("click", abandonPracticeGame);
+  document.getElementById("btnBackFromPractice").addEventListener("click", () => {
+    abandonPracticeGame();
+    showExerciseSub("hub");
   });
 
   function renderQuestion() {
@@ -239,7 +262,7 @@
   });
 
   // =========================================================
-  // LIBRARY (Biblioteca)
+  // LIBRARY (Biblioteca): "Conjugación" + "Diccionario IA" tabs
   // =========================================================
   document.getElementById("btnLibSearch").addEventListener("click", () => {
     Library.search(document.getElementById("libSearchInput").value);
@@ -247,6 +270,56 @@
   document.getElementById("libSearchInput").addEventListener("keydown", (e) => {
     if (e.key === "Enter") Library.search(document.getElementById("libSearchInput").value);
   });
+
+  document.querySelectorAll(".lib-tab-btn").forEach(btn => {
+    btn.addEventListener("click", () => {
+      document.querySelectorAll(".lib-tab-btn").forEach(b => b.classList.remove("active"));
+      btn.classList.add("active");
+      const tab = btn.dataset.tab;
+      document.getElementById("libTabVerbs").classList.toggle("hidden", tab !== "verbs");
+      document.getElementById("libTabDict").classList.toggle("hidden", tab !== "dict");
+    });
+  });
+
+  function refreshDictSetupVisibility() {
+    const has = Chat.hasKey();
+    document.getElementById("dictSetup").classList.toggle("hidden", has);
+    document.getElementById("dictArea").classList.toggle("hidden", !has);
+  }
+  document.getElementById("btnGoSettingsFromDict").addEventListener("click", () => {
+    document.getElementById("groqKeyInput").value = Chat.getKey();
+    modal.classList.remove("hidden");
+  });
+
+  async function runDictSearch() {
+    const input = document.getElementById("dictSearchInput");
+    const word = input.value.trim();
+    if (!word) return;
+    const statusEl = document.getElementById("dictStatus");
+    const resultsEl = document.getElementById("dictResults");
+    statusEl.textContent = "Buscando...";
+    resultsEl.innerHTML = "";
+    try {
+      const r = await Dictionary.define(word);
+      statusEl.textContent = "";
+      resultsEl.innerHTML = `
+        <div class="card">
+          <div class="lib-verb-title">${escapeHtml(word)}</div>
+          ${r.register ? `<div class="lib-source">Registro: <strong>${escapeHtml(r.register)}</strong> · generado por IA (Groq)</div>` : `<div class="lib-source">Generado por IA (Groq)</div>`}
+          <p><strong>Significado:</strong> ${escapeHtml(r.meaning)}</p>
+          ${r.example ? `<p><strong>Ejemplo:</strong> <em>${escapeHtml(r.example)}</em></p>` : ""}
+          ${r.translation ? `<p class="muted small">${escapeHtml(r.translation)}</p>` : ""}
+        </div>`;
+    } catch (e) {
+      let msg = "Hubo un error consultando a la IA. Revisá tu API key en Ajustes.";
+      if (String(e.message) === "no-key") msg = "Necesitás configurar tu API key de Groq primero (Ajustes).";
+      if (String(e.message).startsWith("api-error:401")) msg = "La API key parece inválida. Revisala en Ajustes.";
+      if (String(e.message).startsWith("api-error:429")) msg = "Se alcanzó el límite gratuito de Groq por ahora, probá en un rato.";
+      statusEl.textContent = msg;
+    }
+  }
+  document.getElementById("btnDictSearch").addEventListener("click", runDictSearch);
+  document.getElementById("dictSearchInput").addEventListener("keydown", (e) => { if (e.key === "Enter") runDictSearch(); });
 
   // =========================================================
   // CHAT
@@ -345,11 +418,16 @@
     });
   });
 
-  document.getElementById("btnAbandonCards").addEventListener("click", () => {
+  function abandonCardsGame() {
     cardsGame.classList.add("hidden");
     cardsIntro.classList.remove("hidden");
     document.querySelectorAll(".card-level-btn").forEach(b => b.classList.remove("active"));
     setCardLevelsLocked(false);
+  }
+  document.getElementById("btnAbandonCards").addEventListener("click", abandonCardsGame);
+  document.getElementById("btnBackFromCards").addEventListener("click", () => {
+    abandonCardsGame();
+    showExerciseSub("hub");
   });
 
   function renderCard() {
@@ -387,6 +465,7 @@
 
   // ---------- init ----------
   refreshChatSetupVisibility();
+  refreshDictSetupVisibility();
   refreshStreakUI();
   refreshReviewCard();
 
