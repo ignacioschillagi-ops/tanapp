@@ -252,6 +252,10 @@ main{
 .tutorial ol{padding-left:20px;line-height:1.6;}
 .tutorial code{background:var(--border);padding:1px 5px;border-radius:4px;}
 
+.app-credit{margin-top:18px;text-align:center;font-size:.82rem;color:var(--muted);}
+.app-credit a{color:var(--green-dark);font-weight:600;text-decoration:none;}
+.app-credit a:hover,.app-credit a:active{text-decoration:underline;}
+
 .bottomnav{
   flex:0 0 auto;height:64px;background:var(--card);
   display:flex;border-top:1px solid var(--border);
